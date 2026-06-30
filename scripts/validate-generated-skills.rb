@@ -75,9 +75,11 @@ end
 readme_path = File.join(ROOT, "README.md")
 banner_path = File.join(ROOT, "assets", "agency-skills-banner.png")
 license_path = File.join(ROOT, "LICENSE")
+marketplace_path = File.join(ROOT, ".claude-plugin", "marketplace.json")
 fail_with("missing README") unless File.exist?(readme_path)
 fail_with("missing banner") unless File.exist?(banner_path)
 fail_with("missing LICENSE") unless File.exist?(license_path)
+fail_with("missing marketplace") unless File.exist?(marketplace_path)
 
 readme = File.read(readme_path)
 fail_with("README does not reference banner") unless readme.include?("assets/agency-skills-banner.png")
@@ -87,5 +89,14 @@ fail_with("README expected #{manifest.length} skill links, got #{readme_links.le
 readme_skills = readme_links.map { |skill, path, _name| [skill, path] }.sort
 expected_links = manifest.map { |entry| [entry.fetch("skill"), "#{entry.fetch("skill")}/SKILL.md"] }.sort
 fail_with("README skill links do not match manifest") unless readme_skills == expected_links
+
+marketplace = JSON.parse(File.read(marketplace_path))
+plugin = marketplace.fetch("plugins").find { |entry| entry["name"] == "agency-skills" }
+fail_with("marketplace missing agency-skills plugin") unless plugin
+fail_with("marketplace agency-skills plugin must use strict:false") unless plugin["strict"] == false
+fail_with("marketplace source repo mismatch") unless plugin.dig("source", "repo") == "bestagentkits/agency-skills"
+marketplace_skills = plugin.fetch("skills").sort
+expected_skills = manifest.map { |entry| "./#{entry.fetch("skill")}" }.sort
+fail_with("marketplace skills do not match manifest") unless marketplace_skills == expected_skills
 
 puts "Validated #{manifest.length} generated skills."

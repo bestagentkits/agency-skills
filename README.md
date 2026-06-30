@@ -5,9 +5,7 @@
 # Agency Skills
 
 Codex skills converted from [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) at commit `24485830cd4b3c63a4a357b0664d9dedbab9653a`.
-
 This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
-
 - `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
 - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
 
@@ -25,6 +23,17 @@ To use a skill, invoke it by name in Codex, for example:
 Use $engineering-backend-architect to review this API design.
 ```
 
+## Claude Code Plugin Marketplace
+
+This repo also ships an Anthropic Claude Code plugin marketplace catalog at `.claude-plugin/marketplace.json`.
+
+```text
+/plugin marketplace add https://github.com/bestagentkits/agency-skills.git
+/plugin install agency-skills@agency-skills
+```
+
+The marketplace entry uses `strict: false` with an explicit `skills` list, so the root skill folders are the single source of truth.
+
 ## Source Conversion
 
 The conversion is reproducible:
@@ -32,6 +41,7 @@ The conversion is reproducible:
 ```bash
 git clone https://github.com/msitarzewski/agency-agents /tmp/agency-agents-source
 ruby scripts/convert-agents-to-skills.rb /tmp/agency-agents-source .
+ruby scripts/generate-plugin-marketplace.rb .
 ```
 
 The converter selects Markdown files with source frontmatter containing both `name` and `description` from canonical source divisions in `divisions.json`. Documentation, examples, `integrations/` generated outputs, and strategy files are not converted.

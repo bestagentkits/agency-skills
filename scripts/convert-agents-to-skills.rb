@@ -45,7 +45,6 @@ end
 def short_description(value)
   text = value.to_s.gsub(/\s+/, " ").strip
   return text if text.length <= 64
-
   cut = text[0, 61].sub(/\s+\S*\z/, "")
   "#{cut.empty? ? text[0, 61] : cut}..."
 end
@@ -56,17 +55,13 @@ def parse_agent(path)
 
   match = content.match(/\A---\n(.*?)\n---\n/m)
   return nil unless match
-
   metadata = YAML.safe_load(match[1], permitted_classes: [], aliases: false)
   return nil unless metadata.is_a?(Hash)
   return nil unless metadata["name"] && metadata["description"]
-
-  body = content[match[0].length..] || ""
   {
-    path: path,
     relative_path: path.delete_prefix("#{SOURCE_DIR}/"),
     metadata: metadata,
-    body: body
+    body: content[match[0].length..] || ""
   }
 rescue Psych::SyntaxError => e
   warn "Skipping #{path}: #{e.message}"
@@ -108,10 +103,8 @@ agents.each do |agent|
     slug = "#{prefix}-#{base_slug}"
   end
   used_slugs[slug] = true
-
   skill_dir = File.join(TARGET_DIR, slug)
   FileUtils.mkdir_p(File.join(skill_dir, "agents"))
-
   File.write(File.join(skill_dir, "SKILL.md"), <<~MD)
     ---
     name: #{slug}
@@ -120,9 +113,7 @@ agents.each do |agent|
 
     #{agent[:body].strip}
   MD
-
   File.write(File.join(skill_dir, "agents", "openai.yaml"), openai_yaml(agent, slug))
-
   manifest << {
     "skill" => slug,
     "display_name" => agent[:metadata]["name"],
@@ -151,9 +142,7 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
   # Agency Skills
 
   Codex skills converted from [msitarzewski/agency-agents](#{SOURCE_REPO}) at commit `#{SOURCE_HEAD}`.
-
   This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
-
   - `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
   - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
 
@@ -171,6 +160,17 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
   Use $engineering-backend-architect to review this API design.
   ```
 
+  ## Claude Code Plugin Marketplace
+
+  This repo also ships an Anthropic Claude Code plugin marketplace catalog at `.claude-plugin/marketplace.json`.
+
+  ```text
+  /plugin marketplace add https://github.com/bestagentkits/agency-skills.git
+  /plugin install agency-skills@agency-skills
+  ```
+
+  The marketplace entry uses `strict: false` with an explicit `skills` list, so the root skill folders are the single source of truth.
+
   ## Source Conversion
 
   The conversion is reproducible:
@@ -178,6 +178,7 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
   ```bash
   git clone #{SOURCE_REPO} /tmp/agency-agents-source
   ruby scripts/convert-agents-to-skills.rb /tmp/agency-agents-source .
+  ruby scripts/generate-plugin-marketplace.rb .
   ```
 
   The converter selects Markdown files with source frontmatter containing both `name` and `description` from canonical source divisions in `divisions.json`. Documentation, examples, `integrations/` generated outputs, and strategy files are not converted.
