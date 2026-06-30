@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Data Remediation Engineer"
+  short_description: "Specialist in self-healing data pipelines — uses air-gapped..."
+  default_prompt: "Use $engineering-ai-data-remediation-engineer to help with ai data remediation engineer work."

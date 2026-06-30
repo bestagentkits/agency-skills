@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tracking & Measurement Specialist"
+  short_description: "Expert in conversion tracking architecture, tag management,..."
+  default_prompt: "Use $paid-media-tracking-specialist to help with tracking & measurement specialist work."

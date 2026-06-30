@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Multiplayer Architect"
+  short_description: "Unreal Engine networking specialist - Masters Actor..."
+  default_prompt: "Use $unreal-multiplayer-architect to help with unreal multiplayer architect work."

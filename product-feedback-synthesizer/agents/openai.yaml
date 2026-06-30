@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feedback Synthesizer"
+  short_description: "Expert in collecting, analyzing, and synthesizing user..."
+  default_prompt: "Use $product-feedback-synthesizer to help with feedback synthesizer work."

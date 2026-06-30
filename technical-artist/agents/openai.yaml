@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Artist"
+  short_description: "Art-to-engine pipeline specialist - Masters shaders, VFX..."
+  default_prompt: "Use $technical-artist to help with technical artist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative Strategist"
+  short_description: "Paid media creative specialist focused on ad copywriting,..."
+  default_prompt: "Use $paid-media-creative-strategist to help with ad creative strategist work."

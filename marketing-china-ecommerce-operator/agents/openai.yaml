@@ -1,0 +1,4 @@
+interface:
+  display_name: "China E-Commerce Operator"
+  short_description: "Expert China e-commerce operations specialist covering..."
+  default_prompt: "Use $marketing-china-ecommerce-operator to help with china e-commerce operator work."

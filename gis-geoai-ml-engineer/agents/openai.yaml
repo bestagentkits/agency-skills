@@ -1,0 +1,4 @@
+interface:
+  display_name: "GeoAI/ML Engineer"
+  short_description: "Geospatial machine learning specialist who builds models for..."
+  default_prompt: "Use $gis-geoai-ml-engineer to help with geoai/ml engineer work."

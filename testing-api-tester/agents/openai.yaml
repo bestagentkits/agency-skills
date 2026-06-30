@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Tester"
+  short_description: "Expert API testing specialist focused on comprehensive API..."
+  default_prompt: "Use $testing-api-tester to help with api tester work."

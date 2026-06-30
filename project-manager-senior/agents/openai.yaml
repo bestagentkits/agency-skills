@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Project Manager"
+  short_description: "Converts specs to tasks and remembers previous projects...."
+  default_prompt: "Use $project-manager-senior to help with senior project manager work."

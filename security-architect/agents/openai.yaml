@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Architect"
+  short_description: "Expert security architect specializing in threat modeling,..."
+  default_prompt: "Use $security-architect to help with security architect work."

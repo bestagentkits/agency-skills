@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Architect"
+  short_description: "Workflow design specialist who maps complete workflow trees..."
+  default_prompt: "Use $specialized-workflow-architect to help with workflow architect work."

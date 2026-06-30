@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Architect"
+  short_description: "Senior backend architect specializing in scalable system..."
+  default_prompt: "Use $engineering-backend-architect to help with backend architect work."

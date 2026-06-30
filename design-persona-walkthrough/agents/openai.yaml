@@ -1,0 +1,4 @@
+interface:
+  display_name: "Persona Walkthrough Specialist"
+  short_description: "Simulate cognitive walkthroughs of web pages from a defined..."
+  default_prompt: "Use $design-persona-walkthrough to help with persona walkthrough specialist work."

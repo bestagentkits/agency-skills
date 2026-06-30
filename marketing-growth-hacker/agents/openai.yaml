@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Hacker"
+  short_description: "Expert growth strategist specializing in rapid user..."
+  default_prompt: "Use $marketing-growth-hacker to help with growth hacker work."

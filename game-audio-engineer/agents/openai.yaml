@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Audio Engineer"
+  short_description: "Interactive audio specialist - Masters FMOD/Wwise..."
+  default_prompt: "Use $game-audio-engineer to help with game audio engineer work."

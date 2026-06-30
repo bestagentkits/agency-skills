@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Shader Developer"
+  short_description: "Godot 4 visual effects specialist - Masters the Godot..."
+  default_prompt: "Use $godot-shader-developer to help with godot shader developer work."

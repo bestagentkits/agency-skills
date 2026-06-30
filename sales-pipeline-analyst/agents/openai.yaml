@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pipeline Analyst"
+  short_description: "Revenue operations analyst specializing in pipeline health..."
+  default_prompt: "Use $sales-pipeline-analyst to help with pipeline analyst work."

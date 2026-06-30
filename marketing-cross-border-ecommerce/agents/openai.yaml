@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Border E-Commerce Specialist"
+  short_description: "Full-funnel cross-border e-commerce strategist covering..."
+  default_prompt: "Use $marketing-cross-border-ecommerce to help with cross-border e-commerce specialist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimal Change Engineer"
+  short_description: "Engineering specialist focused on minimum-viable diffs —..."
+  default_prompt: "Use $engineering-minimal-change-engineer to help with minimal change engineer work."

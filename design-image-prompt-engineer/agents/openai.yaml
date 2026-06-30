@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Prompt Engineer"
+  short_description: "Expert photography prompt engineer specializing in crafting..."
+  default_prompt: "Use $design-image-prompt-engineer to help with image prompt engineer work."

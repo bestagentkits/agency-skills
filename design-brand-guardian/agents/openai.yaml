@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Guardian"
+  short_description: "Expert brand strategist and guardian specializing in brand..."
+  default_prompt: "Use $design-brand-guardian to help with brand guardian work."

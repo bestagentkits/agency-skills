@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rapid Prototyper"
+  short_description: "Specialized in ultra-fast proof-of-concept development and..."
+  default_prompt: "Use $engineering-rapid-prototyper to help with rapid prototyper work."

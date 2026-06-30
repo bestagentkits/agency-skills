@@ -1,0 +1,4 @@
+interface:
+  display_name: "BIM/GIS Specialist"
+  short_description: "Integration specialist who bridges Building Information..."
+  default_prompt: "Use $gis-bim-specialist to help with bim/gis specialist work."

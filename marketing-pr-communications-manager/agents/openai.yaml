@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR & Communications Manager"
+  short_description: "Strategic public relations and communications specialist for..."
+  default_prompt: "Use $marketing-pr-communications-manager to help with pr & communications manager work."

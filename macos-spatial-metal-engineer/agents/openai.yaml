@@ -1,0 +1,4 @@
+interface:
+  display_name: "macOS Spatial/Metal Engineer"
+  short_description: "Native Swift and Metal specialist building high-performance..."
+  default_prompt: "Use $macos-spatial-metal-engineer to help with macos spatial/metal engineer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Success Manager"
+  short_description: "Strategic customer success specialist for onboarding, health..."
+  default_prompt: "Use $customer-success-manager to help with customer success manager work."

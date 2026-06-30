@@ -1,0 +1,4 @@
+interface:
+  display_name: "CMS Developer"
+  short_description: "Drupal and WordPress specialist for theme development,..."
+  default_prompt: "Use $engineering-cms-developer to help with cms developer work."

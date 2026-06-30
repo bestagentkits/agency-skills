@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solidity Smart Contract Engineer"
+  short_description: "Expert Solidity developer specializing in EVM smart contract..."
+  default_prompt: "Use $engineering-solidity-smart-contract-engineer to help with solidity smart contract engineer work."

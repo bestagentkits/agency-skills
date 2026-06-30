@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government Digital Presales Consultant"
+  short_description: "Presales expert for China's government digital..."
+  default_prompt: "Use $government-digital-presales-consultant to help with government digital presales consultant work."

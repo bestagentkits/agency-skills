@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analytics Reporter"
+  short_description: "Expert data analyst transforming raw data into actionable..."
+  default_prompt: "Use $support-analytics-reporter to help with analytics reporter work."

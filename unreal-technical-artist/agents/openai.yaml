@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Technical Artist"
+  short_description: "Unreal Engine visual pipeline specialist - Masters the..."
+  default_prompt: "Use $unreal-technical-artist to help with unreal technical artist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Behavioral Nudge Engine"
+  short_description: "Behavioral psychology specialist that adapts software..."
+  default_prompt: "Use $product-behavioral-nudge-engine to help with behavioral nudge engine work."

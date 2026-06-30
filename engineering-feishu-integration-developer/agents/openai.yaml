@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Integration Developer"
+  short_description: "Full-stack integration expert specializing in the Feishu..."
+  default_prompt: "Use $engineering-feishu-integration-developer to help with feishu integration developer work."

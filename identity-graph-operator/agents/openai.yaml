@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identity Graph Operator"
+  short_description: "Operates a shared identity graph that multiple AI agents..."
+  default_prompt: "Use $identity-graph-operator to help with identity graph operator work."

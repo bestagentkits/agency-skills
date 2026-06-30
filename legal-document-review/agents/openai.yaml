@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal Document Review"
+  short_description: "Comprehensive legal document review specialist for..."
+  default_prompt: "Use $legal-document-review to help with legal document review work."

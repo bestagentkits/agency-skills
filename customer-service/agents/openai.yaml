@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Service"
+  short_description: "Friendly, professional customer service specialist for any..."
+  default_prompt: "Use $customer-service to help with customer service work."

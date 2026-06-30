@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentic Search Optimizer"
+  short_description: "Expert in WebMCP readiness and agentic task completion —..."
+  default_prompt: "Use $marketing-agentic-search-optimizer to help with agentic search optimizer work."

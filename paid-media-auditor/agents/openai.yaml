@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paid Media Auditor"
+  short_description: "Comprehensive paid media auditor who systematically..."
+  default_prompt: "Use $paid-media-auditor to help with paid media auditor work."

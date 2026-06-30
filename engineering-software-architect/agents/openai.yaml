@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Architect"
+  short_description: "Expert software architect specializing in system design,..."
+  default_prompt: "Use $engineering-software-architect to help with software architect work."

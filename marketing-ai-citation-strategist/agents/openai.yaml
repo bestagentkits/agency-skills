@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Citation Strategist"
+  short_description: "Expert in AI recommendation engine optimization (AEO/GEO) —..."
+  default_prompt: "Use $marketing-ai-citation-strategist to help with ai citation strategist work."

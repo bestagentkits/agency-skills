@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book Co-Author"
+  short_description: "Strategic thought-leadership book collaborator for founders,..."
+  default_prompt: "Use $marketing-book-co-author to help with book co-author work."

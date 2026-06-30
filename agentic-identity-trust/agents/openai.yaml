@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentic Identity & Trust Architect"
+  short_description: "Designs identity, authentication, and trust verification..."
+  default_prompt: "Use $agentic-identity-trust to help with agentic identity & trust architect work."

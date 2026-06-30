@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Analyst"
+  short_description: "Specialized pricing analyst who develops optimal pricing..."
+  default_prompt: "Use $specialized-pricing-analyst to help with pricing analyst work."

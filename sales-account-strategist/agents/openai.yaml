@@ -1,0 +1,4 @@
+interface:
+  display_name: "Account Strategist"
+  short_description: "Expert post-sale account strategist specializing in..."
+  default_prompt: "Use $sales-account-strategist to help with account strategist work."

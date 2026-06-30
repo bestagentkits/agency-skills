@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anthropologist"
+  short_description: "Expert in cultural systems, rituals, kinship, belief..."
+  default_prompt: "Use $academic-anthropologist to help with anthropologist work."

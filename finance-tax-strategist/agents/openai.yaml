@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tax Strategist"
+  short_description: "Expert tax strategist specializing in tax optimization,..."
+  default_prompt: "Use $finance-tax-strategist to help with tax strategist work."

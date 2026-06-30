@@ -1,0 +1,4 @@
+interface:
+  display_name: "SRE (Site Reliability Engineer)"
+  short_description: "Expert site reliability engineer specializing in SLOs, error..."
+  default_prompt: "Use $engineering-sre to help with sre (site reliability engineer) work."

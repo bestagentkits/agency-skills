@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roblox Systems Scripter"
+  short_description: "Roblox platform engineering specialist - Masters Luau, the..."
+  default_prompt: "Use $roblox-systems-scripter to help with roblox systems scripter work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experiment Tracker"
+  short_description: "Expert project manager specializing in experiment design,..."
+  default_prompt: "Use $project-management-experiment-tracker to help with experiment tracker work."

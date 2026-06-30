@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZK Steward"
+  short_description: "Knowledge-base steward in the spirit of Niklas Luhmann's..."
+  default_prompt: "Use $zk-steward to help with zk steward work."

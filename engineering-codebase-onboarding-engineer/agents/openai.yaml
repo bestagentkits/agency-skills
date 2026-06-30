@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Onboarding Engineer"
+  short_description: "Expert developer onboarding specialist who helps new..."
+  default_prompt: "Use $engineering-codebase-onboarding-engineer to help with codebase onboarding engineer work."

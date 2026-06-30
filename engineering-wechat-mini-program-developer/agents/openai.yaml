@@ -1,0 +1,4 @@
+interface:
+  display_name: "WeChat Mini Program Developer"
+  short_description: "Expert WeChat Mini Program developer specializing in 小程序..."
+  default_prompt: "Use $engineering-wechat-mini-program-developer to help with wechat mini program developer work."

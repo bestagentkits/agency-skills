@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Store Optimizer"
+  short_description: "Expert app store marketing specialist focused on App Store..."
+  default_prompt: "Use $marketing-app-store-optimizer to help with app store optimizer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IT Service Manager"
+  short_description: "Expert IT service management specialist using ITIL 4..."
+  default_prompt: "Use $engineering-it-service-manager to help with it service manager work."

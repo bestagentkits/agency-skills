@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal Billing & Time Tracking"
+  short_description: "Comprehensive legal billing and time tracking specialist for..."
+  default_prompt: "Use $legal-billing-time-tracking to help with legal billing & time tracking work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Penetration Tester"
+  short_description: "Offensive security specialist conducting authorized..."
+  default_prompt: "Use $security-penetration-tester to help with penetration tester work."

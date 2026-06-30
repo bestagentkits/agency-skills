@@ -1,0 +1,4 @@
+interface:
+  display_name: "Infrastructure Maintainer"
+  short_description: "Expert infrastructure specialist focused on system..."
+  default_prompt: "Use $support-infrastructure-maintainer to help with infrastructure maintainer work."

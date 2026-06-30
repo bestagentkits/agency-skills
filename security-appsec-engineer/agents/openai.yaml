@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application Security Engineer"
+  short_description: "AppSec specialist who secures the software development..."
+  default_prompt: "Use $security-appsec-engineer to help with application security engineer work."

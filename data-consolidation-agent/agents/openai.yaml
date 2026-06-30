@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Consolidation Agent"
+  short_description: "AI agent that consolidates extracted sales data into live..."
+  default_prompt: "Use $data-consolidation-agent to help with data consolidation agent work."

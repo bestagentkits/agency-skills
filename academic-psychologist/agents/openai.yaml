@@ -1,0 +1,4 @@
+interface:
+  display_name: "Psychologist"
+  short_description: "Expert in human behavior, personality theory, motivation,..."
+  default_prompt: "Use $academic-psychologist to help with psychologist work."

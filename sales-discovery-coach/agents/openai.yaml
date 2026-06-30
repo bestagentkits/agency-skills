@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discovery Coach"
+  short_description: "Coaches sales teams on elite discovery methodology —..."
+  default_prompt: "Use $sales-discovery-coach to help with discovery coach work."

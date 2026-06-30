@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baidu SEO Specialist"
+  short_description: "Expert Baidu search optimization specialist focused on..."
+  default_prompt: "Use $marketing-baidu-seo-specialist to help with baidu seo specialist work."

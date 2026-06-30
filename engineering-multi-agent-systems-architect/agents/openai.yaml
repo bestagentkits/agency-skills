@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Agent Systems Architect"
+  short_description: "Systems architect specializing in the design, coordination,..."
+  default_prompt: "Use $engineering-multi-agent-systems-architect to help with multi-agent systems architect work."

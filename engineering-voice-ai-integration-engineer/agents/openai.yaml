@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice AI Integration Engineer"
+  short_description: "Expert in building end-to-end speech transcription pipelines..."
+  default_prompt: "Use $engineering-voice-ai-integration-engineer to help with voice ai integration engineer work."

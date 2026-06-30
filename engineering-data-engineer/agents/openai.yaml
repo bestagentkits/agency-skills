@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Engineer"
+  short_description: "Expert data engineer specializing in building reliable data..."
+  default_prompt: "Use $engineering-data-engineer to help with data engineer work."

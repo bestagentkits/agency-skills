@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategy Duel Agent"
+  short_description: "Conducts live strategy duels using game theory and the 36..."
+  default_prompt: "Use $specialized-strategy-duel-agent to help with strategy duel agent work."

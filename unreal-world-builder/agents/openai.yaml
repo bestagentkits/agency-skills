@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal World Builder"
+  short_description: "Open-world and environment specialist - Masters UE5 World..."
+  default_prompt: "Use $unreal-world-builder to help with unreal world builder work."

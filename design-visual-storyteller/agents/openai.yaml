@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Storyteller"
+  short_description: "Expert visual communication specialist focused on creating..."
+  default_prompt: "Use $design-visual-storyteller to help with visual storyteller work."

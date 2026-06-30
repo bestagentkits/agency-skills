@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bilibili Content Strategist"
+  short_description: "Expert Bilibili marketing specialist focused on UP主 growth,..."
+  default_prompt: "Use $marketing-bilibili-content-strategist to help with bilibili content strategist work."

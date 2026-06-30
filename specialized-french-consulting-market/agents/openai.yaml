@@ -1,0 +1,4 @@
+interface:
+  display_name: "French Consulting Market Navigator"
+  short_description: "Navigate the French ESN/SI freelance ecosystem — margin..."
+  default_prompt: "Use $specialized-french-consulting-market to help with french consulting market navigator work."

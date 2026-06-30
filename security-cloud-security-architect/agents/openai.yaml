@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloud Security Architect"
+  short_description: "Cloud-native security specialist designing zero trust..."
+  default_prompt: "Use $security-cloud-security-architect to help with cloud security architect work."

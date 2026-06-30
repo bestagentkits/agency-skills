@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cartography Designer"
+  short_description: "Map aesthetics specialist who designs beautiful, readable,..."
+  default_prompt: "Use $gis-cartography-designer to help with cartography designer work."

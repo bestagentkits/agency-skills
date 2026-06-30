@@ -1,0 +1,4 @@
+interface:
+  display_name: "Filament Optimization Specialist"
+  short_description: "Expert in restructuring and optimizing Filament PHP admin..."
+  default_prompt: "Use $engineering-filament-optimization-specialist to help with filament optimization specialist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "XR Immersive Developer"
+  short_description: "Expert WebXR and immersive technology developer with..."
+  default_prompt: "Use $xr-immersive-developer to help with xr immersive developer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Drone/Reality Mapping Specialist"
+  short_description: "Photogrammetry and reality capture expert who processes..."
+  default_prompt: "Use $gis-drone-reality-mapping to help with drone/reality mapping specialist work."

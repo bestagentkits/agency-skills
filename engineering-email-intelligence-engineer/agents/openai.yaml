@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Intelligence Engineer"
+  short_description: "Expert in extracting structured, reasoning-ready data from..."
+  default_prompt: "Use $engineering-email-intelligence-engineer to help with email intelligence engineer work."

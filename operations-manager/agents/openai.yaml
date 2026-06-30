@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operations Manager"
+  short_description: "Business operations specialist who applies Lean, Six Sigma,..."
+  default_prompt: "Use $operations-manager to help with operations manager work."

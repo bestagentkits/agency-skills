@@ -1,0 +1,4 @@
+interface:
+  display_name: "GIS Analyst"
+  short_description: "Day-to-day GIS operator who creates maps, manages layers,..."
+  default_prompt: "Use $gis-analyst to help with gis analyst work."

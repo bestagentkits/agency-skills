@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blockchain Security Auditor"
+  short_description: "Expert smart contract security auditor specializing in..."
+  default_prompt: "Use $security-blockchain-security-auditor to help with blockchain security auditor work."

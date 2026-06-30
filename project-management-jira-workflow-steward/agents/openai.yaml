@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jira Workflow Steward"
+  short_description: "Expert delivery operations specialist who enforces..."
+  default_prompt: "Use $project-management-jira-workflow-steward to help with jira workflow steward work."

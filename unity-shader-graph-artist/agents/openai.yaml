@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Shader Graph Artist"
+  short_description: "Visual effects and material specialist - Masters Unity..."
+  default_prompt: "Use $unity-shader-graph-artist to help with unity shader graph artist work."

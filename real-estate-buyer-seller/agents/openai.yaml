@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Buyer & Seller"
+  short_description: "Comprehensive real estate agent assistant for buyer..."
+  default_prompt: "Use $real-estate-buyer-seller to help with real estate buyer & seller work."

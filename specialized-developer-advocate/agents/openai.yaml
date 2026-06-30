@@ -1,0 +1,4 @@
+interface:
+  display_name: "Developer Advocate"
+  short_description: "Expert developer advocate specializing in building developer..."
+  default_prompt: "Use $specialized-developer-advocate to help with developer advocate work."

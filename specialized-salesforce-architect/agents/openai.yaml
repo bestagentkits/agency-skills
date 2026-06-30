@@ -1,0 +1,4 @@
+interface:
+  display_name: "Salesforce Architect"
+  short_description: "Solution architecture for Salesforce platform — multi-cloud..."
+  default_prompt: "Use $specialized-salesforce-architect to help with salesforce architect work."

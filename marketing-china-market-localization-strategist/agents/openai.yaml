@@ -1,0 +1,4 @@
+interface:
+  display_name: "China Market Localization Strategist"
+  short_description: "Full-stack China market localization expert who transforms..."
+  default_prompt: "Use $marketing-china-market-localization-strategist to help with china market localization strategist work."

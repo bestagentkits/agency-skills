@@ -1,0 +1,4 @@
+interface:
+  display_name: "Accounts Payable Agent"
+  short_description: "Autonomous payment processing specialist that executes..."
+  default_prompt: "Use $accounts-payable-agent to help with accounts payable agent work."

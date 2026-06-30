@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Architect"
+  short_description: "Data-driven modularity specialist - Masters..."
+  default_prompt: "Use $unity-architect to help with unity architect work."

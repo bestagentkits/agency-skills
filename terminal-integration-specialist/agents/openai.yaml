@@ -1,0 +1,4 @@
+interface:
+  display_name: "Terminal Integration Specialist"
+  short_description: "Terminal emulation, text rendering optimization, and..."
+  default_prompt: "Use $terminal-integration-specialist to help with terminal integration specialist work."

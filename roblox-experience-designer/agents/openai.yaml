@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roblox Experience Designer"
+  short_description: "Roblox platform UX and monetization specialist - Masters..."
+  default_prompt: "Use $roblox-experience-designer to help with roblox experience designer work."

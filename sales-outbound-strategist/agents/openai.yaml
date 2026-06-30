@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outbound Strategist"
+  short_description: "Signal-based outbound specialist who designs multi-channel..."
+  default_prompt: "Use $sales-outbound-strategist to help with outbound strategist work."

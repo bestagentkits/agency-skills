@@ -1,0 +1,4 @@
+interface:
+  display_name: "Narrative Designer"
+  short_description: "Story systems and dialogue architect - Masters GDD-aligned..."
+  default_prompt: "Use $narrative-designer to help with narrative designer work."

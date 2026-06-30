@@ -1,0 +1,4 @@
+interface:
+  display_name: "Drupal Shopping Cart Engineer"
+  short_description: "Expert Drupal e-commerce engineer specializing in Drupal..."
+  default_prompt: "Use $engineering-drupal-shopping-cart to help with drupal shopping cart engineer work."

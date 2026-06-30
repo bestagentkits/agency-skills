@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Outreach"
+  short_description: "Consultative B2B sales outreach specialist for cold..."
+  default_prompt: "Use $sales-outreach to help with sales outreach work."

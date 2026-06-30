@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPC Campaign Strategist"
+  short_description: "Senior paid media strategist specializing in large-scale..."
+  default_prompt: "Use $paid-media-ppc-strategist to help with ppc campaign strategist work."

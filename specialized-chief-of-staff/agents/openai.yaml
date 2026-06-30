@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief of Staff"
+  short_description: "Master coordinator for founders and executives — filters..."
+  default_prompt: "Use $specialized-chief-of-staff to help with chief of staff work."

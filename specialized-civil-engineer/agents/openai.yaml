@@ -1,0 +1,4 @@
+interface:
+  display_name: "Civil Engineer"
+  short_description: "Expert civil and structural engineer with global standards..."
+  default_prompt: "Use $specialized-civil-engineer to help with civil engineer work."

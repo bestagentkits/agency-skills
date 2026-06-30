@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Multiplayer Engineer"
+  short_description: "Networked gameplay specialist - Masters Netcode for..."
+  default_prompt: "Use $unity-multiplayer-engineer to help with unity multiplayer engineer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spatial Data Engineer"
+  short_description: "ETL specialist who transforms messy geospatial data from any..."
+  default_prompt: "Use $gis-spatial-data-engineer to help with spatial data engineer work."

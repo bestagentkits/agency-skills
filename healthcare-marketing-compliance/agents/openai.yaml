@@ -1,0 +1,4 @@
+interface:
+  display_name: "Healthcare Marketing Compliance Specialist"
+  short_description: "Expert in healthcare marketing compliance in China,..."
+  default_prompt: "Use $healthcare-marketing-compliance to help with healthcare marketing compliance specialist work."

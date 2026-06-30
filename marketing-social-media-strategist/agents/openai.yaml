@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Media Strategist"
+  short_description: "Expert social media strategist for LinkedIn, Twitter, and..."
+  default_prompt: "Use $marketing-social-media-strategist to help with social media strategist work."

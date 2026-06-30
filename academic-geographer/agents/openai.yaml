@@ -1,0 +1,4 @@
+interface:
+  display_name: "Geographer"
+  short_description: "Expert in physical and human geography, climate systems,..."
+  default_prompt: "Use $academic-geographer to help with geographer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Privacy Officer"
+  short_description: "Corporate data privacy specialist and DPO who builds GDPR,..."
+  default_prompt: "Use $data-privacy-officer to help with data privacy officer work."

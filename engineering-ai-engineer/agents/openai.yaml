@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Engineer"
+  short_description: "Expert AI/ML engineer specializing in machine learning model..."
+  default_prompt: "Use $engineering-ai-engineer to help with ai engineer work."

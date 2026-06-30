@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cultural Intelligence Strategist"
+  short_description: "CQ specialist that detects invisible exclusion, researches..."
+  default_prompt: "Use $specialized-cultural-intelligence-strategist to help with cultural intelligence strategist work."

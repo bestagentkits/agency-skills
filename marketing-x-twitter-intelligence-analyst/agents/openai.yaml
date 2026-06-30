@@ -1,0 +1,4 @@
+interface:
+  display_name: "X/Twitter Intelligence Analyst"
+  short_description: "Social intelligence specialist for X/Twitter research, trend..."
+  default_prompt: "Use $marketing-x-twitter-intelligence-analyst to help with x/twitter intelligence analyst work."

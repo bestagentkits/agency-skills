@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Results Analyzer"
+  short_description: "Expert test analysis specialist focused on comprehensive..."
+  default_prompt: "Use $testing-test-results-analyzer to help with test results analyzer work."

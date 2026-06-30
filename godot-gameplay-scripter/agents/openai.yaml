@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Gameplay Scripter"
+  short_description: "Composition and signal integrity specialist - Masters..."
+  default_prompt: "Use $godot-gameplay-scripter to help with godot gameplay scripter work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Developer"
+  short_description: "Premium implementation specialist - Masters..."
+  default_prompt: "Use $engineering-senior-developer to help with senior developer work."

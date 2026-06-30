@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Strategist"
+  short_description: "Senior management consulting specialist for competitive..."
+  default_prompt: "Use $business-strategist to help with business strategist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automation Governance Architect"
+  short_description: "Governance-first architect for business automations..."
+  default_prompt: "Use $automation-governance-architect to help with automation governance architect work."

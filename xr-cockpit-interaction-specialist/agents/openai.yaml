@@ -1,0 +1,4 @@
+interface:
+  display_name: "XR Cockpit Interaction Specialist"
+  short_description: "Specialist in designing and developing immersive..."
+  default_prompt: "Use $xr-cockpit-interaction-specialist to help with xr cockpit interaction specialist work."

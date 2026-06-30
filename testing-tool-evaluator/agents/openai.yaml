@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tool Evaluator"
+  short_description: "Expert technology assessment specialist focused on..."
+  default_prompt: "Use $testing-tool-evaluator to help with tool evaluator work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unreal Systems Engineer"
+  short_description: "Performance and hybrid architecture specialist - Masters..."
+  default_prompt: "Use $unreal-systems-engineer to help with unreal systems engineer work."

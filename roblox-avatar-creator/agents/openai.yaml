@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roblox Avatar Creator"
+  short_description: "Roblox UGC and avatar pipeline specialist - Masters Roblox's..."
+  default_prompt: "Use $roblox-avatar-creator to help with roblox avatar creator work."

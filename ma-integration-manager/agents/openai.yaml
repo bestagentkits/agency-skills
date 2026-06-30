@@ -1,0 +1,4 @@
+interface:
+  display_name: "M&A Integration Manager"
+  short_description: "Mergers and acquisitions integration specialist who designs..."
+  default_prompt: "Use $ma-integration-manager to help with m&a integration manager work."

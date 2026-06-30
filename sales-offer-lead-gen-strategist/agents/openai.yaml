@@ -1,0 +1,4 @@
+interface:
+  display_name: "Offer & Lead Gen Strategist"
+  short_description: "Top-of-funnel architect who designs irresistible offers and..."
+  default_prompt: "Use $sales-offer-lead-gen-strategist to help with offer & lead gen strategist work."

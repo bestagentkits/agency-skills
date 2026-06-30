@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuaishou Strategist"
+  short_description: "Expert Kuaishou marketing strategist specializing in..."
+  default_prompt: "Use $marketing-kuaishou-strategist to help with kuaishou strategist work."

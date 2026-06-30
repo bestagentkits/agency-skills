@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Consultant"
+  short_description: "Strategic GIS advisor who translates business problems into..."
+  default_prompt: "Use $gis-technical-consultant to help with technical consultant work."

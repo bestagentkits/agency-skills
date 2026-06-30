@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threat Intelligence Analyst"
+  short_description: "Cyber threat intelligence specialist who tracks adversary..."
+  default_prompt: "Use $security-threat-intelligence-analyst to help with threat intelligence analyst work."

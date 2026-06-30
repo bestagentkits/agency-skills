@@ -1,0 +1,4 @@
+interface:
+  display_name: "XR Interface Architect"
+  short_description: "Spatial interaction designer and interface strategist for..."
+  default_prompt: "Use $xr-interface-architect to help with xr interface architect work."

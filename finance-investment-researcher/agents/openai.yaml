@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investment Researcher"
+  short_description: "Expert investment researcher specializing in market..."
+  default_prompt: "Use $finance-investment-researcher to help with investment researcher work."

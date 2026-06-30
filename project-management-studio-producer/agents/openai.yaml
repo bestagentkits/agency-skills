@@ -1,0 +1,4 @@
+interface:
+  display_name: "Studio Producer"
+  short_description: "Senior strategic leader specializing in high-level creative..."
+  default_prompt: "Use $project-management-studio-producer to help with studio producer work."

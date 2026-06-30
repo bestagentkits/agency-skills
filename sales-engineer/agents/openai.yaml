@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Engineer"
+  short_description: "Senior pre-sales engineer specializing in technical..."
+  default_prompt: "Use $sales-engineer to help with sales engineer work."

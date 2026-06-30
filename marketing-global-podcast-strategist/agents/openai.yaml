@@ -1,0 +1,4 @@
+interface:
+  display_name: "Global Podcast Strategist"
+  short_description: "Expert podcast growth specialist focused on show..."
+  default_prompt: "Use $marketing-global-podcast-strategist to help with global podcast strategist work."

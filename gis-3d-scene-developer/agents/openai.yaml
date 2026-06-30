@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D & Scene Developer"
+  short_description: "Web 3D visualization specialist who creates immersive 3D..."
+  default_prompt: "Use $gis-3d-scene-developer to help with 3d & scene developer work."

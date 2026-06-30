@@ -1,0 +1,4 @@
+interface:
+  display_name: "Geoprocessing Specialist"
+  short_description: "ArcPy and Python toolbox expert who automates spatial..."
+  default_prompt: "Use $gis-geoprocessing-specialist to help with geoprocessing specialist work."

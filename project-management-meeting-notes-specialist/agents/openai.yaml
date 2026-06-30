@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meeting Notes Specialist"
+  short_description: "Extract structured decisions, action items, and open..."
+  default_prompt: "Use $project-management-meeting-notes-specialist to help with meeting notes specialist work."

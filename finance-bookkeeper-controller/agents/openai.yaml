@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bookkeeper & Controller"
+  short_description: "Expert bookkeeper and controller specializing in day-to-day..."
+  default_prompt: "Use $finance-bookkeeper-controller to help with bookkeeper & controller work."

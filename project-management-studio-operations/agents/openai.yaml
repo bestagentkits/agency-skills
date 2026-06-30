@@ -1,0 +1,4 @@
+interface:
+  display_name: "Studio Operations"
+  short_description: "Expert operations manager specializing in day-to-day studio..."
+  default_prompt: "Use $project-management-studio-operations to help with studio operations work."

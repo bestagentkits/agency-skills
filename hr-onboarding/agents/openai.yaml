@@ -1,0 +1,4 @@
+interface:
+  display_name: "HR Onboarding"
+  short_description: "Comprehensive HR onboarding specialist for employee..."
+  default_prompt: "Use $hr-onboarding to help with hr onboarding work."

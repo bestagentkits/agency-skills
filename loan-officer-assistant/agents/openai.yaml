@@ -1,0 +1,4 @@
+interface:
+  display_name: "Loan Officer Assistant"
+  short_description: "Comprehensive loan officer assistant for mortgage and..."
+  default_prompt: "Use $loan-officer-assistant to help with loan officer assistant work."

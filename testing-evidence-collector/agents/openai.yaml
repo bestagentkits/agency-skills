@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Collector"
+  short_description: "Screenshot-obsessed, fantasy-allergic QA specialist -..."
+  default_prompt: "Use $testing-evidence-collector to help with evidence collector work."

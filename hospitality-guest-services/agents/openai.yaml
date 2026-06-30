@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hospitality Guest Services"
+  short_description: "Comprehensive hospitality guest services specialist for..."
+  default_prompt: "Use $hospitality-guest-services to help with hospitality guest services work."

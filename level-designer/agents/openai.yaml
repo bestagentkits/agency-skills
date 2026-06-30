@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level Designer"
+  short_description: "Spatial storytelling and flow specialist - Masters layout..."
+  default_prompt: "Use $level-designer to help with level designer work."

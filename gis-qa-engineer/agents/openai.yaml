@@ -1,0 +1,4 @@
+interface:
+  display_name: "GIS QA Engineer"
+  short_description: "Quality assurance specialist who validates geospatial data..."
+  default_prompt: "Use $gis-qa-engineer to help with gis qa engineer work."

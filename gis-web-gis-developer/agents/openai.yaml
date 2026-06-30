@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web GIS Developer"
+  short_description: "Full-stack web GIS engineer who builds interactive mapping..."
+  default_prompt: "Use $gis-web-gis-developer to help with web gis developer work."

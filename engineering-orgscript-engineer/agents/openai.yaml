@@ -1,0 +1,4 @@
+interface:
+  display_name: "OrgScript Engineer"
+  short_description: "Expert in designing, parsing, and implementing OrgScript..."
+  default_prompt: "Use $engineering-orgscript-engineer to help with orgscript engineer work."

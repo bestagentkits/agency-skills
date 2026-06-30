@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solution Engineer"
+  short_description: "Hands-on GIS prototype builder who takes strategy from..."
+  default_prompt: "Use $gis-solution-engineer to help with solution engineer work."

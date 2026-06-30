@@ -1,0 +1,4 @@
+interface:
+  display_name: "Narratologist"
+  short_description: "Expert in narrative theory, story structure, character arcs,..."
+  default_prompt: "Use $academic-narratologist to help with narratologist work."

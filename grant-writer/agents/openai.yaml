@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grant Writer"
+  short_description: "Expert grant writing specialist for nonprofits, research..."
+  default_prompt: "Use $grant-writer to help with grant writer work."

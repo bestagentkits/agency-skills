@@ -1,0 +1,4 @@
+interface:
+  display_name: "visionOS Spatial Engineer"
+  short_description: "Native visionOS spatial computing, SwiftUI volumetric..."
+  default_prompt: "Use $visionos-spatial-engineer to help with visionos spatial engineer work."

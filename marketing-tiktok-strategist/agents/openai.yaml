@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Strategist"
+  short_description: "Expert TikTok marketing specialist focused on viral content..."
+  default_prompt: "Use $marketing-tiktok-strategist to help with tiktok strategist work."

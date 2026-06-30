@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile App Builder"
+  short_description: "Specialized mobile application developer with expertise in..."
+  default_prompt: "Use $engineering-mobile-app-builder to help with mobile app builder work."

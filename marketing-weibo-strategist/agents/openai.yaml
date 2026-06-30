@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weibo Strategist"
+  short_description: "Full-spectrum operations expert for Sina Weibo, with deep..."
+  default_prompt: "Use $marketing-weibo-strategist to help with weibo strategist work."

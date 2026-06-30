@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Response Commander"
+  short_description: "Expert incident commander specializing in production..."
+  default_prompt: "Use $engineering-incident-response-commander to help with incident response commander work."

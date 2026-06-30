@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Growth Mentor"
+  short_description: "Cross-domain personal development mentor for goal clarity,..."
+  default_prompt: "Use $personal-growth-mentor to help with personal growth mentor work."

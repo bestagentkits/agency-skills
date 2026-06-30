@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zhihu Strategist"
+  short_description: "Expert Zhihu marketing specialist focused on thought..."
+  default_prompt: "Use $marketing-zhihu-strategist to help with zhihu strategist work."

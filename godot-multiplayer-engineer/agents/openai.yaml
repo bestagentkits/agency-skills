@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Multiplayer Engineer"
+  short_description: "Godot 4 networking specialist - Masters the MultiplayerAPI,..."
+  default_prompt: "Use $godot-multiplayer-engineer to help with godot multiplayer engineer work."

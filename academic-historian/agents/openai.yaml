@@ -1,0 +1,4 @@
+interface:
+  display_name: "Historian"
+  short_description: "Expert in historical analysis, periodization, material..."
+  default_prompt: "Use $academic-historian to help with historian work."

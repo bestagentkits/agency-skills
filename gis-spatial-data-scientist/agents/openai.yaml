@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spatial Data Scientist"
+  short_description: "Advanced spatial analytics specialist who applies..."
+  default_prompt: "Use $gis-spatial-data-scientist to help with spatial data scientist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Manager"
+  short_description: "Holistic product leader who owns the full product lifecycle..."
+  default_prompt: "Use $product-manager to help with product manager work."

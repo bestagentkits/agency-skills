@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal Client Intake"
+  short_description: "Comprehensive legal client intake specialist for qualifying..."
+  default_prompt: "Use $legal-client-intake to help with legal client intake work."

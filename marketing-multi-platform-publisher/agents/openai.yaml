@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Platform Publisher"
+  short_description: "Expert orchestrator for one-click Chinese blog publishing...."
+  default_prompt: "Use $marketing-multi-platform-publisher to help with multi-platform publisher work."

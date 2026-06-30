@@ -1,0 +1,4 @@
+interface:
+  display_name: "Healthcare Customer Service"
+  short_description: "Empathetic healthcare customer service specialist for..."
+  default_prompt: "Use $healthcare-customer-service to help with healthcare customer service work."

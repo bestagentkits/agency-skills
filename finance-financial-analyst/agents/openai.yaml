@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Analyst"
+  short_description: "Expert financial analyst specializing in financial modeling,..."
+  default_prompt: "Use $finance-financial-analyst to help with financial analyst work."

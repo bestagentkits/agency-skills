@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Creator"
+  short_description: "Expert content strategist and creator for multi-platform..."
+  default_prompt: "Use $marketing-content-creator to help with content creator work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paid Social Strategist"
+  short_description: "Cross-platform paid social advertising specialist covering..."
+  default_prompt: "Use $paid-media-paid-social-strategist to help with paid social strategist work."

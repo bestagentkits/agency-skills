@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search Query Analyst"
+  short_description: "Specialist in search term analysis, negative keyword..."
+  default_prompt: "Use $paid-media-search-query-analyst to help with search query analyst work."

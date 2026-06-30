@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical Billing & Coding Specialist"
+  short_description: "Expert medical billing and coding specialist for..."
+  default_prompt: "Use $medical-billing-coding-specialist to help with medical billing & coding specialist work."

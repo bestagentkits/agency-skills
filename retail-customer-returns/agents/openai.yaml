@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retail Customer Returns"
+  short_description: "Comprehensive retail customer returns specialist for..."
+  default_prompt: "Use $retail-customer-returns to help with retail customer returns work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Optimizer"
+  short_description: "Expert process improvement specialist focused on analyzing,..."
+  default_prompt: "Use $testing-workflow-optimizer to help with workflow optimizer work."

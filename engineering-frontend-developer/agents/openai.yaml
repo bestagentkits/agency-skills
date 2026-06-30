@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Developer"
+  short_description: "Expert frontend developer specializing in modern web..."
+  default_prompt: "Use $engineering-frontend-developer to help with frontend developer work."

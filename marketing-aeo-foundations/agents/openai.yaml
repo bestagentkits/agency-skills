@@ -1,0 +1,4 @@
+interface:
+  display_name: "AEO Foundations Architect"
+  short_description: "Expert in AI Engine Optimization infrastructure — implements..."
+  default_prompt: "Use $marketing-aeo-foundations to help with aeo foundations architect work."

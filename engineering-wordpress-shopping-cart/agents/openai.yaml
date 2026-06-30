@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Shopping Cart Engineer"
+  short_description: "Expert WordPress e-commerce engineer specializing in..."
+  default_prompt: "Use $engineering-wordpress-shopping-cart to help with wordpress shopping cart engineer work."

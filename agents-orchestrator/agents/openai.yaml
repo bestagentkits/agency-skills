@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agents Orchestrator"
+  short_description: "Autonomous pipeline manager that orchestrates the entire..."
+  default_prompt: "Use $agents-orchestrator to help with agents orchestrator work."

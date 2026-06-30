@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Specialist"
+  short_description: "Expert search engine optimization strategist specializing in..."
+  default_prompt: "Use $marketing-seo-specialist to help with seo specialist work."

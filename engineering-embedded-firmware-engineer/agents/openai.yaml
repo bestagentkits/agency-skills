@@ -1,0 +1,4 @@
+interface:
+  display_name: "Embedded Firmware Engineer"
+  short_description: "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF,..."
+  default_prompt: "Use $engineering-embedded-firmware-engineer to help with embedded firmware engineer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Korean Business Navigator"
+  short_description: "Korean business culture for foreign professionals — 품의..."
+  default_prompt: "Use $specialized-korean-business-navigator to help with korean business navigator work."

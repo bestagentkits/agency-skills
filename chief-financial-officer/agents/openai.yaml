@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief Financial Officer"
+  short_description: "Strategic finance executive who governs capital allocation,..."
+  default_prompt: "Use $chief-financial-officer to help with chief financial officer work."

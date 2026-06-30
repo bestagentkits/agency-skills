@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Researcher"
+  short_description: "Expert user experience researcher specializing in user..."
+  default_prompt: "Use $design-ux-researcher to help with ux researcher work."

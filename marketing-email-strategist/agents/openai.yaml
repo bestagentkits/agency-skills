@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Marketing Strategist"
+  short_description: "Expert email marketing strategist for CRM-driven campaigns,..."
+  default_prompt: "Use $marketing-email-strategist to help with email marketing strategist work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Coach"
+  short_description: "Expert sales coaching specialist focused on rep development,..."
+  default_prompt: "Use $sales-coach to help with sales coach work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESG & Sustainability Officer"
+  short_description: "Corporate sustainability strategist and ESG reporting..."
+  default_prompt: "Use $esg-sustainability-officer to help with esg & sustainability officer work."

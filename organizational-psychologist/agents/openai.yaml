@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizational Psychologist"
+  short_description: "Applied organizational psychologist who diagnoses team..."
+  default_prompt: "Use $organizational-psychologist to help with organizational psychologist work."

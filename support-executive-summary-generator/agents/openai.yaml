@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Summary Generator"
+  short_description: "Consultant-grade AI specialist trained to think and..."
+  default_prompt: "Use $support-executive-summary-generator to help with executive summary generator work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Data Extraction Agent"
+  short_description: "AI agent specialized in monitoring Excel files and..."
+  default_prompt: "Use $sales-data-extraction-agent to help with sales data extraction agent work."

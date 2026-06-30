@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Editor Tool Developer"
+  short_description: "Unity editor automation specialist - Masters custom..."
+  default_prompt: "Use $unity-editor-tool-developer to help with unity editor tool developer work."

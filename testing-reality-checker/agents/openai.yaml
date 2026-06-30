@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reality Checker"
+  short_description: "Stops fantasy approvals, evidence-based certification -..."
+  default_prompt: "Use $testing-reality-checker to help with reality checker work."

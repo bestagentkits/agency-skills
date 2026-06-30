@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Optimization Specialist"
+  short_description: "Video marketing strategist specializing in YouTube algorithm..."
+  default_prompt: "Use $marketing-video-optimization-specialist to help with video optimization specialist work."

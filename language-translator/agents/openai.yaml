@@ -1,0 +1,4 @@
+interface:
+  display_name: "Language Translator"
+  short_description: "Real-time Spanish ↔ English translation specialist with..."
+  default_prompt: "Use $language-translator to help with language translator work."

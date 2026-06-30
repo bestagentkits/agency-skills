@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compliance Auditor"
+  short_description: "Expert technical compliance auditor specializing in SOC 2,..."
+  default_prompt: "Use $security-compliance-auditor to help with compliance auditor work."

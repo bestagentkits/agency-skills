@@ -1,0 +1,4 @@
+interface:
+  display_name: "Douyin Strategist"
+  short_description: "Short-video marketing expert specializing in the Douyin..."
+  default_prompt: "Use $marketing-douyin-strategist to help with douyin strategist work."

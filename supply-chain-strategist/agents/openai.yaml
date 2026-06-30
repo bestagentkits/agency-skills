@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supply Chain Strategist"
+  short_description: "Expert supply chain management and procurement strategy..."
+  default_prompt: "Use $supply-chain-strategist to help with supply chain strategist work."

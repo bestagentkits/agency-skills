@@ -1,0 +1,4 @@
+interface:
+  display_name: "Whimsy Injector"
+  short_description: "Expert creative specialist focused on adding personality,..."
+  default_prompt: "Use $design-whimsy-injector to help with whimsy injector work."

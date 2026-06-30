@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Strategist"
+  short_description: "Content strategy and operations expert for the Chinese..."
+  default_prompt: "Use $marketing-podcast-strategist to help with podcast strategist work."

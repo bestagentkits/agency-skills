@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Management Consultant"
+  short_description: "Expert change management specialist using ADKAR, Kotter, and..."
+  default_prompt: "Use $change-management-consultant to help with change management consultant work."

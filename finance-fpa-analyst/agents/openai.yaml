@@ -1,0 +1,4 @@
+interface:
+  display_name: "FP&A Analyst"
+  short_description: "Expert Financial Planning & Analysis (FP&A) analyst..."
+  default_prompt: "Use $finance-fpa-analyst to help with fp&a analyst work."

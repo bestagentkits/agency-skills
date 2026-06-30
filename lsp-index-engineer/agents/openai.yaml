@@ -1,0 +1,4 @@
+interface:
+  display_name: "LSP/Index Engineer"
+  short_description: "Language Server Protocol specialist building unified code..."
+  default_prompt: "Use $lsp-index-engineer to help with lsp/index engineer work."

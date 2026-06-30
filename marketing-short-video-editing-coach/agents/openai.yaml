@@ -1,0 +1,4 @@
+interface:
+  display_name: "Short-Video Editing Coach"
+  short_description: "Hands-on short-video editing coach covering the full..."
+  default_prompt: "Use $marketing-short-video-editing-coach to help with short-video editing coach work."

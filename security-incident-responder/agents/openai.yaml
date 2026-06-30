@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Responder"
+  short_description: "Digital forensics and incident response specialist who leads..."
+  default_prompt: "Use $security-incident-responder to help with incident responder work."
