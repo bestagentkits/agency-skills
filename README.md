@@ -4,7 +4,7 @@
 
 # Agency Skills
 
-Codex skills converted from [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) at commit `24485830cd4b3c63a4a357b0664d9dedbab9653a`.
+Codex skills converted at source commit `24485830cd4b3c63a4a357b0664d9dedbab9653a`.
 This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
 - `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
 - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
@@ -36,11 +36,11 @@ The marketplace entry uses `strict: false` with an explicit `skills` list, so th
 
 ## Source Conversion
 
-The conversion is reproducible:
+The conversion is reproducible from a local checkout of the source agent corpus:
 
 ```bash
-git clone https://github.com/msitarzewski/agency-agents /tmp/agency-agents-source
-ruby scripts/convert-agents-to-skills.rb /tmp/agency-agents-source .
+SOURCE_DIR=/tmp/agency-source
+ruby scripts/convert-agents-to-skills.rb "$SOURCE_DIR" .
 ruby scripts/generate-plugin-marketplace.rb .
 ```
 
@@ -330,6 +330,6 @@ The converter selects Markdown files with source frontmatter containing both `na
 
 ## License
 
-Source agents are from `msitarzewski/agency-agents`, licensed under MIT. See [LICENSE](LICENSE).
+Original agent content is licensed under MIT. See [LICENSE](LICENSE).
 
-Converted agent content retains upstream attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.
+Converted agent content retains its original attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.

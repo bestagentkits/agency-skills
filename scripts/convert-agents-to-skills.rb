@@ -8,7 +8,6 @@ require "yaml"
 
 SOURCE_DIR = File.expand_path(ARGV[0] || "/tmp/agency-agents-source")
 TARGET_DIR = File.expand_path(ARGV[1] || Dir.pwd)
-SOURCE_REPO = "https://github.com/msitarzewski/agency-agents"
 
 def fail_with(message)
   warn "Conversion failed: #{message}"
@@ -141,7 +140,7 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
 
   # Agency Skills
 
-  Codex skills converted from [msitarzewski/agency-agents](#{SOURCE_REPO}) at commit `#{SOURCE_HEAD}`.
+  Codex skills converted at source commit `#{SOURCE_HEAD}`.
   This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
   - `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
   - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
@@ -173,11 +172,11 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
 
   ## Source Conversion
 
-  The conversion is reproducible:
+  The conversion is reproducible from a local checkout of the source agent corpus:
 
   ```bash
-  git clone #{SOURCE_REPO} /tmp/agency-agents-source
-  ruby scripts/convert-agents-to-skills.rb /tmp/agency-agents-source .
+  SOURCE_DIR=/tmp/agency-source
+  ruby scripts/convert-agents-to-skills.rb "$SOURCE_DIR" .
   ruby scripts/generate-plugin-marketplace.rb .
   ```
 
@@ -189,9 +188,9 @@ File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
 
   ## License
 
-  Source agents are from `msitarzewski/agency-agents`, licensed under MIT. See [LICENSE](LICENSE).
+  Original agent content is licensed under MIT. See [LICENSE](LICENSE).
 
-  Converted agent content retains upstream attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.
+  Converted agent content retains its original attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.
 MD
 
 license_path = File.join(SOURCE_DIR, "LICENSE")
