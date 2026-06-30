@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sql Queries"
+  short_description: "Generate SQL queries from natural language descriptions...."
+  default_prompt: "Use $sql-queries to help with sql queries work."

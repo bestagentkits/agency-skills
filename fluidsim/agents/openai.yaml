@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fluidsim"
+  short_description: "Framework for computational fluid dynamics simulations using..."
+  default_prompt: "Use $fluidsim to help with fluidsim work."

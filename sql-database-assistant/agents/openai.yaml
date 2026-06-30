@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sql Database Assistant"
+  short_description: "Use when the user asks to write SQL queries, optimize..."
+  default_prompt: "Use $sql-database-assistant to help with sql database assistant work."

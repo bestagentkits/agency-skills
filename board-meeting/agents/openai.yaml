@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board Meeting"
+  short_description: "Multi-agent board meeting protocol for strategic decisions...."
+  default_prompt: "Use $board-meeting to help with board meeting work."

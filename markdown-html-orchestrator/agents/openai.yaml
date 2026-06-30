@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Html Orchestrator"
+  short_description: "Use when a user wants to convert any markdown file in their..."
+  default_prompt: "Use $markdown-html-orchestrator to help with markdown html orchestrator work."

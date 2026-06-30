@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Wechat Summary"
+  short_description: "Summarizes WeChat group chat highlights into a structured..."
+  default_prompt: "Use $baoyu-wechat-summary to help with baoyu wechat summary work."

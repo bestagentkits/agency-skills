@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Development"
+  short_description: "Docker and container development agent skill and plugin for..."
+  default_prompt: "Use $docker-development to help with docker development work."

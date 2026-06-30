@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spawn"
+  short_description: "Launch N parallel subagents in isolated git worktrees to..."
+  default_prompt: "Use $spawn to help with spawn work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Strategist"
+  short_description: "Strategic product leadership toolkit for Head of Product..."
+  default_prompt: "Use $product-strategist to help with product strategist work."

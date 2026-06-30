@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Email"
+  short_description: "When the user wants to write, improve, or build a sequence..."
+  default_prompt: "Use $claude-skills-marketing-skill-cold-email-cold-email to help with cold email work."

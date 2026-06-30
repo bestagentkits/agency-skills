@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fda Consultant Specialist"
+  short_description: "FDA regulatory consultant for medical device companies...."
+  default_prompt: "Use $fda-consultant-specialist to help with fda consultant specialist work."

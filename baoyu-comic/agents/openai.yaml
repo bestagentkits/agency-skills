@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Comic"
+  short_description: "Knowledge comic creator supporting multiple art styles and..."
+  default_prompt: "Use $baoyu-comic to help with baoyu comic work."

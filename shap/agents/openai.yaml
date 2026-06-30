@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shap"
+  short_description: "Model interpretability and explainability using SHAP..."
+  default_prompt: "Use $shap to help with shap work."

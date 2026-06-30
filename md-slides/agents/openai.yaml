@@ -1,0 +1,4 @@
+interface:
+  display_name: "Md Slides"
+  short_description: "Converts a markdown deck (slides separated by `---` HR..."
+  default_prompt: "Use $md-slides to help with md slides work."

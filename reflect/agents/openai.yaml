@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reflect"
+  short_description: "Mid-conversation reflection skill that pauses execution and..."
+  default_prompt: "Use $reflect to help with reflect work."

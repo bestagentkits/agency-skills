@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statistical Analysis"
+  short_description: "Guided statistical analysis with test selection and..."
+  default_prompt: "Use $statistical-analysis to help with statistical analysis work."

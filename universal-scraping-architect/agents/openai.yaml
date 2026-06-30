@@ -1,0 +1,4 @@
+interface:
+  display_name: "Universal Scraping Architect"
+  short_description: "Use for web scraping, crawling, document extraction, API..."
+  default_prompt: "Use $universal-scraping-architect to help with universal scraping architect work."

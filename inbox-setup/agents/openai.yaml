@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inbox Setup"
+  short_description: "One-time setup skill that builds a personalized inbox triage..."
+  default_prompt: "Use $inbox-setup to help with inbox setup work."

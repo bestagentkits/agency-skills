@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Skills"
+  short_description: "Router/index for the 12 product skills bundled in this..."
+  default_prompt: "Use $product-skills to help with product skills work."

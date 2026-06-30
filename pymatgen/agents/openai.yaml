@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pymatgen"
+  short_description: "Materials science toolkit. Crystal structures (CIF, POSCAR),..."
+  default_prompt: "Use $pymatgen to help with pymatgen work."

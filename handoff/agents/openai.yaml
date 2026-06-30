@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Compact the current conversation into a handoff document for..."
+  default_prompt: "Use $handoff to help with handoff work."

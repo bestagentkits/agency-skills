@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experiment Designer"
+  short_description: "Use when planning product experiments, writing testable..."
+  default_prompt: "Use $experiment-designer to help with experiment designer work."

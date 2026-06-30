@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stripe Integration Expert"
+  short_description: "Production-grade Stripe integrations: subscriptions with..."
+  default_prompt: "Use $stripe-integration-expert to help with stripe integration expert work."

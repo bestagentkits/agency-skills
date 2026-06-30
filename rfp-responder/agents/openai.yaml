@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rfp Responder"
+  short_description: "Use when an RFP, RFI, RFQ, security questionnaire, vendor..."
+  default_prompt: "Use $rfp-responder to help with rfp responder work."

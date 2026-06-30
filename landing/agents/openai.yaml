@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing"
+  short_description: "Generates a premium single-page HTML landing page with 3D..."
+  default_prompt: "Use $landing to help with landing work."

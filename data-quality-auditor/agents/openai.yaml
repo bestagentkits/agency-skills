@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Quality Auditor"
+  short_description: "Audit datasets for completeness, consistency, accuracy, and..."
+  default_prompt: "Use $data-quality-auditor to help with data quality auditor work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aims Audit"
+  short_description: "/cs:aims-audit <scope> — ISO/IEC 42001 AIMS internal-audit..."
+  default_prompt: "Use $aims-audit to help with aims audit work."

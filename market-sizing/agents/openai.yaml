@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Sizing"
+  short_description: "Estimate market size using TAM, SAM, and SOM with top-down..."
+  default_prompt: "Use $market-sizing to help with market sizing work."

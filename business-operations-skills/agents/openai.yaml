@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Operations Skills"
+  short_description: "Use when running, diagnosing, or designing internal business..."
+  default_prompt: "Use $business-operations-skills to help with business operations skills work."

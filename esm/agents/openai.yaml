@@ -1,0 +1,4 @@
+interface:
+  display_name: "Esm"
+  short_description: "Use when working directly with the `esm` Python SDK, ESM3 or..."
+  default_prompt: "Use $esm to help with esm work."

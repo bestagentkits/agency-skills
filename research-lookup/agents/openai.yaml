@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Lookup"
+  short_description: "Look up current research information using parallel-cli..."
+  default_prompt: "Use $research-lookup to help with research lookup work."

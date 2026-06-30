@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Stack Evaluator"
+  short_description: "Technology stack evaluation and comparison with TCO..."
+  default_prompt: "Use $tech-stack-evaluator to help with tech stack evaluator work."

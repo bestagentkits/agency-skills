@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Post To Wechat"
+  short_description: "Posts content to WeChat Official Account (微信公众号) via API or..."
+  default_prompt: "Use $baoyu-post-to-wechat to help with baoyu post to wechat work."

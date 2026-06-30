@@ -1,0 +1,4 @@
+interface:
+  display_name: "Form Cro"
+  short_description: "When the user wants to optimize any form that is NOT..."
+  default_prompt: "Use $form-cro to help with form cro work."

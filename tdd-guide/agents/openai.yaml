@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tdd Guide"
+  short_description: "Test-driven development skill for writing unit tests,..."
+  default_prompt: "Use $tdd-guide to help with tdd guide work."

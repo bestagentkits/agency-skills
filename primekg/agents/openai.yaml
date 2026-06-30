@@ -1,0 +1,4 @@
+interface:
+  display_name: "Primekg"
+  short_description: "Query the Precision Medicine Knowledge Graph (PrimeKG) for..."
+  default_prompt: "Use $primekg to help with primekg work."

@@ -1,0 +1,75 @@
+---
+name: Enforce PR Target Branch
+
+on:
+  pull_request_target:
+    types: [opened, edited, ready_for_review]
+    branches: [main]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-target:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block PRs targeting main (only dev -> main promotion allowed)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const author = pr.user.login;
+            const headRef = pr.head.ref;
+            const sameRepo = pr.head.repo.full_name === context.payload.repository.full_name;
+
+            // HARD RULE (CLAUDE.md > Git Workflow): main only receives
+            // dev -> main promotion PRs. Branch-based, not author-based —
+            // maintainers are not exempt.
+            if (sameRepo && headRef === 'dev') {
+              console.log(`✅ dev -> main promotion PR — allowed.`);
+              return;
+            }
+
+            // Maintainers: fail the check and explain, but don't auto-close
+            // (avoids nuking intentional work; retarget instead).
+            const maintainers = ['alirezarezvani'];
+            const isMaintainer = maintainers.includes(author);
+
+            const nextStep = isMaintainer
+              ? 'This check will re-run automatically once the base branch is changed.'
+              : 'This PR has been closed automatically; reopen it after retargeting, ' +
+                'or open a new PR against `dev`.';
+
+            const message = [
+              `👋 Hi @${author}, thanks for your contribution!`,
+              '',
+              'All PRs must target the `dev` branch, not `main`. The `main` branch',
+              'only receives `dev -> main` promotion PRs (see CLAUDE.md > Git Workflow).',
+              '',
+              '**How to fix:** click "Edit" at the top right of this PR and change',
+              'the base branch to `dev`.',
+              '',
+              nextStep,
+              '',
+              'See our [Contributing Guide]' +
+              '(https://github.com/alirezarezvani/claude-skills/blob/dev/CONTRIBUTING.md)' +
+              ' for details.',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body: message,
+            });
+
+            if (!isMaintainer) {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+                state: 'closed',
+              });
+            }
+
+            core.setFailed(`PR #${pr.number} targets main from '${headRef}' (not dev). ${isMaintainer ? 'Retarget to dev.' : 'Closed automatically.'}`);

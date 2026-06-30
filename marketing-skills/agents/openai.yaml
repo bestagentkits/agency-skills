@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Skills"
+  short_description: "Directory and router for the marketing skills library. Use..."
+  default_prompt: "Use $marketing-skills to help with marketing skills work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Llm Cost Optimizer"
+  short_description: "Use proactively whenever LLM API costs come up -- or should...."
+  default_prompt: "Use $llm-cost-optimizer to help with llm cost optimizer work."

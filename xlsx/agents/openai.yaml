@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xlsx"
+  short_description: "Create, edit, analyze, or convert Excel spreadsheets (.xlsx,..."
+  default_prompt: "Use $xlsx to help with xlsx work."

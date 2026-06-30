@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritize Assumptions"
+  short_description: "Prioritize assumptions using an Impact × Risk matrix and..."
+  default_prompt: "Use $prioritize-assumptions to help with prioritize assumptions work."

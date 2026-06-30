@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Slide Deck"
+  short_description: "Generates professional slide deck images from content...."
+  default_prompt: "Use $baoyu-slide-deck to help with baoyu slide deck work."

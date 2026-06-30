@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Data Engineer"
+  short_description: "Data engineering skill for building scalable data pipelines,..."
+  default_prompt: "Use $senior-data-engineer to help with senior data engineer work."

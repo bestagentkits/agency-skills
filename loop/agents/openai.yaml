@@ -1,0 +1,4 @@
+interface:
+  display_name: "Loop"
+  short_description: "Start an autonomous experiment loop with user-selected..."
+  default_prompt: "Use $loop to help with loop work."

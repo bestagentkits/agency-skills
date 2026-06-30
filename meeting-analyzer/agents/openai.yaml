@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meeting Analyzer"
+  short_description: "Analyzes meeting transcripts and recordings to surface..."
+  default_prompt: "Use $meeting-analyzer to help with meeting analyzer work."

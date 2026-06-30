@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Review"
+  short_description: "Conduct comprehensive, systematic literature reviews using..."
+  default_prompt: "Use $literature-review to help with literature review work."

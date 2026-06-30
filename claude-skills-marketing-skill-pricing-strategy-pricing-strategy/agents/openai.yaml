@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Strategy"
+  short_description: "Design, optimize, and communicate SaaS pricing — tier..."
+  default_prompt: "Use $claude-skills-marketing-skill-pricing-strategy-pricing-strategy to help with pricing strategy work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chro Advisor"
+  short_description: "People leadership for scaling companies. Hiring strategy,..."
+  default_prompt: "Use $chro-advisor to help with chro advisor work."

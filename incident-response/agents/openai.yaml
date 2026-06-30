@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Response"
+  short_description: "Use when a security incident has been detected or declared..."
+  default_prompt: "Use $incident-response to help with incident response work."

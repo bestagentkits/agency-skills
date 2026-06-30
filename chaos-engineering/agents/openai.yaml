@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chaos Engineering"
+  short_description: "Use when planning, running, or learning from chaos..."
+  default_prompt: "Use $chaos-engineering to help with chaos engineering work."

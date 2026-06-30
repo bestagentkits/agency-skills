@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Ops Skills"
+  short_description: "Use when planning, funding, scoping, or synthesizing..."
+  default_prompt: "Use $research-ops-skills to help with research ops skills work."

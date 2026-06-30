@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analytics Tracking"
+  short_description: "Set up, audit, and debug analytics tracking implementation —..."
+  default_prompt: "Use $analytics-tracking to help with analytics tracking work."

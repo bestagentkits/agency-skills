@@ -1,0 +1,4 @@
+interface:
+  display_name: "Biopython"
+  short_description: "Comprehensive molecular biology toolkit. Use for sequence..."
+  default_prompt: "Use $biopython to help with biopython work."

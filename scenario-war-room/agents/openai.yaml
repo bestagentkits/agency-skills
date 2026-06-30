@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scenario War Room"
+  short_description: "Cross-functional what-if modeling for cascading..."
+  default_prompt: "Use $scenario-war-room to help with scenario war room work."

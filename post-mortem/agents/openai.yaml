@@ -1,0 +1,4 @@
+interface:
+  display_name: "Post Mortem"
+  short_description: "/cs:post-mortem <decision> — Honest retrospective on an..."
+  default_prompt: "Use $post-mortem to help with post mortem work."

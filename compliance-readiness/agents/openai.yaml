@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compliance Readiness"
+  short_description: "/cs:compliance-readiness <program> — Multi-framework..."
+  default_prompt: "Use $compliance-readiness to help with compliance readiness work."

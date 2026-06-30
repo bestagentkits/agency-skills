@@ -1,0 +1,4 @@
+interface:
+  display_name: "Azure Cloud Architect"
+  short_description: "Design Azure architectures for startups and enterprises. Use..."
+  default_prompt: "Use $azure-cloud-architect to help with azure cloud architect work."

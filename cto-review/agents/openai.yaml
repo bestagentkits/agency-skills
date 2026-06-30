@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cto Review"
+  short_description: "/cs:cto-review <plan> — Architecture and scaling..."
+  default_prompt: "Use $cto-review to help with cto review work."

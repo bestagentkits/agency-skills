@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Diagram"
+  short_description: "Create professional, dark-themed SVG diagrams of any type —..."
+  default_prompt: "Use $baoyu-diagram to help with baoyu diagram work."

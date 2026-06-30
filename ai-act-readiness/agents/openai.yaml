@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ai Act Readiness"
+  short_description: "/cs:ai-act-readiness <system> — EU AI Act 6-question forcing..."
+  default_prompt: "Use $ai-act-readiness to help with ai act readiness work."

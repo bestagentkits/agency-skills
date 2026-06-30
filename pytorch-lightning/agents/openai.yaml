@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pytorch Lightning"
+  short_description: "Deep learning framework (PyTorch Lightning / lightning..."
+  default_prompt: "Use $pytorch-lightning to help with pytorch lightning work."

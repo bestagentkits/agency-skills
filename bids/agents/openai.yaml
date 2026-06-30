@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bids"
+  short_description: "Use this skill when working with Brain Imaging Data..."
+  default_prompt: "Use $bids to help with bids work."

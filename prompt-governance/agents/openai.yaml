@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Governance"
+  short_description: "Use when managing prompts in production at scale: versioning..."
+  default_prompt: "Use $prompt-governance to help with prompt governance work."

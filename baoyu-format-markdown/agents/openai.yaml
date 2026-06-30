@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Format Markdown"
+  short_description: "Formats plain text or markdown files with frontmatter,..."
+  default_prompt: "Use $baoyu-format-markdown to help with baoyu format markdown work."

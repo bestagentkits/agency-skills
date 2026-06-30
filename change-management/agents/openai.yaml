@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Management"
+  short_description: "Framework for rolling out organizational changes without..."
+  default_prompt: "Use $change-management to help with change management work."

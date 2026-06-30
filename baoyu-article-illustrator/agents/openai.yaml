@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Article Illustrator"
+  short_description: "Analyzes article structure, identifies positions requiring..."
+  default_prompt: "Use $baoyu-article-illustrator to help with baoyu article illustrator work."

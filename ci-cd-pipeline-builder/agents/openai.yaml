@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ci Cd Pipeline Builder"
+  short_description: "Generate pragmatic CI/CD pipelines from detected project..."
+  default_prompt: "Use $ci-cd-pipeline-builder to help with ci cd pipeline builder work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Treatment Plans"
+  short_description: "Generate concise (3-4 page), focused medical treatment plans..."
+  default_prompt: "Use $treatment-plans to help with treatment plans work."

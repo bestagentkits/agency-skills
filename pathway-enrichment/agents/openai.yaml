@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pathway Enrichment"
+  short_description: "Run pathway and gene-set enrichment analysis on gene lists..."
+  default_prompt: "Use $pathway-enrichment to help with pathway enrichment work."

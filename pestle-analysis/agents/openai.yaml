@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pestle Analysis"
+  short_description: "Perform a PESTLE analysis covering Political, Economic,..."
+  default_prompt: "Use $pestle-analysis to help with pestle analysis work."

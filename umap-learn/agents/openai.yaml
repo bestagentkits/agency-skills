@@ -1,0 +1,4 @@
+interface:
+  display_name: "Umap Learn"
+  short_description: "Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D..."
+  default_prompt: "Use $umap-learn to help with umap learn work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Signup Flow Cro"
+  short_description: "When the user wants to optimize signup, registration,..."
+  default_prompt: "Use $signup-flow-cro to help with signup flow cro work."

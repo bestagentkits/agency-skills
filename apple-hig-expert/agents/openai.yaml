@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple Hig Expert"
+  short_description: "Audits and designs iOS/macOS/watchOS/visionOS interfaces..."
+  default_prompt: "Use $apple-hig-expert to help with apple hig expert work."

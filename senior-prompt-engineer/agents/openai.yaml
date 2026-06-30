@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Prompt Engineer"
+  short_description: "Use when the user asks to optimize prompts, design prompt..."
+  default_prompt: "Use $senior-prompt-engineer to help with senior prompt engineer work."

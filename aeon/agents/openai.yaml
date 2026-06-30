@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aeon"
+  short_description: "This skill should be used for time series machine learning..."
+  default_prompt: "Use $aeon to help with aeon work."

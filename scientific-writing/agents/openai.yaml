@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Writing"
+  short_description: "Core skill for the deep research and writing tool. Write..."
+  default_prompt: "Use $scientific-writing to help with scientific writing work."

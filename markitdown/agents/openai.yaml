@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markitdown"
+  short_description: "Convert files and office documents to Markdown. Supports..."
+  default_prompt: "Use $markitdown to help with markitdown work."

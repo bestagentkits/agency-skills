@@ -1,0 +1,4 @@
+interface:
+  display_name: "Eval"
+  short_description: "Evaluate and rank agent results by metric or LLM judge for..."
+  default_prompt: "Use $eval to help with eval work."

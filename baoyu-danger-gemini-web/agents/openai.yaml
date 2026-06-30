@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Danger Gemini Web"
+  short_description: "Generates images and text via reverse-engineered Gemini Web..."
+  default_prompt: "Use $baoyu-danger-gemini-web to help with baoyu danger gemini web work."

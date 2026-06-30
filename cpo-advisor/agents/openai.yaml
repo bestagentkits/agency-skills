@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cpo Advisor"
+  short_description: "Product leadership for scaling companies. Product vision,..."
+  default_prompt: "Use $cpo-advisor to help with cpo advisor work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Humanizer"
+  short_description: "Makes AI-generated content sound genuinely human — not just..."
+  default_prompt: "Use $content-humanizer to help with content humanizer work."

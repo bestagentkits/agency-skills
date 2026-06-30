@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptyv"
+  short_description: "How to use the Adaptyv Bio Foundry API and Python SDK for..."
+  default_prompt: "Use $adaptyv to help with adaptyv work."

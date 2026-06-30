@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caveman"
+  short_description: "Ultra-compressed communication mode. Cuts token usage ~75%..."
+  default_prompt: "Use $caveman to help with caveman work."

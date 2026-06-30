@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medchem"
+  short_description: "Medicinal chemistry filters for compound triage. Apply..."
+  default_prompt: "Use $medchem to help with medchem work."

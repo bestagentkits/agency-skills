@@ -1,0 +1,4 @@
+interface:
+  display_name: "Usfiscaldata"
+  short_description: "Query the U.S. Treasury Fiscal Data REST API for federal..."
+  default_prompt: "Use $usfiscaldata to help with usfiscaldata work."

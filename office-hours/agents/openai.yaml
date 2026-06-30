@@ -1,0 +1,4 @@
+interface:
+  display_name: "Office Hours"
+  short_description: "/cs:office-hours <topic> — YC-style 6-question founder..."
+  default_prompt: "Use $office-hours to help with office hours work."

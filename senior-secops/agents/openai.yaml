@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Secops"
+  short_description: "Senior SecOps engineer skill for application security,..."
+  default_prompt: "Use $senior-secops to help with senior secops work."

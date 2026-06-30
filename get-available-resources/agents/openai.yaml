@@ -1,0 +1,4 @@
+interface:
+  display_name: "Get Available Resources"
+  short_description: "This skill should be used at the start of any..."
+  default_prompt: "Use $get-available-resources to help with get available resources work."

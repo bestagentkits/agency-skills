@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sympy"
+  short_description: "Use when you need exact symbolic math in Python — algebra,..."
+  default_prompt: "Use $sympy to help with sympy work."

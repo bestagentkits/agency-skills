@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Level Agents"
+  short_description: "Founder-mode executive team. 13 cs-* C-suite agents (CFO,..."
+  default_prompt: "Use $c-level-agents to help with c level agents work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Schematics"
+  short_description: "Create publication-quality scientific diagrams using Nano..."
+  default_prompt: "Use $scientific-schematics to help with scientific schematics work."

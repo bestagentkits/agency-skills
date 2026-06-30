@@ -5,6 +5,7 @@ require "fileutils"
 require "json"
 require "open3"
 require "yaml"
+require_relative "readme-writer"
 
 SOURCE_DIR = File.expand_path(ARGV[0] || "/tmp/agency-agents-source")
 TARGET_DIR = File.expand_path(ARGV[1] || Dir.pwd)
@@ -35,6 +36,11 @@ def slugify(value)
   value.downcase
        .gsub(/[^a-z0-9]+/, "-")
        .gsub(/\A-|-+\z/, "")
+end
+
+def validate_skill_slug!(slug, context)
+  return if slug.match?(/\A[a-z0-9]+(?:-[a-z0-9]+)*\z/)
+  fail_with("#{context} produced invalid skill slug #{slug.inspect}")
 end
 
 def yaml_quote(value)
@@ -96,11 +102,13 @@ manifest = []
 
 agents.each do |agent|
   base_slug = slugify(File.basename(agent[:relative_path], ".md"))
+  validate_skill_slug!(base_slug, agent[:relative_path])
   slug = base_slug
   if used_slugs.key?(slug)
     prefix = slugify(File.dirname(agent[:relative_path]))
     slug = "#{prefix}-#{base_slug}"
   end
+  validate_skill_slug!(slug, agent[:relative_path])
   used_slugs[slug] = true
   skill_dir = File.join(TARGET_DIR, slug)
   FileUtils.mkdir_p(File.join(skill_dir, "agents"))
@@ -119,80 +127,14 @@ agents.each do |agent|
     "description" => agent[:metadata]["description"],
     "source_path" => agent[:relative_path],
     "division" => agent[:relative_path].split("/").first,
-    "collection" => "agency"
+    "collection" => "agency",
+    "source_commit" => SOURCE_HEAD
   }
 end
 
 FileUtils.mkdir_p(File.join(TARGET_DIR, "data"))
 File.write(File.join(TARGET_DIR, "data", "skills-manifest.json"), JSON.pretty_generate(manifest))
-
-readme_index = manifest.group_by { |item| item["division"] }.sort.map do |division, items|
-  label = DOMAIN_LABELS[division] || division
-  rows = items.sort_by { |item| item["display_name"].to_s }.map do |item|
-    "- [`$#{item["skill"]}`](#{item["skill"]}/SKILL.md) - #{item["display_name"]}"
-  end
-  ["### #{label}", "", rows.join("\n")].join("\n")
-end.join("\n\n")
-
-File.write(File.join(TARGET_DIR, "README.md"), <<~MD)
-  <p align="center">
-    <img src="assets/agency-skills-banner.png" alt="Agency Skills banner" width="100%">
-  </p>
-
-  # Agency Skills
-
-  Codex skills converted at source commit `#{SOURCE_HEAD}`.
-  This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
-  - `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
-  - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
-
-  ## Install
-
-  Clone this repository into a Codex skills directory or copy selected skill folders into your existing skills path.
-
-  ```bash
-  git clone https://github.com/bestagentkits/agency-skills.git
-  ```
-
-  To use a skill, invoke it by name in Codex, for example:
-
-  ```text
-  Use $engineering-backend-architect to review this API design.
-  ```
-
-  ## Claude Code Plugin Marketplace
-
-  This repo also ships an Anthropic Claude Code plugin marketplace catalog at `.claude-plugin/marketplace.json`.
-
-  ```text
-  /plugin marketplace add https://github.com/bestagentkits/agency-skills.git
-  /plugin install agency-skills@agency-skills
-  ```
-
-  The marketplace entry uses `strict: false` with an explicit `skills` list, so the root skill folders are the single source of truth.
-
-  ## Source Conversion
-
-  The conversion is reproducible from a local checkout of the source agent corpus:
-
-  ```bash
-  SOURCE_DIR=/tmp/agency-source
-  ruby scripts/convert-agents-to-skills.rb "$SOURCE_DIR" .
-  ruby scripts/generate-plugin-marketplace.rb .
-  ```
-
-  The converter selects Markdown files with source frontmatter containing both `name` and `description` from canonical source divisions in `divisions.json`. Documentation, examples, `integrations/` generated outputs, and strategy files are not converted.
-
-  ## Skill Index
-
-  #{readme_index}
-
-  ## License
-
-  Original agent content is licensed under MIT. See [LICENSE](LICENSE).
-
-  Converted agent content retains its original attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.
-MD
+write_agency_skills_readme(TARGET_DIR, manifest)
 
 license_path = File.join(SOURCE_DIR, "LICENSE")
 FileUtils.cp(license_path, File.join(TARGET_DIR, "LICENSE")) if File.exist?(license_path)

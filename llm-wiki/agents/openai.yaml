@@ -1,0 +1,4 @@
+interface:
+  display_name: "Llm Wiki"
+  short_description: "Use when building or maintaining a persistent personal..."
+  default_prompt: "Use $llm-wiki to help with llm wiki work."

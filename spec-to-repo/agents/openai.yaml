@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec To Repo"
+  short_description: "Use when the user says 'build me an app', 'create a project..."
+  default_prompt: "Use $spec-to-repo to help with spec to repo work."

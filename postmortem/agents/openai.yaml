@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postmortem"
+  short_description: "/em:postmortem — Honest analysis of what went wrong. Use..."
+  default_prompt: "Use $postmortem to help with postmortem work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Youtube Transcript"
+  short_description: "Downloads YouTube video transcripts/subtitles and cover..."
+  default_prompt: "Use $baoyu-youtube-transcript to help with baoyu youtube transcript work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Polars"
+  short_description: "High-performance DataFrame library for Python ETL,..."
+  default_prompt: "Use $polars to help with polars work."

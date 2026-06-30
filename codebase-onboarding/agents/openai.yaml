@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Onboarding"
+  short_description: "Analyze a codebase and generate onboarding documentation for..."
+  default_prompt: "Use $codebase-onboarding to help with codebase onboarding work."

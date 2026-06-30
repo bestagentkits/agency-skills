@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Mapper"
+  short_description: "Use when a BizOps lead, COO, or process-improvement owner..."
+  default_prompt: "Use $process-mapper to help with process mapper work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soc2 Compliance"
+  short_description: "Use when the user asks to prepare for SOC 2 audits, map..."
+  default_prompt: "Use $soc2-compliance to help with soc2 compliance work."

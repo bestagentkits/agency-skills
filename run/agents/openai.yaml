@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run"
+  short_description: "One-shot lifecycle command that chains init → baseline →..."
+  default_prompt: "Use $run to help with run work."

@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+
+# Python
+.venv/
+.python-version
+__pycache__/
+
+# Secrets
+.env
+
+# Project
+temp/
+research/
+
+.agents/
+AGENTS.md
+
+skills-lock.json
+
+uv.lock

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ciso Review"
+  short_description: "/cs:ciso-review <plan> — Risk-paranoid interrogation of any..."
+  default_prompt: "Use $ciso-review to help with ciso review work."

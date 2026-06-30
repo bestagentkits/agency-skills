@@ -1,0 +1,4 @@
+interface:
+  display_name: "Geniml"
+  short_description: "This skill should be used when working with genomic interval..."
+  default_prompt: "Use $geniml to help with geniml work."

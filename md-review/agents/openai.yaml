@@ -1,0 +1,4 @@
+interface:
+  display_name: "Md Review"
+  short_description: "Converts a markdown PR writeup or code review (one with..."
+  default_prompt: "Use $md-review to help with md review work."

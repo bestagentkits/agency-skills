@@ -1,0 +1,4 @@
+interface:
+  display_name: "Metrics Dashboard"
+  short_description: "Define and design a product metrics dashboard with key..."
+  default_prompt: "Use $metrics-dashboard to help with metrics dashboard work."

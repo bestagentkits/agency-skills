@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autoskill"
+  short_description: "Observe the user's screen via screenpipe, detect repeated..."
+  default_prompt: "Use $autoskill to help with autoskill work."

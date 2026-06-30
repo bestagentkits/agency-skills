@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imaging Data Commons"
+  short_description: "Query and download public cancer imaging data from NCI..."
+  default_prompt: "Use $imaging-data-commons to help with imaging data commons work."

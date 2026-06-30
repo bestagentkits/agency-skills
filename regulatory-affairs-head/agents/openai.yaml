@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regulatory Affairs Head"
+  short_description: "Senior Regulatory Affairs Manager for HealthTech and MedTech..."
+  default_prompt: "Use $regulatory-affairs-head to help with regulatory affairs head work."

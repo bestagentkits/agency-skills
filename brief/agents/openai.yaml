@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brief"
+  short_description: "/cs:brief <topic> — Generate a one-page strategy brief from..."
+  default_prompt: "Use $brief to help with brief work."

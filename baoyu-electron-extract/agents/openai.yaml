@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Electron Extract"
+  short_description: "Extracts resources and JavaScript from any installed..."
+  default_prompt: "Use $baoyu-electron-extract to help with baoyu electron extract work."

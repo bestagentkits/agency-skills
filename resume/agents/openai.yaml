@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume"
+  short_description: "Resume a paused experiment. Checkout the experiment branch,..."
+  default_prompt: "Use $resume to help with resume work."

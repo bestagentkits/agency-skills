@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Architect"
+  short_description: "Zero-downtime migration planning, compatibility validation,..."
+  default_prompt: "Use $migration-architect to help with migration architect work."

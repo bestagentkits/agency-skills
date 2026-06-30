@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boardroom"
+  short_description: "/cs:boardroom <brief> — 6-phase multi-role deliberation..."
+  default_prompt: "Use $boardroom to help with boardroom work."

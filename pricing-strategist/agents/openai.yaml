@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Strategist"
+  short_description: "Use when designing or revisiting product pricing — selecting..."
+  default_prompt: "Use $pricing-strategist to help with pricing strategist work."

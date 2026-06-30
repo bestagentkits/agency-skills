@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capa Officer"
+  short_description: "CAPA system management for medical device QMS. Covers root..."
+  default_prompt: "Use $capa-officer to help with capa officer work."

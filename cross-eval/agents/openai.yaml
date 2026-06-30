@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross Eval"
+  short_description: "/cs:cross-eval <memo> — Multi-model consensus on a board..."
+  default_prompt: "Use $cross-eval to help with cross eval work."

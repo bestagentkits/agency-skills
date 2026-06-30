@@ -1,0 +1,4 @@
+interface:
+  display_name: "Confluence Expert"
+  short_description: "Atlassian Confluence expert for creating and managing..."
+  default_prompt: "Use $confluence-expert to help with confluence expert work."

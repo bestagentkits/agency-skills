@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Grants"
+  short_description: "Write competitive research proposals for NSF, NIH, DOE,..."
+  default_prompt: "Use $research-grants to help with research grants work."

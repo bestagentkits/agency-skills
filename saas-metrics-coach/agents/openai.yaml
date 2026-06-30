@@ -1,0 +1,4 @@
+interface:
+  display_name: "Saas Metrics Coach"
+  short_description: "SaaS financial health advisor. Use when a user shares..."
+  default_prompt: "Use $saas-metrics-coach to help with saas metrics coach work."

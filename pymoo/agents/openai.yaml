@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pymoo"
+  short_description: "Multi-objective optimization framework. NSGA-II, NSGA-III,..."
+  default_prompt: "Use $pymoo to help with pymoo work."

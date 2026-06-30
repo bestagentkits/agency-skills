@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate"
+  short_description: "Generate Playwright tests. Use when user says \"write tests\",..."
+  default_prompt: "Use $generate to help with generate work."

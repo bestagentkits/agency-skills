@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+cd "$REPO_ROOT"
+
+node scripts/verify-shared-package-deps.mjs --repo-root "$REPO_ROOT"

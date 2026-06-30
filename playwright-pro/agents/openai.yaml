@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright Pro"
+  short_description: "Production-grade Playwright testing toolkit. Use when the..."
+  default_prompt: "Use $playwright-pro to help with playwright pro work."

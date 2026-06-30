@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Workspace Cli"
+  short_description: "Google Workspace administration via the gws CLI..."
+  default_prompt: "Use $google-workspace-cli to help with google workspace cli work."

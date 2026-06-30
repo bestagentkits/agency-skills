@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pylabrobot"
+  short_description: "Vendor-agnostic lab automation framework. Use when..."
+  default_prompt: "Use $pylabrobot to help with pylabrobot work."

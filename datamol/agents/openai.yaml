@@ -1,0 +1,4 @@
+interface:
+  display_name: "Datamol"
+  short_description: "Pythonic wrapper around RDKit with simplified interface and..."
+  default_prompt: "Use $datamol to help with datamol work."

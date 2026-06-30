@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Infographic"
+  short_description: "Generate professional infographics with 21 layout types and..."
+  default_prompt: "Use $baoyu-infographic to help with baoyu infographic work."

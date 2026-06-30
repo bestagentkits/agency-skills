@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qutip"
+  short_description: "Quantum physics simulation library for open quantum systems...."
+  default_prompt: "Use $qutip to help with qutip work."

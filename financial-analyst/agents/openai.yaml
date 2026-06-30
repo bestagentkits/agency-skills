@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Analyst"
+  short_description: "Performs financial ratio analysis, DCF valuation, budget..."
+  default_prompt: "Use $financial-analyst to help with financial analyst work."

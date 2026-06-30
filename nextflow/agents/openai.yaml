@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nextflow"
+  short_description: "Build, run, and debug Nextflow data pipelines and nf-core..."
+  default_prompt: "Use $nextflow to help with nextflow work."

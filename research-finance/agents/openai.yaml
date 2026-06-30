@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Finance"
+  short_description: "Use when managing the money for an internal R&D program or..."
+  default_prompt: "Use $research-finance to help with research finance work."

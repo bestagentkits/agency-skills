@@ -1,0 +1,4 @@
+interface:
+  display_name: "Referral Program"
+  short_description: "When the user wants to design, launch, or optimize a..."
+  default_prompt: "Use $referral-program to help with referral program work."

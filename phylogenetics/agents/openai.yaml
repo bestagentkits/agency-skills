@@ -1,0 +1,4 @@
+interface:
+  display_name: "Phylogenetics"
+  short_description: "Build and analyze phylogenetic trees using MAFFT (multiple..."
+  default_prompt: "Use $phylogenetics to help with phylogenetics work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pydicom"
+  short_description: "Python library for working with DICOM (Digital Imaging and..."
+  default_prompt: "Use $pydicom to help with pydicom work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Markdown To Html"
+  short_description: "Converts Markdown to styled HTML with WeChat-compatible..."
+  default_prompt: "Use $baoyu-markdown-to-html to help with baoyu markdown to html work."

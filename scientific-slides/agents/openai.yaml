@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Slides"
+  short_description: "Build slide decks and presentations for research talks. Use..."
+  default_prompt: "Use $scientific-slides to help with scientific slides work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "A11y Audit"
+  short_description: "Accessibility audit skill for scanning, fixing, and..."
+  default_prompt: "Use $a11y-audit to help with a11y audit work."

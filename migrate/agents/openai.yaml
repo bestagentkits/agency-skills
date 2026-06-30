@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrate"
+  short_description: "Migrate from Cypress or Selenium to Playwright. Use when..."
+  default_prompt: "Use $migrate to help with migrate work."

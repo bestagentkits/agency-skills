@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Image"
+  short_description: "Generate or edit images using AI models (FLUX, Nano Banana..."
+  default_prompt: "Use $generate-image to help with generate image work."

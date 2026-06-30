@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webinar Marketing"
+  short_description: "When the user wants to plan, promote, run, or improve a..."
+  default_prompt: "Use $webinar-marketing to help with webinar marketing work."

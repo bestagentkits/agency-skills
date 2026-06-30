@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exa Search"
+  short_description: "Web toolkit powered by Exa, tuned for scientific and..."
+  default_prompt: "Use $exa-search to help with exa search work."

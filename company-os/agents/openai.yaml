@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Os"
+  short_description: "The meta-framework for how a company runs — the connective..."
+  default_prompt: "Use $company-os to help with company os work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research"
+  short_description: "Default entry point for any research request — a hybrid..."
+  default_prompt: "Use $research to help with research work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Citation Management"
+  short_description: "Comprehensive citation management for academic research...."
+  default_prompt: "Use $citation-management to help with citation management work."

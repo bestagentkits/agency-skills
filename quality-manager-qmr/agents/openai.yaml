@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quality Manager Qmr"
+  short_description: "Senior Quality Manager Responsible Person (QMR) for..."
+  default_prompt: "Use $quality-manager-qmr to help with quality manager qmr work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revenue Operations"
+  short_description: "Analyzes sales pipeline health, revenue forecasting..."
+  default_prompt: "Use $revenue-operations to help with revenue operations work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mdr 745 Specialist"
+  short_description: "EU MDR 2017/745 compliance specialist for medical device..."
+  default_prompt: "Use $mdr-745-specialist to help with mdr 745 specialist work."

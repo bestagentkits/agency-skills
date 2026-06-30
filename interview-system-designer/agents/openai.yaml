@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview System Designer"
+  short_description: "This skill should be used when the user asks to \"design..."
+  default_prompt: "Use $interview-system-designer to help with interview system designer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ciso Advisor"
+  short_description: "Security leadership for growth-stage companies. Risk..."
+  default_prompt: "Use $ciso-advisor to help with ciso advisor work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board Deck Builder"
+  short_description: "Assembles comprehensive board and investor update decks by..."
+  default_prompt: "Use $board-deck-builder to help with board deck builder work."

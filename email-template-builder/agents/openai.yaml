@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Template Builder"
+  short_description: "Build complete transactional email systems: React Email..."
+  default_prompt: "Use $email-template-builder to help with email template builder work."

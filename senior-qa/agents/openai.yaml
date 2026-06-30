@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Qa"
+  short_description: "Generates unit tests, integration tests, and E2E tests for..."
+  default_prompt: "Use $senior-qa to help with senior qa work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Culture Architect"
+  short_description: "Build, measure, and evolve company culture as operational..."
+  default_prompt: "Use $culture-architect to help with culture architect work."

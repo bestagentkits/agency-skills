@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pydeseq2"
+  short_description: "Differential gene expression analysis for bulk RNA-seq with..."
+  default_prompt: "Use $pydeseq2 to help with pydeseq2 work."

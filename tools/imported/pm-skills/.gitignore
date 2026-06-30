@@ -1,0 +1,3 @@
+# Private maintainer-only files — never commit
+_Internal/
+CLAUDE.local.md

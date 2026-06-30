@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caio Review"
+  short_description: "/cs:caio-review <plan> — Eval-demanding Chief AI Officer..."
+  default_prompt: "Use $caio-review to help with caio review work."

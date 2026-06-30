@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Frontend"
+  short_description: "Frontend development skill for React, Next.js, TypeScript,..."
+  default_prompt: "Use $senior-frontend to help with senior frontend work."

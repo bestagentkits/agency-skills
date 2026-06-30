@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gdpr Audit Prep"
+  short_description: "/cs:gdpr-audit-prep <scope> — GDPR audit 6-question..."
+  default_prompt: "Use $gdpr-audit-prep to help with gdpr audit prep work."

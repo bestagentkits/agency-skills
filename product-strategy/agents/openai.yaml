@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Strategy"
+  short_description: "Create a comprehensive product strategy using the 9-section..."
+  default_prompt: "Use $product-strategy to help with product strategy work."

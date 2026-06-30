@@ -1,0 +1,4 @@
+interface:
+  display_name: "Depmap"
+  short_description: "Query the Cancer Dependency Map (DepMap) for cancer cell..."
+  default_prompt: "Use $depmap to help with depmap work."

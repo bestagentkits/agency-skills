@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Mermaid Writing"
+  short_description: "Comprehensive markdown and Mermaid diagram writing skill...."
+  default_prompt: "Use $markdown-mermaid-writing to help with markdown mermaid writing work."

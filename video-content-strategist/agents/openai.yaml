@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Content Strategist"
+  short_description: "Use when planning video content strategy, writing video..."
+  default_prompt: "Use $video-content-strategist to help with video content strategist work."

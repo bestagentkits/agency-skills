@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ms365 Tenant Manager"
+  short_description: "Microsoft 365 tenant administration for Global..."
+  default_prompt: "Use $ms365-tenant-manager to help with ms365 tenant manager work."

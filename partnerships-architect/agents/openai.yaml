@@ -1,0 +1,4 @@
+interface:
+  display_name: "Partnerships Architect"
+  short_description: "Use when a startup is approached by a prospective partner..."
+  default_prompt: "Use $partnerships-architect to help with partnerships architect work."

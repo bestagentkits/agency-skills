@@ -1,0 +1,4 @@
+interface:
+  display_name: "Histolab"
+  short_description: "Lightweight WSI tile extraction and preprocessing. Use for..."
+  default_prompt: "Use $histolab to help with histolab work."

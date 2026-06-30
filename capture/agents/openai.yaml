@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capture"
+  short_description: "Captures and organizes chaotic brain dumps into a..."
+  default_prompt: "Use $capture to help with capture work."

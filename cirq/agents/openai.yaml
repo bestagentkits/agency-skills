@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cirq"
+  short_description: "Google quantum computing framework. Use when targeting..."
+  default_prompt: "Use $cirq to help with cirq work."

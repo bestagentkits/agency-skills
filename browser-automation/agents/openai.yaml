@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browser Automation"
+  short_description: "Use when the user asks to automate browser tasks, scrape..."
+  default_prompt: "Use $browser-automation to help with browser automation work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cro Review"
+  short_description: "/cs:cro-review <plan> — Pipeline-paranoid interrogation of..."
+  default_prompt: "Use $cro-review to help with cro review work."

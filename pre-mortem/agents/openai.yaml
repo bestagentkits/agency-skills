@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pre Mortem"
+  short_description: "Run a pre-mortem risk analysis on a PRD or launch plan...."
+  default_prompt: "Use $pre-mortem to help with pre mortem work."

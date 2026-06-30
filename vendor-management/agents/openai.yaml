@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vendor Management"
+  short_description: "Use when reviewing, scoring, or auditing third-party SaaS /..."
+  default_prompt: "Use $vendor-management to help with vendor management work."

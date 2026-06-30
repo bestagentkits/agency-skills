@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experimental Design"
+  short_description: "Design experiments and studies BEFORE data is collected —..."
+  default_prompt: "Use $experimental-design to help with experimental design work."

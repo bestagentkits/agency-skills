@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testrail"
+  short_description: "Sync tests with TestRail. Use when user mentions \"testrail\",..."
+  default_prompt: "Use $testrail to help with testrail work."

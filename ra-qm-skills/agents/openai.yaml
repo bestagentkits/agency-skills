@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ra Qm Skills"
+  short_description: "Router/index for the 15 regulatory & quality-management..."
+  default_prompt: "Use $ra-qm-skills to help with ra qm skills work."

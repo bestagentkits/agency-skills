@@ -1,0 +1,4 @@
+interface:
+  display_name: "Red Team"
+  short_description: "Use when planning or executing authorized red team..."
+  default_prompt: "Use $red-team to help with red team work."

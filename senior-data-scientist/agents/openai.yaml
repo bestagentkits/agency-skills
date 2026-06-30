@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Data Scientist"
+  short_description: "World-class senior data scientist skill specialising in..."
+  default_prompt: "Use $senior-data-scientist to help with senior data scientist work."

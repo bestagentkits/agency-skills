@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scikit Learn"
+  short_description: "Machine learning in Python with scikit-learn. Use when..."
+  default_prompt: "Use $scikit-learn to help with scikit learn work."

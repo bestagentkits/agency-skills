@@ -1,0 +1,4 @@
+interface:
+  display_name: "Glycoengineering"
+  short_description: "Analyze and engineer protein glycosylation. Scan sequences..."
+  default_prompt: "Use $glycoengineering to help with glycoengineering work."

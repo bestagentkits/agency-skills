@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Logger"
+  short_description: "Two-layer memory architecture for board meeting decisions...."
+  default_prompt: "Use $decision-logger to help with decision logger work."

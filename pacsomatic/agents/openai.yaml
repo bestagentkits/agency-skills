@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pacsomatic"
+  short_description: "Operator toolkit for nf-core/pacsomatic matched tumor-normal..."
+  default_prompt: "Use $pacsomatic to help with pacsomatic work."

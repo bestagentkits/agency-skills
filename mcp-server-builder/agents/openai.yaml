@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mcp Server Builder"
+  short_description: "Design and ship production-ready MCP (Model Context..."
+  default_prompt: "Use $mcp-server-builder to help with mcp server builder work."

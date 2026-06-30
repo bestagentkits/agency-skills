@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deepchem"
+  short_description: "Molecular ML with diverse featurizers and pre-built..."
+  default_prompt: "Use $deepchem to help with deepchem work."

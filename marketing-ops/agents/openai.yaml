@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Ops"
+  short_description: "Central router for the marketing skill ecosystem. Use when..."
+  default_prompt: "Use $marketing-ops to help with marketing ops work."

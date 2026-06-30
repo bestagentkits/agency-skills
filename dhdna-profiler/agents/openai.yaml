@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dhdna Profiler"
+  short_description: "Extract cognitive patterns and thinking fingerprints from..."
+  default_prompt: "Use $dhdna-profiler to help with dhdna profiler work."

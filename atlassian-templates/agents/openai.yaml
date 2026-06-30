@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atlassian Templates"
+  short_description: "Atlassian Template and Files Creator/Modifier expert for..."
+  default_prompt: "Use $atlassian-templates to help with atlassian templates work."

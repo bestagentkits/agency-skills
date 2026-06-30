@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Resume"
+  short_description: "Comprehensive PM resume review and tailoring against 10 best..."
+  default_prompt: "Use $review-resume to help with review resume work."

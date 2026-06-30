@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix"
+  short_description: "Fix failing or flaky Playwright tests. Use when user says..."
+  default_prompt: "Use $fix to help with fix work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stress Test"
+  short_description: "/em:stress-test — Business assumption stress testing. Use..."
+  default_prompt: "Use $stress-test to help with stress test work."

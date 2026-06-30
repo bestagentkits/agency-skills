@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bulk Rnaseq"
+  short_description: "End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads..."
+  default_prompt: "Use $bulk-rnaseq to help with bulk rnaseq work."

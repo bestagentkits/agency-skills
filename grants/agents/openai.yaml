@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grants"
+  short_description: "NIH grant research skill for clinical researchers. Grill-me..."
+  default_prompt: "Use $grants to help with grants work."

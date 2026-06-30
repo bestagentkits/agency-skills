@@ -1,0 +1,4 @@
+interface:
+  display_name: "Peer Review"
+  short_description: "Structured manuscript/grant review with checklist-based..."
+  default_prompt: "Use $peer-review to help with peer review work."

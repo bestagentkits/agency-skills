@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Architecture"
+  short_description: "When the user wants to audit, redesign, or plan their..."
+  default_prompt: "Use $claude-skills-marketing-skill-site-architecture-site-architecture to help with site architecture work."

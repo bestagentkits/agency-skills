@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategy Red Team"
+  short_description: "Red-team a PRD, roadmap, or strategy by attacking its..."
+  default_prompt: "Use $strategy-red-team to help with strategy red team work."

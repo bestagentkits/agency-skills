@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agenthub"
+  short_description: "Multi-agent collaboration plugin that spawns N parallel..."
+  default_prompt: "Use $agenthub to help with agenthub work."

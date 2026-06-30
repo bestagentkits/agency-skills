@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pathml"
+  short_description: "Full-featured computational pathology toolkit. Use for..."
+  default_prompt: "Use $pathml to help with pathml work."

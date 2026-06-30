@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Workflow Designer"
+  short_description: "Design production-grade multi-agent workflows with clear..."
+  default_prompt: "Use $agent-workflow-designer to help with agent workflow designer work."

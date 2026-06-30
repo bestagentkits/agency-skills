@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bgpt Paper Search"
+  short_description: "Search scientific papers and retrieve structured..."
+  default_prompt: "Use $bgpt-paper-search to help with bgpt paper search work."

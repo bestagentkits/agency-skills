@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Battlecard"
+  short_description: "Create sales-ready competitive battlecards comparing your..."
+  default_prompt: "Use $competitive-battlecard to help with competitive battlecard work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quality Documentation Manager"
+  short_description: "Document control system management for medical device QMS...."
+  default_prompt: "Use $quality-documentation-manager to help with quality documentation manager work."

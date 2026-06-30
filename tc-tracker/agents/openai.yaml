@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tc Tracker"
+  short_description: "Use when the user asks to track technical changes, create..."
+  default_prompt: "Use $tc-tracker to help with tc tracker work."

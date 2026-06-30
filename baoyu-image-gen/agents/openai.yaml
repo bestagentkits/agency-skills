@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Image Gen"
+  short_description: "AI image generation with OpenAI GPT Image 2, Azure OpenAI,..."
+  default_prompt: "Use $baoyu-image-gen to help with baoyu image gen work."

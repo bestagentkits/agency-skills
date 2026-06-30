@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full Page Screenshot"
+  short_description: "Use when the user asks to capture a full-page screenshot,..."
+  default_prompt: "Use $full-page-screenshot to help with full page screenshot work."

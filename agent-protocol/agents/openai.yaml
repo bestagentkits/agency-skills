@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Protocol"
+  short_description: "Inter-agent communication protocol for C-suite agent teams...."
+  default_prompt: "Use $agent-protocol to help with agent protocol work."

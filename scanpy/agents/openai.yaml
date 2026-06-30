@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scanpy"
+  short_description: "Standard single-cell RNA-seq analysis pipeline. Use for QC,..."
+  default_prompt: "Use $scanpy to help with scanpy work."

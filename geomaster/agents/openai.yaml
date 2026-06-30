@@ -1,0 +1,4 @@
+interface:
+  display_name: "Geomaster"
+  short_description: "Comprehensive geospatial science skill covering remote..."
+  default_prompt: "Use $geomaster to help with geomaster work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Discovery"
+  short_description: "Use when validating product opportunities, mapping..."
+  default_prompt: "Use $product-discovery to help with product discovery work."

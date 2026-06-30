@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloud Security"
+  short_description: "Use when assessing cloud infrastructure for security..."
+  default_prompt: "Use $cloud-security to help with cloud security work."

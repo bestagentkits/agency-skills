@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Policy"
+  short_description: "Use when designing or revising a company's commercial policy..."
+  default_prompt: "Use $commercial-policy to help with commercial policy work."

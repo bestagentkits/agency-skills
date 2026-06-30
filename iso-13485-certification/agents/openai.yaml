@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iso 13485 Certification"
+  short_description: "Comprehensive toolkit for preparing ISO 13485 certification..."
+  default_prompt: "Use $iso-13485-certification to help with iso 13485 certification work."

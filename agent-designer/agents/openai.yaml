@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Designer"
+  short_description: "Use when the user asks to design a multi-agent system, pick..."
+  default_prompt: "Use $agent-designer to help with agent designer work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Status"
+  short_description: "Memory health dashboard showing line counts, topic files,..."
+  default_prompt: "Use $status to help with status work."

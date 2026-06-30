@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scikit Bio"
+  short_description: "Biological data toolkit. Sequence analysis, alignments,..."
+  default_prompt: "Use $scikit-bio to help with scikit bio work."

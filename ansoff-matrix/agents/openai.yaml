@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ansoff Matrix"
+  short_description: "Generate an Ansoff Matrix analysis mapping growth strategies..."
+  default_prompt: "Use $ansoff-matrix to help with ansoff matrix work."

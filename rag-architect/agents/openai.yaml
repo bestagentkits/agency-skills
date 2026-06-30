@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rag Architect"
+  short_description: "Use when the user asks to design a RAG pipeline, choose a..."
+  default_prompt: "Use $rag-architect to help with rag architect work."

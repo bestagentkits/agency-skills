@@ -1,0 +1,35 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  node-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Verify skill release commits
+        run: npm run verify:skill-release-commits
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install baoyu-post-to-wechat script dependencies
+        run: |
+          cd skills/baoyu-post-to-wechat/scripts
+          npm install --no-audit --no-fund --ignore-scripts
+
+      - name: Run tests
+        run: npm test

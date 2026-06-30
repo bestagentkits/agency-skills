@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize For Gpu"
+  short_description: "GPU-accelerate Python code using CuPy, Numba CUDA, Warp,..."
+  default_prompt: "Use $optimize-for-gpu to help with optimize for gpu work."

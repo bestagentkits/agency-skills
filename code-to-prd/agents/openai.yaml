@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code To Prd"
+  short_description: "Reverse-engineer any codebase into a complete Product..."
+  default_prompt: "Use $code-to-prd to help with code to prd work."

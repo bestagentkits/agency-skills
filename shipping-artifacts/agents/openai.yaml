@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shipping Artifacts"
+  short_description: "The durable documentation set that makes an AI-built..."
+  default_prompt: "Use $shipping-artifacts to help with shipping artifacts work."

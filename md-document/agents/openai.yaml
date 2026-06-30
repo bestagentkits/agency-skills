@@ -1,0 +1,4 @@
+interface:
+  display_name: "Md Document"
+  short_description: "Converts long-form markdown (specs, RFCs, reports, plans,..."
+  default_prompt: "Use $md-document to help with md document work."

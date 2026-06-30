@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bioservices"
+  short_description: "Unified Python interface to 40+ bioinformatics services. Use..."
+  default_prompt: "Use $bioservices to help with bioservices work."

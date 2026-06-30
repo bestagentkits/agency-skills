@@ -1,0 +1,4 @@
+interface:
+  display_name: "Focused Fix"
+  short_description: "Use when the user asks to fix, debug, or make a specific..."
+  default_prompt: "Use $focused-fix to help with focused fix work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Profiler"
+  short_description: "Systematic performance profiling for Node.js, Python, and Go..."
+  default_prompt: "Use $performance-profiler to help with performance profiler work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Cover Image"
+  short_description: "Generates article cover images with 5 dimensions (type,..."
+  default_prompt: "Use $baoyu-cover-image to help with baoyu cover image work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Polars Bio"
+  short_description: "High-performance genomic interval operations and..."
+  default_prompt: "Use $polars-bio to help with polars bio work."

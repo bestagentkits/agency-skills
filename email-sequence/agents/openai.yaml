@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Sequence"
+  short_description: "When the user wants to create or optimize an email sequence,..."
+  default_prompt: "Use $email-sequence to help with email sequence work."

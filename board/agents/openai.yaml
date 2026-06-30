@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board"
+  short_description: "Read, write, and browse the AgentHub message board for agent..."
+  default_prompt: "Use $board to help with board work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monorepo Navigator"
+  short_description: "Navigate, manage, and optimize monorepos. Covers Turborepo,..."
+  default_prompt: "Use $monorepo-navigator to help with monorepo navigator work."

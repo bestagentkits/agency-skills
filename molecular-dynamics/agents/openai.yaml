@@ -1,0 +1,4 @@
+interface:
+  display_name: "Molecular Dynamics"
+  short_description: "Run and analyze molecular dynamics simulations with OpenMM..."
+  default_prompt: "Use $molecular-dynamics to help with molecular dynamics work."

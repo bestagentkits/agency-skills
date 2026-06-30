@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docx"
+  short_description: "Use this skill whenever the user wants to create, read,..."
+  default_prompt: "Use $docx to help with docx work."

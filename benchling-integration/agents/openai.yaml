@@ -1,0 +1,4 @@
+interface:
+  display_name: "Benchling Integration"
+  short_description: "Benchling Python SDK and REST API integration for registry..."
+  default_prompt: "Use $benchling-integration to help with benchling integration work."

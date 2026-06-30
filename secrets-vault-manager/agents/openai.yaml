@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secrets Vault Manager"
+  short_description: "Use when the user asks to set up secret management..."
+  default_prompt: "Use $secrets-vault-manager to help with secrets vault manager work."

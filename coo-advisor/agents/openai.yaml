@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coo Advisor"
+  short_description: "Operations leadership for scaling companies. Process design,..."
+  default_prompt: "Use $coo-advisor to help with coo advisor work."

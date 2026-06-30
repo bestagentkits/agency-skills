@@ -1,0 +1,4 @@
+interface:
+  display_name: "Procurement Optimizer"
+  short_description: "Use when running an annual SaaS audit, doing category-level..."
+  default_prompt: "Use $procurement-optimizer to help with procurement optimizer work."

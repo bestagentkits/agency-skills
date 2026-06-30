@@ -1,0 +1,4 @@
+interface:
+  display_name: "Collab Proof"
+  short_description: "Use when you want to understand what Claude contributed vs..."
+  default_prompt: "Use $collab-proof to help with collab proof work."

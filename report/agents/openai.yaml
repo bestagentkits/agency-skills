@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report"
+  short_description: "Generate test report. Use when user says \"test report\",..."
+  default_prompt: "Use $report to help with report work."

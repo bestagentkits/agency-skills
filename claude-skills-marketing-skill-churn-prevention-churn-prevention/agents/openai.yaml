@@ -1,0 +1,4 @@
+interface:
+  display_name: "Churn Prevention"
+  short_description: "Reduce voluntary and involuntary churn through cancel flow..."
+  default_prompt: "Use $claude-skills-marketing-skill-churn-prevention-churn-prevention to help with churn prevention work."

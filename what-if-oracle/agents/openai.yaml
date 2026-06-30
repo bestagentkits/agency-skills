@@ -1,0 +1,4 @@
+interface:
+  display_name: "What If Oracle"
+  short_description: "Run structured What-If scenario analysis with 4–6 branch..."
+  default_prompt: "Use $what-if-oracle to help with what if oracle work."

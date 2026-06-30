@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Level Skills"
+  short_description: "Index and router for the C-level advisory bundle: 33 skills..."
+  default_prompt: "Use $c-level-skills to help with c level skills work."

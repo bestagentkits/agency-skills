@@ -1,0 +1,4 @@
+interface:
+  display_name: "Epic Design"
+  short_description: "Build immersive, cinematic 2.5D interactive websites using..."
+  default_prompt: "Use $epic-design to help with epic design work."

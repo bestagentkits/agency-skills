@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simpy"
+  short_description: "Process-based discrete-event simulation framework in Python...."
+  default_prompt: "Use $simpy to help with simpy work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hypogenic"
+  short_description: "Automated LLM-driven hypothesis generation and testing on..."
+  default_prompt: "Use $hypogenic to help with hypogenic work."

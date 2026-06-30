@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Research"
+  short_description: "Use when designing a prospective clinical study before..."
+  default_prompt: "Use $clinical-research to help with clinical research work."

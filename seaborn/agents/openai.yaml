@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seaborn"
+  short_description: "Statistical visualization with pandas integration. Use for..."
+  default_prompt: "Use $seaborn to help with seaborn work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pufferlib"
+  short_description: "High-performance reinforcement learning framework optimized..."
+  default_prompt: "Use $pufferlib to help with pufferlib work."

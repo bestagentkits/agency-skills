@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cfo Review"
+  short_description: "/cs:cfo-review <plan> — Numerate-skeptic interrogation of..."
+  default_prompt: "Use $cfo-review to help with cfo review work."

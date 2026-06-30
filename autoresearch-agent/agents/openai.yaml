@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autoresearch Agent"
+  short_description: "Autonomous experiment loop that optimizes any file by a..."
+  default_prompt: "Use $autoresearch-agent to help with autoresearch agent work."

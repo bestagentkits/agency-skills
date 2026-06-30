@@ -1,0 +1,4 @@
+interface:
+  display_name: "Etetoolkit"
+  short_description: "Phylogenetic tree toolkit (ETE). Tree manipulation..."
+  default_prompt: "Use $etetoolkit to help with etetoolkit work."

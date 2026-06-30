@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Analytics"
+  short_description: "Use when defining product KPIs, building metric dashboards,..."
+  default_prompt: "Use $product-analytics to help with product analytics work."

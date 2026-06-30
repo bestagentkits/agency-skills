@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Worktree Manager"
+  short_description: "Run parallel feature work safely with Git worktrees...."
+  default_prompt: "Use $git-worktree-manager to help with git worktree manager work."

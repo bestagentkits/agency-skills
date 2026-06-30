@@ -1,0 +1,4 @@
+interface:
+  display_name: "Promote"
+  short_description: "Graduate a proven pattern from auto-memory (MEMORY.md) to..."
+  default_prompt: "Use $promote to help with promote work."

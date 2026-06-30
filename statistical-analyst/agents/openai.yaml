@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statistical Analyst"
+  short_description: "Run hypothesis tests, analyze A/B experiment results,..."
+  default_prompt: "Use $statistical-analyst to help with statistical analyst work."

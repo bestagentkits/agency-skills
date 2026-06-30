@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coverage"
+  short_description: "Analyze test coverage gaps. Use when user says \"test..."
+  default_prompt: "Use $coverage to help with coverage work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Privacy Policy"
+  short_description: "Draft a detailed privacy policy covering data types,..."
+  default_prompt: "Use $privacy-policy to help with privacy policy work."

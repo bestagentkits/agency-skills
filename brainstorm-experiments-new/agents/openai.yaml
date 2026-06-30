@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorm Experiments New"
+  short_description: "Design lean startup experiments (pretotypes) for a new..."
+  default_prompt: "Use $brainstorm-experiments-new to help with brainstorm experiments new work."

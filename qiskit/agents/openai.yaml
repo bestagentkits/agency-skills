@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qiskit"
+  short_description: "IBM quantum computing framework. Use when targeting IBM..."
+  default_prompt: "Use $qiskit to help with qiskit work."

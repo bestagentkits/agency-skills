@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief Data Officer Advisor"
+  short_description: "Chief Data Officer advisory for startups: AI training data..."
+  default_prompt: "Use $chief-data-officer-advisor to help with chief data officer advisor work."

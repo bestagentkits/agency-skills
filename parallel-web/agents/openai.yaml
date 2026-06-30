@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parallel Web"
+  short_description: "All-in-one web toolkit powered by parallel-cli, with a..."
+  default_prompt: "Use $parallel-web to help with parallel web work."

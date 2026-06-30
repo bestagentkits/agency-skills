@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merge"
+  short_description: "Merge the winning agent's branch into base, archive losers,..."
+  default_prompt: "Use $merge to help with merge work."

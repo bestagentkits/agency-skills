@@ -1,0 +1,4 @@
+interface:
+  display_name: "Porters Five Forces"
+  short_description: "Perform Porter's Five Forces analysis — competitive rivalry,..."
+  default_prompt: "Use $porters-five-forces to help with porters five forces work."

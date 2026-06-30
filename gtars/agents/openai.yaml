@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gtars"
+  short_description: "High-performance toolkit for genomic interval analysis in..."
+  default_prompt: "Use $gtars to help with gtars work."

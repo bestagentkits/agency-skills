@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cmo Advisor"
+  short_description: "Marketing leadership for scaling companies. Brand..."
+  default_prompt: "Use $cmo-advisor to help with cmo advisor work."

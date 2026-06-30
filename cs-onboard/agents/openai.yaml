@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cs Onboard"
+  short_description: "Founder onboarding interview that captures company context..."
+  default_prompt: "Use $cs-onboard to help with cs onboard work."

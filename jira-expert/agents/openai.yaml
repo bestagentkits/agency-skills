@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jira Expert"
+  short_description: "Atlassian Jira expert for creating and managing projects,..."
+  default_prompt: "Use $jira-expert to help with jira expert work."

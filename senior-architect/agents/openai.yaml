@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Architect"
+  short_description: "This skill should be used when the user asks to \"design..."
+  default_prompt: "Use $senior-architect to help with senior architect work."

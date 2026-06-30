@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monetization Strategy"
+  short_description: "Brainstorm 3-5 monetization strategies with audience fit,..."
+  default_prompt: "Use $monetization-strategy to help with monetization strategy work."

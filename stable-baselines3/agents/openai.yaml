@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stable Baselines3"
+  short_description: "Production-ready reinforcement learning algorithms (PPO,..."
+  default_prompt: "Use $stable-baselines3 to help with stable baselines3 work."

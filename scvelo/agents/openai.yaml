@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scvelo"
+  short_description: "RNA velocity analysis with scVelo. Estimate cell state..."
+  default_prompt: "Use $scvelo to help with scvelo work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Protocolsio Integration"
+  short_description: "Integration with protocols.io API for managing scientific..."
+  default_prompt: "Use $protocolsio-integration to help with protocolsio integration work."

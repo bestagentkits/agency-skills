@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Ideas"
+  short_description: "Generate 5 creative, cost-effective marketing ideas with..."
+  default_prompt: "Use $pm-skills-pm-marketing-growth-marketing-ideas-marketing-ideas to help with marketing ideas work."

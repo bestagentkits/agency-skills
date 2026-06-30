@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scikit Survival"
+  short_description: "Comprehensive toolkit for survival analysis and..."
+  default_prompt: "Use $scikit-survival to help with scikit survival work."

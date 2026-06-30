@@ -1,0 +1,4 @@
+interface:
+  display_name: "Venue Templates"
+  short_description: "Access comprehensive LaTeX templates, formatting..."
+  default_prompt: "Use $venue-templates to help with venue templates work."

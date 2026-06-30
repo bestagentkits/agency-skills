@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec Driven Workflow"
+  short_description: "Use when the user asks to write specs before code, define..."
+  default_prompt: "Use $spec-driven-workflow to help with spec driven workflow work."

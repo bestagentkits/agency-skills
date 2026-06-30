@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statsmodels"
+  short_description: "Statistical models library for Python. Use when you need..."
+  default_prompt: "Use $statsmodels to help with statsmodels work."

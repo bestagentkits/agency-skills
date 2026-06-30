@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief Of Staff"
+  short_description: "C-suite orchestration layer. Routes founder questions to the..."
+  default_prompt: "Use $chief-of-staff to help with chief of staff work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Media Manager"
+  short_description: "When the user wants to develop social media strategy, plan..."
+  default_prompt: "Use $social-media-manager to help with social media manager work."

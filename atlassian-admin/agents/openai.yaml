@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atlassian Admin"
+  short_description: "Atlassian Administrator for managing and organizing..."
+  default_prompt: "Use $atlassian-admin to help with atlassian admin work."

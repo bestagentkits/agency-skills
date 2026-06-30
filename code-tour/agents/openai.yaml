@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Tour"
+  short_description: "Use when the user asks to create a CodeTour .tour file —..."
+  default_prompt: "Use $code-tour to help with code tour work."

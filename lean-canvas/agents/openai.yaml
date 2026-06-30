@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lean Canvas"
+  short_description: "Generate a Lean Canvas with problem, solution, metrics, cost..."
+  default_prompt: "Use $lean-canvas to help with lean canvas work."

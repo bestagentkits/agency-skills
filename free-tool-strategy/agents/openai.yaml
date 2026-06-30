@@ -1,0 +1,4 @@
+interface:
+  display_name: "Free Tool Strategy"
+  short_description: "When the user wants to build a free tool for marketing —..."
+  default_prompt: "Use $free-tool-strategy to help with free tool strategy work."

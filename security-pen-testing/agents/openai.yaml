@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Pen Testing"
+  short_description: "Use when the user asks to perform security audits,..."
+  default_prompt: "Use $security-pen-testing to help with security pen testing work."

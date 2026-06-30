@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cpo Review"
+  short_description: "/cs:cpo-review <plan> — JTBD-driven interrogation of product..."
+  default_prompt: "Use $cpo-review to help with cpo review work."

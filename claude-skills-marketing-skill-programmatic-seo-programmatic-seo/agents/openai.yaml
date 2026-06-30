@@ -1,0 +1,4 @@
+interface:
+  display_name: "Programmatic Seo"
+  short_description: "When the user wants to create SEO-driven pages at scale..."
+  default_prompt: "Use $claude-skills-marketing-skill-programmatic-seo-programmatic-seo to help with programmatic seo work."

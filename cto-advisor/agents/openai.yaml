@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cto Advisor"
+  short_description: "Technical leadership guidance for engineering teams,..."
+  default_prompt: "Use $cto-advisor to help with cto advisor work."

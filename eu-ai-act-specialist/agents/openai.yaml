@@ -1,0 +1,4 @@
+interface:
+  display_name: "Eu Ai Act Specialist"
+  short_description: "EU AI Act (Regulation (EU) 2024/1689) operational compliance..."
+  default_prompt: "Use $eu-ai-act-specialist to help with eu ai act specialist work."

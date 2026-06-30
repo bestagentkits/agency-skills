@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Designer"
+  short_description: "Use when the user asks to design database schemas, plan data..."
+  default_prompt: "Use $database-designer to help with database designer work."

@@ -5,7 +5,8 @@ require "fileutils"
 require "json"
 require "open3"
 require "yaml"
-require_relative "marketing-readme-writer"
+require_relative "imported-collection-support"
+require_relative "readme-writer"
 
 SOURCE_DIR = File.expand_path(ARGV[0] || "/tmp/marketingskills-source")
 TARGET_DIR = File.expand_path(ARGV[1] || Dir.pwd)
@@ -90,12 +91,17 @@ imported = []
 
 Dir.glob(File.join(SOURCE_DIR, "skills", "*", "SKILL.md")).sort.each do |skill_path|
   metadata, _content = parse_skill(skill_path)
-  slug = metadata.fetch("name")
+  source_skill_dir = File.dirname(skill_path)
+  reject_symlinks!(source_skill_dir)
+  slug = File.basename(source_skill_dir)
+  validate_skill_slug!(slug, skill_path)
+  fail_with("#{skill_path} name does not match folder #{slug}") unless metadata.fetch("name") == slug
   fail_with("duplicate skill #{slug}") if index[slug]
-  target_dir = File.join(TARGET_DIR, slug)
+  target_dir = safe_target_path!(TARGET_DIR, slug)
   FileUtils.rm_rf(target_dir)
   FileUtils.mkdir_p(target_dir)
-  FileUtils.cp_r("#{File.dirname(skill_path)}/.", target_dir)
+  FileUtils.cp_r("#{source_skill_dir}/.", target_dir)
+  chmod_asset_files(target_dir)
   rewrite_moved_links(target_dir)
   FileUtils.mkdir_p(File.join(target_dir, "agents"))
   File.write(File.join(target_dir, "agents", "openai.yaml"), openai_yaml(metadata, slug))
@@ -112,10 +118,13 @@ Dir.glob(File.join(SOURCE_DIR, "skills", "*", "SKILL.md")).sort.each do |skill_p
   index[slug] = entry
 end
 
-FileUtils.rm_rf(File.join(TARGET_DIR, "tools"))
-FileUtils.cp_r(File.join(SOURCE_DIR, "tools"), File.join(TARGET_DIR, "tools"))
-Dir.glob(File.join(TARGET_DIR, "tools", "clis", "*.js")).each { |path| FileUtils.chmod(0o644, path) }
-registry_path = File.join(TARGET_DIR, "tools", "REGISTRY.md")
+source_tools = File.join(SOURCE_DIR, "tools")
+target_tools = safe_target_path!(TARGET_DIR, "tools")
+reject_symlinks!(source_tools)
+FileUtils.rm_rf(target_tools)
+FileUtils.cp_r(source_tools, target_tools)
+chmod_asset_files(target_tools)
+registry_path = File.join(target_tools, "REGISTRY.md")
 registry = File.read(registry_path).gsub("../skills/", "../")
 File.write(registry_path, registry)
 
@@ -143,5 +152,5 @@ patch_text(File.join(TARGET_DIR, "social", "references", "listening.md"), {
 
 manifest += imported
 File.write(MANIFEST_PATH, "#{JSON.pretty_generate(manifest)}\n")
-write_marketing_import_readme(TARGET_DIR, manifest, source_head)
+write_agency_skills_readme(TARGET_DIR, manifest)
 puts "Imported #{imported.length} marketing skills and copied tools."

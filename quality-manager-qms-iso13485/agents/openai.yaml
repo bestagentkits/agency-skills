@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quality Manager Qms Iso13485"
+  short_description: "ISO 13485 Quality Management System implementation and..."
+  default_prompt: "Use $quality-manager-qms-iso13485 to help with quality manager qms iso13485 work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karpathy Coder"
+  short_description: "Use when writing, reviewing, or committing code to enforce..."
+  default_prompt: "Use $karpathy-coder to help with karpathy coder work."

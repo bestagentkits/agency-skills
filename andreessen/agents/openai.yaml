@@ -1,0 +1,4 @@
+interface:
+  display_name: "Andreessen"
+  short_description: "Marc Andreessen-mode decision and productivity skill. A..."
+  default_prompt: "Use $andreessen to help with andreessen work."

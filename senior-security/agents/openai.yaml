@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Security"
+  short_description: "Use when the user asks for STRIDE threat modeling, DREAD..."
+  default_prompt: "Use $senior-security to help with senior security work."

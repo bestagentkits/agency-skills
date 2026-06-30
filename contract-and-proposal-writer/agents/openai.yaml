@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract And Proposal Writer"
+  short_description: "Generate professional, jurisdiction-aware business..."
+  default_prompt: "Use $contract-and-proposal-writer to help with contract and proposal writer work."

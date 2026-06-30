@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship Gate"
+  short_description: "Pre-production audit that scans a codebase for security,..."
+  default_prompt: "Use $ship-gate to help with ship gate work."

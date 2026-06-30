@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Reviewer"
+  short_description: "Code review automation for TypeScript, JavaScript, Python,..."
+  default_prompt: "Use $code-reviewer to help with code reviewer work."

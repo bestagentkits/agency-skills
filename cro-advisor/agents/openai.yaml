@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cro Advisor"
+  short_description: "Revenue leadership for B2B SaaS companies. Revenue..."
+  default_prompt: "Use $cro-advisor to help with cro advisor work."

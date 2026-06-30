@@ -1,0 +1,4 @@
+interface:
+  display_name: "Isms Audit Expert"
+  short_description: "Information Security Management System (ISMS) audit expert..."
+  default_prompt: "Use $isms-audit-expert to help with isms audit expert work."

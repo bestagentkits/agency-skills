@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Compress Image"
+  short_description: "Compresses images to WebP (default) or PNG with automatic..."
+  default_prompt: "Use $baoyu-compress-image to help with baoyu compress image work."

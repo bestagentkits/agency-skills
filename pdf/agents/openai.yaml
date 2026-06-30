@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pdf"
+  short_description: "Use this skill whenever the user wants to do anything with..."
+  default_prompt: "Use $pdf to help with pdf work."

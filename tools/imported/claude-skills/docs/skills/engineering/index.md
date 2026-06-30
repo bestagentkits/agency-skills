@@ -1,0 +1,248 @@
+---
+title: "Engineering - POWERFUL Skills — Agent Skills & Codex Plugins"
+description: "74 engineering - powerful skills — advanced agent-native skill and Claude Code plugin for AI agent design, infrastructure, and automation. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+---
+
+<div class="domain-header" markdown>
+
+# :material-rocket-launch: Engineering - POWERFUL
+
+<p class="domain-count">74 skills in this domain</p>
+
+</div>
+
+<div class="install-banner" markdown>
+<span class="install-label">Install all:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
+
+<div class="grid cards" markdown>
+
+-   **[Agent Designer — Multi-Agent System Architecture](agent-designer.md)**
+
+    ---
+
+    Design, schema-generate, and evaluate multi-agent systems with three deterministic tools. The scripts are the workflo...
+
+-   **[Agent Workflow Designer](agent-workflow-designer.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[API Design Reviewer](api-design-reviewer.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[API Test Suite Builder](api-test-suite-builder.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Browser Automation - POWERFUL](browser-automation.md)**
+
+    ---
+
+    The Browser Automation skill provides comprehensive tools and knowledge for building production-grade web automation ...
+
+-   **[Changelog Generator](changelog-generator.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Chaos Engineering](chaos-engineering.md)**
+
+    ---
+
+    Design experiments that surface real weaknesses in production systems — without becoming outages. Most "chaos enginee...
+
+-   **[CI/CD Pipeline Builder](ci-cd-pipeline-builder.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Codebase Onboarding](codebase-onboarding.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Database Designer - POWERFUL Tier Skill](database-designer.md)**
+
+    ---
+
+    A comprehensive database design skill that provides expert-level analysis, optimization, and migration capabilities f...
+
+-   **[Database Schema Designer](database-schema-designer.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Dependency Auditor](dependency-auditor.md)**
+
+    ---
+
+    > Skill Type: POWERFUL · Category: Engineering · Domain: Dependency Management & Security
+
+-   **[Engineering Advanced Skills (POWERFUL Tier)](engineering-advanced-skills.md)**
+
+    ---
+
+    37 advanced engineering skills for complex architecture, automation, reliability, and platform operations.
+
+-   **[Env & Secrets Manager](env-secrets-manager.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Feature Flags Architect](feature-flags-architect.md)**
+
+    ---
+
+    End-to-end discipline for feature flags: classify them, ship them, ramp them, and retire them. Most teams treat flags...
+
+-   **[Focused Fix — Deep-Dive Feature Repair](focused-fix.md)**
+
+    ---
+
+    Activate when the user asks to fix, debug, or make a specific feature/module/area work. Key triggers:
+
+-   **[Full Page Screenshot](full-page-screenshot.md)**
+
+    ---
+
+    Capture a full-page screenshot of any web page via Chrome DevTools Protocol. Produces a single PNG that includes all ...
+
+-   **[Git Worktree Manager](git-worktree-manager.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Interview System Designer](interview-system-designer.md)**
+
+    ---
+
+    Comprehensive interview loop planning and calibration support for role-based hiring systems.
+
+-   **[Kubernetes Operator](kubernetes-operator.md)**
+
+    ---
+
+    Build operators that reconcile correctly. Most operator bugs are not Kubernetes bugs — they are reconcile-loop bugs: ...
+
+-   **[MCP Server Builder](mcp-server-builder.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Migration Architect](migration-architect.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Monorepo Navigator](monorepo-navigator.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Observability Designer (POWERFUL)](observability-designer.md)**
+
+    ---
+
+    Category: Engineering
+
+-   **[Performance Profiler](performance-profiler.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[PR Review Expert](pr-review-expert.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[RAG Architect](rag-architect.md)**
+
+    ---
+
+    Design, tune, and evaluate production RAG pipelines with three deterministic tools. Run the tools against the actual ...
+
+-   **[Runbook Generator](runbook-generator.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Secrets Vault Manager](secrets-vault-manager.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Self-Eval: Honest Work Evaluation](self-eval.md)**
+
+    ---
+
+    ultrathink
+
+-   **[Ship Gate](ship-gate.md)**
+
+    ---
+
+    Pre-production audit that scans a codebase and reports pass/fail/manual
+
+-   **[Skill Security Auditor](skill-security-auditor.md)**
+
+    ---
+
+    Scan and audit AI agent skills for security risks before installation. Produces a
+
+-   **[Skill Tester](skill-tester.md)**
+
+    ---
+
+    Tier: POWERFUL · Category: Engineering Quality Assurance · Dependencies: None (Python stdlib only)
+
+-   **[SLO Architect](slo-architect.md)**
+
+    ---
+
+    Define SLOs that mean something. Most "SLOs" in the wild are arbitrary numbers no one believes — 99.9% on every endpo...
+
+-   **[Spec-Driven Workflow — POWERFUL](spec-driven-workflow.md)**
+
+    ---
+
+    Spec-driven workflow enforces a single, non-negotiable rule: write the specification BEFORE you write any code. Not a...
+
+-   **[SQL Database Assistant - POWERFUL Tier Skill](sql-database-assistant.md)**
+
+    ---
+
+    The operational companion to database design. While database-designer focuses on schema architecture and database-sch...
+
+-   **[TC Tracker](tc-tracker.md)**
+
+    ---
+
+    Track every code change with structured JSON records, an enforced state machine, and a session handoff format that le...
+
+-   **[Tech Debt Tracker](tech-debt-tracker.md)**
+
+    ---
+
+    Tier: POWERFUL 🔥
+
+</div>

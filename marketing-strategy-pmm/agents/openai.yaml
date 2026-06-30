@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Strategy Pmm"
+  short_description: "Product marketing skill for positioning, GTM strategy,..."
+  default_prompt: "Use $marketing-strategy-pmm to help with marketing strategy pmm work."

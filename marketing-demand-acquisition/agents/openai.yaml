@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Demand Acquisition"
+  short_description: "Creates demand generation campaigns, optimizes paid ad spend..."
+  default_prompt: "Use $marketing-demand-acquisition to help with marketing demand acquisition work."

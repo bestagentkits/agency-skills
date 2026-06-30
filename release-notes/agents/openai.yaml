@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Notes"
+  short_description: "Generate user-facing release notes from tickets, PRDs, or..."
+  default_prompt: "Use $release-notes to help with release notes work."

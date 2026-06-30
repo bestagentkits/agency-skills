@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Creator"
+  short_description: "Deprecated redirect skill that routes legacy 'content..."
+  default_prompt: "Use $content-creator to help with content creator work."

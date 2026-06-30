@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aws Solution Architect"
+  short_description: "Design AWS architectures for startups using serverless..."
+  default_prompt: "Use $aws-solution-architect to help with aws solution architect work."

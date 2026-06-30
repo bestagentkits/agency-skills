@@ -1,0 +1,4 @@
+interface:
+  display_name: "Runbook Generator"
+  short_description: "Generate operational runbooks from a service name —..."
+  default_prompt: "Use $runbook-generator to help with runbook generator work."

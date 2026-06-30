@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cellxgene Census"
+  short_description: "Query the CZ CELLxGENE Census programmatically for versioned..."
+  default_prompt: "Use $cellxgene-census to help with cellxgene census work."

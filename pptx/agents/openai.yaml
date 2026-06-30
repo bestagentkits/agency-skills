@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pptx"
+  short_description: "Use this skill any time a .pptx file is involved in any way..."
+  default_prompt: "Use $pptx to help with pptx work."

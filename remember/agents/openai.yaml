@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remember"
+  short_description: "Explicitly save important knowledge to auto-memory with..."
+  default_prompt: "Use $remember to help with remember work."

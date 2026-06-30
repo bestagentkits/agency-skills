@@ -1,0 +1,4 @@
+interface:
+  display_name: "Geopandas"
+  short_description: "Python library for working with geospatial vector data..."
+  default_prompt: "Use $geopandas to help with geopandas work."

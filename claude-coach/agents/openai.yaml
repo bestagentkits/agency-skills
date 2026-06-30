@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Coach"
+  short_description: "Personal coach that teaches users to become Claude power..."
+  default_prompt: "Use $claude-coach to help with claude coach work."

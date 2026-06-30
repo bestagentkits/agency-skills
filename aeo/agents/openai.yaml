@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aeo"
+  short_description: "Answer Engine Optimization (AEO) skill — optimize content to..."
+  default_prompt: "Use $aeo to help with aeo work."

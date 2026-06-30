@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Production"
+  short_description: "Full content production pipeline — takes a topic from blank..."
+  default_prompt: "Use $content-production to help with content production work."

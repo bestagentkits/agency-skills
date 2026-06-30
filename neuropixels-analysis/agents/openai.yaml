@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neuropixels Analysis"
+  short_description: "Analyze Neuropixels extracellular recordings end-to-end with..."
+  default_prompt: "Use $neuropixels-analysis to help with neuropixels analysis work."

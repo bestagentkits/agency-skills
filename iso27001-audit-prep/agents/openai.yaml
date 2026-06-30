@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iso27001 Audit Prep"
+  short_description: "/cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit..."
+  default_prompt: "Use $iso27001-audit-prep to help with iso27001 audit prep work."

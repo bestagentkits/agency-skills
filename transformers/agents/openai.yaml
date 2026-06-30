@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transformers"
+  short_description: "Hugging Face Transformers for loading Hub models, running..."
+  default_prompt: "Use $transformers to help with transformers work."

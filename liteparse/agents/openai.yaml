@@ -1,0 +1,4 @@
+interface:
+  display_name: "Liteparse"
+  short_description: "Local document and PDF parsing with spatial text and..."
+  default_prompt: "Use $liteparse to help with liteparse work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rdkit"
+  short_description: "Cheminformatics toolkit for fine-grained molecular control...."
+  default_prompt: "Use $rdkit to help with rdkit work."

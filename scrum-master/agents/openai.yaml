@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scrum Master"
+  short_description: "Advanced Scrum Master skill for data-driven agile team..."
+  default_prompt: "Use $scrum-master to help with scrum master work."

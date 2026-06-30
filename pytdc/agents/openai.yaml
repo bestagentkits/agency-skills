@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pytdc"
+  short_description: "Therapeutics Data Commons. AI-ready drug discovery datasets..."
+  default_prompt: "Use $pytdc to help with pytdc work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Analysis"
+  short_description: "Analyze competitors with strengths, weaknesses, and..."
+  default_prompt: "Use $competitor-analysis to help with competitor analysis work."

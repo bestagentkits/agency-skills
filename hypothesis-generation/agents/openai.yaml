@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hypothesis Generation"
+  short_description: "Structured hypothesis formulation from observations. Use..."
+  default_prompt: "Use $hypothesis-generation to help with hypothesis generation work."

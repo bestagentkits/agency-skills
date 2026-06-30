@@ -1,0 +1,38 @@
+name: codex-imagegen tests
+
+on:
+  push:
+    paths:
+      - 'packages/baoyu-codex-imagegen/**'
+      - '.github/workflows/codex-imagegen-tests.yml'
+  pull_request:
+    paths:
+      - 'packages/baoyu-codex-imagegen/**'
+      - '.github/workflows/codex-imagegen-tests.yml'
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Show Bun version
+        run: bun --version
+
+      - name: Run unit tests
+        working-directory: packages/baoyu-codex-imagegen
+        run: bun test
+
+      - name: Bundle smoke test (catches import/syntax errors)
+        run: bun build --target=node packages/baoyu-codex-imagegen/src/main.ts --outfile /tmp/main-build.js
+
+      - name: Help output smoke test
+        run: bun packages/baoyu-codex-imagegen/src/main.ts --help

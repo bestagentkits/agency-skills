@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fda Qsr Audit Prep"
+  short_description: "/cs:fda-qsr-audit-prep <scope> — FDA 21 CFR 820 (QSR / QMSR)..."
+  default_prompt: "Use $fda-qsr-audit-prep to help with fda qsr audit prep work."

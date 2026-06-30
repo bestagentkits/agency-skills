@@ -1,0 +1,4 @@
+interface:
+  display_name: "Demo Video"
+  short_description: "Use when the user asks to create a demo video, product..."
+  default_prompt: "Use $demo-video to help with demo video work."

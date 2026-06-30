@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lamindb"
+  short_description: "Use when working with LaminDB, the open-source..."
+  default_prompt: "Use $lamindb to help with lamindb work."

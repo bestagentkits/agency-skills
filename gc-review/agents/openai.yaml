@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gc Review"
+  short_description: "/cs:gc-review <plan> — General Counsel interrogation of..."
+  default_prompt: "Use $gc-review to help with gc review work."

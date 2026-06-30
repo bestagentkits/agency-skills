@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dossier"
+  short_description: "Decision-grade entity research skill — produces a..."
+  default_prompt: "Use $dossier to help with dossier work."

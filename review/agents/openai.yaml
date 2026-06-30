@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review"
+  short_description: "Review Playwright tests for quality. Use when user says..."
+  default_prompt: "Use $review to help with review work."

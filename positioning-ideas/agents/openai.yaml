@@ -1,0 +1,4 @@
+interface:
+  display_name: "Positioning Ideas"
+  short_description: "Brainstorm product positioning ideas differentiated from..."
+  default_prompt: "Use $positioning-ideas to help with positioning ideas work."

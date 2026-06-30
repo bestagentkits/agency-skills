@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arboreto"
+  short_description: "Infer gene regulatory networks (GRNs) from gene expression..."
+  default_prompt: "Use $arboreto to help with arboreto work."

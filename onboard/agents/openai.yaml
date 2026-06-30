@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onboard"
+  short_description: "/cs:onboard — Founder interview that populates..."
+  default_prompt: "Use $onboard to help with onboard work."

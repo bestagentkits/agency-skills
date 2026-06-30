@@ -1,0 +1,4 @@
+interface:
+  display_name: "Information Security Manager Iso27001"
+  short_description: "ISO 27001 ISMS implementation and cybersecurity governance..."
+  default_prompt: "Use $information-security-manager-iso27001 to help with information security manager iso27001 work."

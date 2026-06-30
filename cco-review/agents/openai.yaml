@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cco Review"
+  short_description: "/cs:cco-review <plan> — Retention-obsessed Chief Customer..."
+  default_prompt: "Use $cco-review to help with cco review work."

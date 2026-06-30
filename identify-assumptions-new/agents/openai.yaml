@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Assumptions New"
+  short_description: "Identify risky assumptions for a new product idea across 8..."
+  default_prompt: "Use $identify-assumptions-new to help with identify assumptions new work."

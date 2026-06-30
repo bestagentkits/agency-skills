@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statistical Power"
+  short_description: "Sample-size and statistical power calculations for planning..."
+  default_prompt: "Use $statistical-power to help with statistical power work."

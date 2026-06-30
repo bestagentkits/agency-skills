@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dask"
+  short_description: "Distributed computing for larger-than-RAM pandas/NumPy..."
+  default_prompt: "Use $dask to help with dask work."

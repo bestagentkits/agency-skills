@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intended Vs Implemented"
+  short_description: "The method for finding the gap between what a system is..."
+  default_prompt: "Use $intended-vs-implemented to help with intended vs implemented work."

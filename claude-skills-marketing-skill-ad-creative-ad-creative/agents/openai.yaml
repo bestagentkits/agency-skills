@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative"
+  short_description: "When the user needs to generate, iterate, or scale ad..."
+  default_prompt: "Use $claude-skills-marketing-skill-ad-creative-ad-creative to help with ad creative work."

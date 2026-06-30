@@ -1,0 +1,883 @@
+/* =================================================================
+   Claude Skills — "Clay" design system
+   MkDocs Material theme overrides.
+
+   Palette: warm clay/coral primary (Claude-inspired) on calm
+   neutral surfaces, with a violet secondary used only in gradients.
+   All class hooks consumed by generated pages (.domain-header,
+   .page-meta, .install-banner, .skills-hero, grid cards) are kept.
+   ================================================================= */
+
+:root {
+  --cs-clay: #c2410c;
+  --cs-clay-soft: #ea580c;
+  --cs-violet: #7c3aed;
+  --cs-radius: 10px;
+  --cs-radius-lg: 16px;
+}
+
+/* ===========================================
+   A. Light mode
+   =========================================== */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #c2410c;
+  --md-primary-fg-color--light: #ea580c;
+  --md-primary-fg-color--dark: #9a3412;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #faf7f5;
+  --md-accent-fg-color: #ea580c;
+  --md-accent-fg-color--transparent: rgba(194, 65, 12, 0.08);
+
+  --md-default-fg-color: #1c1917;
+  --md-default-fg-color--light: #57534e;
+  --md-default-fg-color--lighter: #a8a29e;
+  --md-default-fg-color--lightest: rgba(28, 25, 23, 0.12);
+  --md-default-bg-color: #ffffff;
+  --md-default-bg-color--light: #faf7f5;
+  --md-default-bg-color--lighter: #faf7f5;
+  --md-default-bg-color--lightest: #f1ece8;
+
+  --md-code-fg-color: #1c1917;
+  --md-code-bg-color: #faf7f5;
+  --md-code-hl-color: rgba(194, 65, 12, 0.1);
+
+  --md-typeset-color: #1c1917;
+  --md-typeset-a-color: #c2410c;
+
+  --md-footer-fg-color: #faf7f5;
+  --md-footer-fg-color--light: rgba(250, 247, 245, 0.7);
+  --md-footer-fg-color--lighter: rgba(250, 247, 245, 0.4);
+  --md-footer-bg-color: #1c1917;
+  --md-footer-bg-color--dark: #14110f;
+}
+
+/* ===========================================
+   B. Dark mode
+   =========================================== */
+[data-md-color-scheme="slate"] {
+  --md-hue: 24;
+  --md-primary-fg-color: #f0966b;
+  --md-primary-fg-color--light: #f6b394;
+  --md-primary-fg-color--dark: #e8855b;
+  --md-primary-bg-color: #141210;
+  --md-primary-bg-color--light: #1c1917;
+  --md-accent-fg-color: #f6b394;
+  --md-accent-fg-color--transparent: rgba(240, 150, 107, 0.12);
+
+  --md-default-fg-color: #f5f0ec;
+  --md-default-fg-color--light: #d6cec7;
+  --md-default-fg-color--lighter: #968e87;
+  --md-default-fg-color--lightest: rgba(245, 240, 236, 0.1);
+  --md-default-bg-color: #141210;
+  --md-default-bg-color--light: #1c1917;
+  --md-default-bg-color--lighter: #1c1917;
+  --md-default-bg-color--lightest: #292524;
+
+  --md-code-fg-color: #e7e0da;
+  --md-code-bg-color: #1c1917;
+  --md-code-hl-color: rgba(240, 150, 107, 0.15);
+
+  --md-typeset-color: #f5f0ec;
+  --md-typeset-a-color: #f0966b;
+
+  --md-footer-fg-color: #f5f0ec;
+  --md-footer-fg-color--light: rgba(245, 240, 236, 0.7);
+  --md-footer-fg-color--lighter: rgba(245, 240, 236, 0.4);
+  --md-footer-bg-color: #0c0a09;
+  --md-footer-bg-color--dark: #0c0a09;
+}
+
+/* ===========================================
+   C. Header & navigation bar
+   =========================================== */
+.md-header {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: none;
+  backdrop-filter: saturate(180%) blur(8px);
+}
+
+[data-md-color-scheme="default"] .md-header {
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #1c1917;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: rgba(20, 18, 16, 0.92);
+  color: #f5f0ec;
+}
+
+[data-md-color-scheme="default"] .md-header .md-header__title {
+  color: #1c1917;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-header__title {
+  font-weight: 700;
+}
+
+[data-md-color-scheme="default"] .md-header .md-icon {
+  color: #57534e;
+}
+
+.md-tabs {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: rgba(20, 18, 16, 0.92);
+}
+
+.md-tabs__link {
+  font-weight: 500;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #1c1917;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #d6cec7;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  opacity: 1;
+}
+
+.md-tabs__link--active {
+  font-weight: 700;
+}
+
+/* ===========================================
+   D. Sidebar navigation
+   =========================================== */
+.md-nav {
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+.md-nav__item {
+  padding: 0;
+}
+
+.md-nav__link {
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  margin: 1px 4px;
+  font-weight: 400;
+  transition: background-color 0.15s ease;
+}
+
+.md-nav__link:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active {
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-nav__item--nested > .md-nav__link {
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  opacity: 0.8;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 4px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+/* ===========================================
+   E. Buttons
+   =========================================== */
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, var(--cs-clay) 0%, var(--cs-clay-soft) 100%);
+  color: #ffffff !important;
+  border: 1px solid transparent;
+  border-radius: var(--cs-radius);
+  padding: 0.62rem 1.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.12s ease, box-shadow 0.18s ease, filter 0.18s ease;
+  box-shadow: 0 2px 8px rgba(194, 65, 12, 0.28);
+}
+
+.md-typeset .md-button--primary:hover {
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+  box-shadow: 0 6px 18px rgba(194, 65, 12, 0.32);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #e8855b 0%, #f0966b 100%);
+  color: #14110f !important;
+  box-shadow: 0 2px 10px rgba(240, 150, 107, 0.25);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary:hover {
+  color: #14110f !important;
+}
+
+.md-typeset .md-button:not(.md-button--primary) {
+  color: var(--md-typeset-a-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--cs-radius);
+  padding: 0.62rem 1.6rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: var(--md-default-bg-color);
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+  box-shadow: none;
+}
+
+.md-typeset .md-button:not(.md-button--primary):hover {
+  background-color: var(--md-accent-fg-color--transparent);
+  border-color: var(--md-primary-fg-color);
+  transform: translateY(-1px);
+}
+
+/* ===========================================
+   F. Grid cards
+   =========================================== */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid > .card {
+  position: relative;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--cs-radius-lg);
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 1px 2px rgba(28, 25, 23, 0.04);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+}
+
+/* Gradient hairline that lights up on hover */
+.md-typeset .grid.cards > ul > li::before,
+.md-typeset .grid.cards > ol > li::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--cs-clay), var(--cs-clay-soft) 55%, var(--cs-violet));
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover::before,
+.md-typeset .grid.cards > ol > li:hover::before {
+  opacity: 1;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover,
+.md-typeset .grid > .card:hover {
+  border-color: rgba(194, 65, 12, 0.35);
+  box-shadow: 0 8px 24px rgba(28, 25, 23, 0.08);
+  transform: translateY(-3px);
+}
+
+.md-typeset .grid.cards > ul > li .twemoji.lg,
+.md-typeset .grid.cards > ul > li svg {
+  color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li {
+  background-color: var(--md-default-bg-color--light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li:hover {
+  border-color: rgba(240, 150, 107, 0.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ===========================================
+   G. Code blocks
+   =========================================== */
+.md-typeset code {
+  border-radius: 6px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.1em 0.35em;
+  font-size: 0.85em;
+}
+
+.md-typeset pre {
+  border-radius: var(--cs-radius);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset pre > code {
+  border: none;
+  padding: 0;
+}
+
+/* ===========================================
+   H. Tables
+   =========================================== */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--cs-radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-bg-color--light);
+  font-weight: 600;
+  font-size: 0.78rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ===========================================
+   I. Admonitions
+   =========================================== */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--cs-radius);
+  box-shadow: none;
+}
+
+/* ===========================================
+   J. Hero — homepage
+   =========================================== */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4rem 2rem 2.5rem;
+  max-width: 880px;
+  margin: 1rem auto 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Aurora backdrop */
+[data-md-color-scheme="default"] .hero {
+  background:
+    radial-gradient(46rem 22rem at 18% -10%, rgba(234, 88, 12, 0.12), transparent 60%),
+    radial-gradient(40rem 20rem at 85% -15%, rgba(124, 58, 237, 0.1), transparent 60%),
+    linear-gradient(180deg, #fdf9f6 0%, #ffffff 100%);
+  border: 1px solid rgba(28, 25, 23, 0.06);
+}
+
+[data-md-color-scheme="slate"] .hero {
+  background:
+    radial-gradient(46rem 22rem at 18% -10%, rgba(232, 133, 91, 0.14), transparent 60%),
+    radial-gradient(40rem 20rem at 85% -15%, rgba(139, 92, 246, 0.12), transparent 60%),
+    linear-gradient(180deg, #1a1714 0%, #141210 100%);
+  border: 1px solid rgba(245, 240, 236, 0.07);
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+  background: var(--md-accent-fg-color--transparent);
+  border: 1px solid rgba(194, 65, 12, 0.25);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  margin-bottom: 1.1rem;
+}
+
+[data-md-color-scheme="slate"] .hero-eyebrow {
+  border-color: rgba(240, 150, 107, 0.3);
+}
+
+.hero h1 {
+  font-size: 3.1rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(120deg, #9a3412 0%, #ea580c 48%, #7c3aed 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-md-color-scheme="slate"] .hero h1 {
+  background: linear-gradient(120deg, #f6b394 0%, #f0966b 45%, #c4b5fd 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.12rem;
+  opacity: 0.82;
+  max-width: 620px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.65;
+}
+
+.hero .md-button {
+  margin: 0.3rem;
+}
+
+.hero-social-proof {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+/* Stats strip under the hero */
+.stats-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  max-width: 880px;
+  margin: 1.25rem auto 0;
+}
+
+.stat {
+  flex: 1 1 120px;
+  max-width: 160px;
+  text-align: center;
+  padding: 0.85rem 0.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--cs-radius);
+  background-color: var(--md-default-bg-color--light);
+}
+
+.stat .stat-number {
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--md-primary-fg-color);
+  line-height: 1.2;
+}
+
+.stat .stat-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.6;
+  margin-top: 0.15rem;
+}
+
+/* ===========================================
+   J2. Tools bar
+   =========================================== */
+.tools-bar {
+  text-align: center;
+  padding: 1.75rem 1rem 0.5rem;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.tools-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.5;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tool-badge {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.tool-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+  text-decoration: none !important;
+}
+
+/* Tool-specific colors */
+.tool-claude { background: #d97706; color: #fff !important; }
+.tool-codex { background: #10a37f; color: #fff !important; }
+.tool-gemini { background: #4285f4; color: #fff !important; }
+.tool-cursor { background: #000; color: #fff !important; }
+.tool-aider { background: #6366f1; color: #fff !important; }
+.tool-windsurf { background: #06b6d4; color: #fff !important; }
+.tool-kilo { background: #ec4899; color: #fff !important; }
+.tool-opencode { background: #8b5cf6; color: #fff !important; }
+.tool-augment { background: #f59e0b; color: #fff !important; }
+.tool-antigravity { background: #ef4444; color: #fff !important; }
+.tool-openclaw { background: #059669; color: #fff !important; }
+.tool-hermes { background: #334155; color: #fff !important; }
+.tool-vibe { background: #fa500f; color: #fff !important; }
+
+[data-md-color-scheme="default"] .tool-cursor {
+  background: #1a1a1a;
+}
+
+[data-md-color-scheme="slate"] .tool-badge {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ===========================================
+   J3. Section kickers & steps
+   =========================================== */
+.section-kicker {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+  margin: 2.5rem 0 -1.75rem;
+}
+
+.steps {
+  counter-reset: step;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps > li {
+  counter-increment: step;
+  position: relative;
+  margin: 0 !important;
+  padding: 1.4rem 1.1rem 1.1rem !important;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--cs-radius-lg);
+  background-color: var(--md-default-bg-color--light);
+  list-style: none;
+}
+
+.steps > li::before {
+  content: counter(step);
+  position: absolute;
+  top: -0.85rem;
+  left: 1rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(135deg, var(--cs-clay), var(--cs-clay-soft));
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(194, 65, 12, 0.3);
+}
+
+[data-md-color-scheme="slate"] .steps > li::before {
+  color: #14110f;
+  background: linear-gradient(135deg, #e8855b, #f0966b);
+}
+
+.steps > li strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* ===========================================
+   J4. Skills / section page heroes
+   =========================================== */
+.skills-hero {
+  text-align: center;
+  padding: 2.25rem 1rem 0.5rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.skills-hero h1 {
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin-bottom: 0.5rem !important;
+  background: linear-gradient(120deg, #9a3412 0%, #ea580c 55%, #7c3aed 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-md-color-scheme="slate"] .skills-hero h1 {
+  background: linear-gradient(120deg, #f6b394 0%, #f0966b 50%, #c4b5fd 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skills-hero-sub {
+  font-size: 1.05rem;
+  opacity: 0.65;
+  max-width: 560px;
+  margin: 0 auto 1.5rem;
+}
+
+.skill-count {
+  display: inline-block;
+  background: var(--md-primary-fg-color);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 0.35rem;
+}
+
+[data-md-color-scheme="slate"] .skill-count {
+  color: #14110f;
+}
+
+/* ===========================================
+   K. Typography
+   =========================================== */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  font-size: 1.4em;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+/* ===========================================
+   L. Section dividers
+   =========================================== */
+.md-typeset hr {
+  border-color: var(--md-default-fg-color--lightest);
+  margin: 3rem 0;
+}
+
+/* ===========================================
+   M. Search dialog
+   =========================================== */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: #faf7f5;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ===========================================
+   N. Announcement bar
+   =========================================== */
+.md-banner {
+  background: linear-gradient(90deg, #9a3412 0%, #c2410c 55%, #7c3aed 140%);
+  color: #ffffff;
+  font-size: 0.78rem;
+}
+
+.md-banner a {
+  color: #ffffff;
+}
+
+/* ===========================================
+   O. Page metadata bar (skills, agents, commands)
+   =========================================== */
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.25rem;
+  font-size: 0.75rem;
+}
+
+.page-meta .meta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background-color: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.page-meta .meta-badge code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color);
+}
+
+.page-meta .meta-badge a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+}
+
+.page-meta .meta-badge a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================================
+   P. Domain index headers
+   =========================================== */
+.domain-header {
+  text-align: center;
+  padding: 1.5rem 1rem 0.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.domain-header h1 {
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem !important;
+}
+
+.domain-header .domain-count {
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+/* ===========================================
+   Q. Install banner
+   =========================================== */
+.install-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem;
+  border-radius: var(--cs-radius);
+  border: 1px solid rgba(194, 65, 12, 0.2);
+  background-color: var(--md-accent-fg-color--transparent);
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.install-banner code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.install-banner .install-label {
+  color: var(--md-default-fg-color--light);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ===========================================
+   R. Motion preferences & mobile
+   =========================================== */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li,
+  .md-typeset .md-button,
+  .tool-badge {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2.5rem 1.25rem 1.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.05rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 0.98rem;
+  }
+
+  .stats-strip {
+    gap: 0.5rem;
+  }
+
+  .stat {
+    flex-basis: 96px;
+    padding: 0.6rem 0.35rem;
+  }
+
+  .stat .stat-number {
+    font-size: 1.15rem;
+  }
+
+  .skills-hero h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .tools-bar {
+    padding: 1rem 0.5rem;
+  }
+
+  .tool-badge {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .page-meta {
+    gap: 0.35rem;
+  }
+
+  .page-meta .meta-badge {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.45rem;
+  }
+
+  .install-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .domain-header h1 {
+    font-size: 1.5rem !important;
+  }
+}

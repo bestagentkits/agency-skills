@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Forecaster"
+  short_description: "Use when building a quarterly bookings forecast, ARR..."
+  default_prompt: "Use $commercial-forecaster to help with commercial forecaster work."

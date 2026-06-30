@@ -1,0 +1,4 @@
+interface:
+  display_name: "Patent"
+  short_description: "Patent prior-art and landscape intelligence skill — not..."
+  default_prompt: "Use $patent to help with patent work."

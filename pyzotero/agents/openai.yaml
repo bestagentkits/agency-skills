@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pyzotero"
+  short_description: "Interact with Zotero reference management libraries using..."
+  default_prompt: "Use $pyzotero to help with pyzotero work."

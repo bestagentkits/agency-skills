@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Devops"
+  short_description: "Comprehensive DevOps skill for CI/CD, infrastructure..."
+  default_prompt: "Use $senior-devops to help with senior devops work."

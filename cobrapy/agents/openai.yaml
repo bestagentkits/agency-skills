@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cobrapy"
+  short_description: "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene..."
+  default_prompt: "Use $cobrapy to help with cobrapy work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sprint Plan"
+  short_description: "Plan a sprint with capacity estimation, story selection,..."
+  default_prompt: "Use $sprint-plan to help with sprint plan work."

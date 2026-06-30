@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vaex"
+  short_description: "Use this skill for processing and analyzing large tabular..."
+  default_prompt: "Use $vaex to help with vaex work."

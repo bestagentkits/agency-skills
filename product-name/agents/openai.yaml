@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Name"
+  short_description: "Brainstorm 5 unique, memorable product names with rationale..."
+  default_prompt: "Use $product-name to help with product name work."

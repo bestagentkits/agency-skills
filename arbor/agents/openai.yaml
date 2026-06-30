@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arbor"
+  short_description: "Autonomously improve a real artifact (code, training recipe,..."
+  default_prompt: "Use $arbor to help with arbor work."

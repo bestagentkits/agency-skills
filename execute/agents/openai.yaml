@@ -1,0 +1,4 @@
+interface:
+  display_name: "Execute"
+  short_description: "/cs:execute <decision> — Generate a 90-day execution plan..."
+  default_prompt: "Use $execute to help with execute work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Investment Advisor"
+  short_description: "Business investment analysis and capital allocation advisor...."
+  default_prompt: "Use $business-investment-advisor to help with business investment advisor work."

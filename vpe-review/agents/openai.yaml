@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vpe Review"
+  short_description: "/cs:vpe-review <plan> — Throughput-first VP of Engineering..."
+  default_prompt: "Use $vpe-review to help with vpe review work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zarr Python"
+  short_description: "Chunked N-D arrays for cloud storage (Zarr-Python 3)...."
+  default_prompt: "Use $zarr-python to help with zarr python work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pr Review Expert"
+  short_description: "Use when the user asks to review pull requests, analyze code..."
+  default_prompt: "Use $pr-review-expert to help with pr review expert work."

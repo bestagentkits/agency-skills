@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Journey Map"
+  short_description: "Create an end-to-end customer journey map with stages,..."
+  default_prompt: "Use $customer-journey-map to help with customer journey map work."

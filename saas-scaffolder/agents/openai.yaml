@@ -1,0 +1,4 @@
+interface:
+  display_name: "Saas Scaffolder"
+  short_description: "Generates complete, production-ready SaaS project..."
+  default_prompt: "Use $saas-scaffolder to help with saas scaffolder work."

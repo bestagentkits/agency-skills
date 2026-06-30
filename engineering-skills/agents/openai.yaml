@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Skills"
+  short_description: "Index of the engineering-team skills bundle for Claude Code,..."
+  default_prompt: "Use $engineering-skills to help with engineering skills work."

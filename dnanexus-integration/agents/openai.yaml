@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dnanexus Integration"
+  short_description: "DNAnexus cloud genomics platform. Build apps/applets, manage..."
+  default_prompt: "Use $dnanexus-integration to help with dnanexus integration work."

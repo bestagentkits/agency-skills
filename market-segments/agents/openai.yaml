@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Segments"
+  short_description: "Identify 3-5 potential customer segments with demographics,..."
+  default_prompt: "Use $market-segments to help with market segments work."

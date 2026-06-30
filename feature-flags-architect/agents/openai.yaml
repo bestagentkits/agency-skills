@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Flags Architect"
+  short_description: "Use when adding, retiring, or auditing feature flags...."
+  default_prompt: "Use $feature-flags-architect to help with feature flags architect work."

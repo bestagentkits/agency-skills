@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Decision Support"
+  short_description: "Generate professional clinical decision support (CDS)..."
+  default_prompt: "Use $clinical-decision-support to help with clinical decision support work."

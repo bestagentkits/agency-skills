@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Stories"
+  short_description: "Create job stories using the 'When [situation], I want to..."
+  default_prompt: "Use $job-stories to help with job stories work."

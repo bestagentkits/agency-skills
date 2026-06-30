@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scholar Evaluation"
+  short_description: "Systematically evaluate scholarly work using the ScholarEval..."
+  default_prompt: "Use $scholar-evaluation to help with scholar evaluation work."

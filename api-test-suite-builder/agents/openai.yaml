@@ -1,0 +1,4 @@
+interface:
+  display_name: "Api Test Suite Builder"
+  short_description: "Use when the user asks to generate API tests, create..."
+  default_prompt: "Use $api-test-suite-builder to help with api test suite builder work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slo Architect"
+  short_description: "Use when defining, reviewing, or operating SLOs/SLIs/error..."
+  default_prompt: "Use $slo-architect to help with slo architect work."

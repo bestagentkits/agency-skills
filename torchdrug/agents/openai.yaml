@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torchdrug"
+  short_description: "PyTorch-native graph neural networks for molecules and..."
+  default_prompt: "Use $torchdrug to help with torchdrug work."

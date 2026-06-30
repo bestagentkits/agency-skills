@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Reports"
+  short_description: "Write comprehensive clinical reports including case reports..."
+  default_prompt: "Use $clinical-reports to help with clinical reports work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Changelog Generator"
+  short_description: "Produce consistent, auditable release notes from..."
+  default_prompt: "Use $changelog-generator to help with changelog generator work."

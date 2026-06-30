@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pennylane"
+  short_description: "Hardware-agnostic quantum ML framework with automatic..."
+  default_prompt: "Use $pennylane to help with pennylane work."

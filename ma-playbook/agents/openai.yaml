@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ma Playbook"
+  short_description: "M&A strategy for acquiring companies or being acquired. Due..."
+  default_prompt: "Use $ma-playbook to help with ma playbook work."

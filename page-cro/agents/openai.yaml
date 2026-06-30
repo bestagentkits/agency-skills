@@ -1,0 +1,4 @@
+interface:
+  display_name: "Page Cro"
+  short_description: "When the user wants to optimize, improve, or increase..."
+  default_prompt: "Use $page-cro to help with page cro work."

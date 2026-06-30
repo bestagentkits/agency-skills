@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Advanced Skills"
+  short_description: "Index of 37 advanced engineering agent skills for Claude..."
+  default_prompt: "Use $engineering-advanced-skills to help with engineering advanced skills work."

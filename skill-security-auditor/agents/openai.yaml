@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Security Auditor"
+  short_description: "Security audit and vulnerability scanner for AI agent skills..."
+  default_prompt: "Use $skill-security-auditor to help with skill security auditor work."

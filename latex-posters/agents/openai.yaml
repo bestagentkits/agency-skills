@@ -1,0 +1,4 @@
+interface:
+  display_name: "Latex Posters"
+  short_description: "Create professional research posters in LaTeX using..."
+  default_prompt: "Use $latex-posters to help with latex posters work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Debt Tracker"
+  short_description: "Scan codebases for technical debt, score severity, track..."
+  default_prompt: "Use $tech-debt-tracker to help with tech debt tracker work."

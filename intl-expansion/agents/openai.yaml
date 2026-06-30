@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intl Expansion"
+  short_description: "International market expansion strategy. Market selection,..."
+  default_prompt: "Use $intl-expansion to help with intl expansion work."

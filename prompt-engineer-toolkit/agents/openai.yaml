@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Engineer Toolkit"
+  short_description: "Turns marketing prompts into tested, versioned production..."
+  default_prompt: "Use $prompt-engineer-toolkit to help with prompt engineer toolkit work."

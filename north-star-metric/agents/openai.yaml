@@ -1,0 +1,4 @@
+interface:
+  display_name: "North Star Metric"
+  short_description: "Define a North Star Metric and 3-5 supporting input metrics..."
+  default_prompt: "Use $north-star-metric to help with north star metric work."

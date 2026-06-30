@@ -1,0 +1,4 @@
+interface:
+  display_name: "Latchbio Integration"
+  short_description: "Latch platform for bioinformatics workflows. Build pipelines..."
+  default_prompt: "Use $latchbio-integration to help with latchbio integration work."

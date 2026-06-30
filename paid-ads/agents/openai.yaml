@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paid Ads"
+  short_description: "When the user wants help with paid advertising campaigns on..."
+  default_prompt: "Use $paid-ads to help with paid ads work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copywriting"
+  short_description: "When the user wants to write, rewrite, or improve marketing..."
+  default_prompt: "Use $claude-skills-marketing-skill-copywriting-copywriting to help with copywriting work."

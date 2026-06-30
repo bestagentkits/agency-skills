@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Critical Thinking"
+  short_description: "Evaluate scientific claims and evidence quality. Use for..."
+  default_prompt: "Use $scientific-critical-thinking to help with scientific critical thinking work."

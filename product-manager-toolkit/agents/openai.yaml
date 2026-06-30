@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Manager Toolkit"
+  short_description: "Comprehensive toolkit for product managers including RICE..."
+  default_prompt: "Use $product-manager-toolkit to help with product manager toolkit work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Computer Vision"
+  short_description: "Computer vision engineering skill for object detection,..."
+  default_prompt: "Use $senior-computer-vision to help with senior computer vision work."

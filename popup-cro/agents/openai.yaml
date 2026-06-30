@@ -1,0 +1,4 @@
+interface:
+  display_name: "Popup Cro"
+  short_description: "When the user wants to create or optimize popups, modals,..."
+  default_prompt: "Use $popup-cro to help with popup cro work."

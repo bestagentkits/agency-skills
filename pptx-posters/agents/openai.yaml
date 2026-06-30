@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pptx Posters"
+  short_description: "Create research posters using HTML/CSS that can be exported..."
+  default_prompt: "Use $pptx-posters to help with pptx posters work."

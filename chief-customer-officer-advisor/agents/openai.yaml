@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief Customer Officer Advisor"
+  short_description: "Chief Customer Officer advisory for startups: retention..."
+  default_prompt: "Use $chief-customer-officer-advisor to help with chief customer officer advisor work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Labarchive Integration"
+  short_description: "Electronic lab notebook API integration. Access notebooks,..."
+  default_prompt: "Use $labarchive-integration to help with labarchive integration work."

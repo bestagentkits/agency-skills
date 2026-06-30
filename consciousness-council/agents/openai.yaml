@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consciousness Council"
+  short_description: "Run a multi-perspective Mind Council deliberation on any..."
+  default_prompt: "Use $consciousness-council to help with consciousness council work."

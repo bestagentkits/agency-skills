@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Assumptions Existing"
+  short_description: "Identify risky assumptions for a feature idea in an existing..."
+  default_prompt: "Use $identify-assumptions-existing to help with identify assumptions existing work."

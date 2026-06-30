@@ -1,0 +1,4 @@
+interface:
+  display_name: "Value Proposition"
+  short_description: "Design a detailed value proposition using a 6-part JTBD..."
+  default_prompt: "Use $value-proposition to help with value proposition work."

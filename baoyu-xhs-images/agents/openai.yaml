@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Xhs Images"
+  short_description: "Generates infographic image card series with 12 visual..."
+  default_prompt: "Use $baoyu-xhs-images to help with baoyu xhs images work."

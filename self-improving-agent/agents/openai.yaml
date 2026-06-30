@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self Improving Agent"
+  short_description: "Curate Claude Code's auto-memory into durable project..."
+  default_prompt: "Use $self-improving-agent to help with self improving agent work."

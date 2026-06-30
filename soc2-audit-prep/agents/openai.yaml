@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soc2 Audit Prep"
+  short_description: "/cs:soc2-audit-prep <scope> — SOC 2 Type II readiness..."
+  default_prompt: "Use $soc2-audit-prep to help with soc2 audit prep work."

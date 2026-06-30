@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Guidelines"
+  short_description: "When the user wants to apply, document, or enforce brand..."
+  default_prompt: "Use $brand-guidelines to help with brand guidelines work."

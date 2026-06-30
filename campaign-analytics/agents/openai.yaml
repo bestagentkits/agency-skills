@@ -1,0 +1,4 @@
+interface:
+  display_name: "Campaign Analytics"
+  short_description: "Analyzes campaign performance with multi-touch attribution,..."
+  default_prompt: "Use $campaign-analytics to help with campaign analytics work."

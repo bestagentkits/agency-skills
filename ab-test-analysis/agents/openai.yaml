@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ab Test Analysis"
+  short_description: "Analyze A/B test results with statistical significance,..."
+  default_prompt: "Use $ab-test-analysis to help with ab test analysis work."

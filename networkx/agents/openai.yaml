@@ -1,0 +1,4 @@
+interface:
+  display_name: "Networkx"
+  short_description: "Create, analyze, and visualize complex networks and graphs..."
+  default_prompt: "Use $networkx to help with networkx work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Executive Mentor"
+  short_description: "Adversarial thinking partner for founders and executives...."
+  default_prompt: "Use $executive-mentor to help with executive mentor work."

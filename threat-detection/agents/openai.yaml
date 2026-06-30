@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threat Detection"
+  short_description: "Use when hunting for threats in an environment, analyzing..."
+  default_prompt: "Use $threat-detection to help with threat detection work."

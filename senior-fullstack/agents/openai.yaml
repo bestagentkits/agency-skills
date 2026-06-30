@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Fullstack"
+  short_description: "Fullstack development toolkit with project scaffolding for..."
+  default_prompt: "Use $senior-fullstack to help with senior fullstack work."

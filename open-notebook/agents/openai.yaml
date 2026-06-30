@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open Notebook"
+  short_description: "Self-hosted, open-source alternative to Google NotebookLM..."
+  default_prompt: "Use $open-notebook to help with open notebook work."

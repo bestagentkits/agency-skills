@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritization Frameworks"
+  short_description: "Reference guide to 9 prioritization frameworks with..."
+  default_prompt: "Use $prioritization-frameworks to help with prioritization frameworks work."

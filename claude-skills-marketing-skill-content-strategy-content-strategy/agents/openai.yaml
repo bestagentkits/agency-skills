@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Strategy"
+  short_description: "When the user wants to plan a content strategy, decide what..."
+  default_prompt: "Use $claude-skills-marketing-skill-content-strategy-content-strategy to help with content strategy work."

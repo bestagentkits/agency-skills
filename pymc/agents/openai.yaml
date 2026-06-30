@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pymc"
+  short_description: "Bayesian modeling with PyMC. Build hierarchical models, MCMC..."
+  default_prompt: "Use $pymc to help with pymc work."

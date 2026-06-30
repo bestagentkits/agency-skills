@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pyhealth"
+  short_description: "Build clinical/healthcare deep-learning pipelines with..."
+  default_prompt: "Use $pyhealth to help with pyhealth work."

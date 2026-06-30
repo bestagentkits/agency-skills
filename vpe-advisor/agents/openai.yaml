@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vpe Advisor"
+  short_description: "VP of Engineering advisory for startups: delivery throughput..."
+  default_prompt: "Use $vpe-advisor to help with vpe advisor work."

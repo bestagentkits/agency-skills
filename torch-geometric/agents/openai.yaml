@@ -1,0 +1,4 @@
+interface:
+  display_name: "Torch Geometric"
+  short_description: "PyTorch Geometric (PyG) for graph neural networks —..."
+  default_prompt: "Use $torch-geometric to help with torch geometric work."

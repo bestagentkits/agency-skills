@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Script"
+  short_description: "Create a structured customer interview script with JTBD..."
+  default_prompt: "Use $interview-script to help with interview script work."

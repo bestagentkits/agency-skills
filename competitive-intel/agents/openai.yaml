@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Intel"
+  short_description: "Systematic competitor tracking that feeds CMO positioning,..."
+  default_prompt: "Use $competitive-intel to help with competitive intel work."

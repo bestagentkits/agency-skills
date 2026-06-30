@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Research"
+  short_description: "Use when planning and synthesizing product/user research as..."
+  default_prompt: "Use $product-research to help with product research work."

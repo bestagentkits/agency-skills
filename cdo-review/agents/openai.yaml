@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cdo Review"
+  short_description: "/cs:cdo-review <plan> — Decision-driven Chief Data Officer..."
+  default_prompt: "Use $cdo-review to help with cdo review work."

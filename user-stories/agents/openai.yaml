@@ -1,0 +1,4 @@
+interface:
+  display_name: "User Stories"
+  short_description: "Create user stories following the 3 C's (Card, Conversation,..."
+  default_prompt: "Use $user-stories to help with user stories work."

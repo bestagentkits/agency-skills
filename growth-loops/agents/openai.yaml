@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Loops"
+  short_description: "Identify growth loops (flywheels) for sustainable traction...."
+  default_prompt: "Use $growth-loops to help with growth loops work."

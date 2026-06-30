@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Post To Weibo"
+  short_description: "Posts content to Weibo (微博). Supports regular posts with..."
+  default_prompt: "Use $baoyu-post-to-weibo to help with baoyu post to weibo work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onekgpd"
+  short_description: "Query the 1000 Genomes Project dataset (3,202..."
+  default_prompt: "Use $onekgpd to help with onekgpd work."

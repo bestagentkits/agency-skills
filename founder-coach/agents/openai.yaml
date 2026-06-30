@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Coach"
+  short_description: "Personal leadership development for founders and first-time..."
+  default_prompt: "Use $founder-coach to help with founder coach work."

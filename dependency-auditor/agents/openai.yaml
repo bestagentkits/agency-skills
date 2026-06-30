@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dependency Auditor"
+  short_description: "Audit and manage dependencies across multi-language..."
+  default_prompt: "Use $dependency-auditor to help with dependency auditor work."

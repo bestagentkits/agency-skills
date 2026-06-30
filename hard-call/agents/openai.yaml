@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hard Call"
+  short_description: "/em:hard-call — Framework for decisions with no good..."
+  default_prompt: "Use $hard-call to help with hard call work."

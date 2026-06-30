@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deeptools"
+  short_description: "NGS analysis toolkit. BAM to bigWig conversion, QC..."
+  default_prompt: "Use $deeptools to help with deeptools work."

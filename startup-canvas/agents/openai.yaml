@@ -1,0 +1,4 @@
+interface:
+  display_name: "Startup Canvas"
+  short_description: "Generate a Startup Canvas combining Product Strategy (9..."
+  default_prompt: "Use $startup-canvas to help with startup canvas work."

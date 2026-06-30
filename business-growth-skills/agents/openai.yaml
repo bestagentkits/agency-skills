@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Growth Skills"
+  short_description: "Router/index for the 4 business & growth skills bundled in..."
+  default_prompt: "Use $business-growth-skills to help with business growth skills work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decide"
+  short_description: "/cs:decide <memo> — Log a decision to two-layer memory via..."
+  default_prompt: "Use $decide to help with decide work."

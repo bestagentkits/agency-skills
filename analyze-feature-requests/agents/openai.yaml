@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Feature Requests"
+  short_description: "Analyze and prioritize a list of feature requests by theme,..."
+  default_prompt: "Use $analyze-feature-requests to help with analyze feature requests work."

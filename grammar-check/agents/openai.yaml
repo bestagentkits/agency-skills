@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grammar Check"
+  short_description: "Identify grammar, logical, and flow errors in text and..."
+  default_prompt: "Use $grammar-check to help with grammar check work."

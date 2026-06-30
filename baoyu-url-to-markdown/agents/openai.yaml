@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Url To Markdown"
+  short_description: "Fetch any URL and convert to markdown using baoyu-fetch CLI..."
+  default_prompt: "Use $baoyu-url-to-markdown to help with baoyu url to markdown work."

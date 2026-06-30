@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stakeholder Map"
+  short_description: "Build a stakeholder map using a power/interest grid,..."
+  default_prompt: "Use $stakeholder-map to help with stakeholder map work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inbox Triage"
+  short_description: "Runs a full inbox triage using the knowledge base created by..."
+  default_prompt: "Use $inbox-triage to help with inbox triage work."

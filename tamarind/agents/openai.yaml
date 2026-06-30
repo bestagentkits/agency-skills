@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tamarind"
+  short_description: "Access a collection of open-source molecular design and..."
+  default_prompt: "Use $tamarind to help with tamarind work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paperzilla"
+  short_description: "Chat with your agent about projects, recommendations, and..."
+  default_prompt: "Use $paperzilla to help with paperzilla work."

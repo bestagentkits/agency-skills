@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cmo Review"
+  short_description: "/cs:cmo-review <plan> — Narrative-first interrogation of..."
+  default_prompt: "Use $cmo-review to help with cmo review work."

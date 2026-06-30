@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Generator"
+  short_description: "Generates high-converting landing pages as complete..."
+  default_prompt: "Use $landing-page-generator to help with landing page generator work."

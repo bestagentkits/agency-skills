@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Post To X"
+  short_description: "Posts content and articles to X (Twitter). Supports regular..."
+  default_prompt: "Use $baoyu-post-to-x to help with baoyu post to x work."

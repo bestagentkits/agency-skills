@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Research Reports"
+  short_description: "Generate comprehensive market research reports (50+ pages)..."
+  default_prompt: "Use $market-research-reports to help with market research reports work."

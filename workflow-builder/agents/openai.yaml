@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Builder"
+  short_description: "Design and write deterministic multi-agent workflow scripts..."
+  default_prompt: "Use $workflow-builder to help with workflow builder work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing Strategy"
+  short_description: "Analyze and design pricing strategies including pricing..."
+  default_prompt: "Use $pricing-strategy to help with pricing strategy work."

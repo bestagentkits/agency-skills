@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flowio"
+  short_description: "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract..."
+  default_prompt: "Use $flowio to help with flowio work."

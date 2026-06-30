@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ux Researcher Designer"
+  short_description: "UX research and design toolkit for Senior UX..."
+  default_prompt: "Use $ux-researcher-designer to help with ux researcher designer work."

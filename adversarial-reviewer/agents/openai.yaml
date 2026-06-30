@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adversarial Reviewer"
+  short_description: "Adversarial code review that breaks the self-review..."
+  default_prompt: "Use $adversarial-reviewer to help with adversarial reviewer work."

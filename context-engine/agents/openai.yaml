@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Engine"
+  short_description: "Loads and manages company context for all C-suite advisor..."
+  default_prompt: "Use $context-engine to help with context engine work."

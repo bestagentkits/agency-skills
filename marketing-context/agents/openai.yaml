@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Context"
+  short_description: "Create and maintain the marketing context document that all..."
+  default_prompt: "Use $marketing-context to help with marketing context work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Mode"
+  short_description: "/cs:founder-mode <question> — Auto-routes any founder..."
+  default_prompt: "Use $founder-mode to help with founder mode work."

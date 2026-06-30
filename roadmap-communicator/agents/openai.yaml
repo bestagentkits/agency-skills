@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roadmap Communicator"
+  short_description: "Use when preparing roadmap narratives, release notes,..."
+  default_prompt: "Use $roadmap-communicator to help with roadmap communicator work."

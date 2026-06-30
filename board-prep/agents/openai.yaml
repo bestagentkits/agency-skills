@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board Prep"
+  short_description: "Board meeting preparation for the adversarial scenario, not..."
+  default_prompt: "Use $board-prep to help with board prep work."

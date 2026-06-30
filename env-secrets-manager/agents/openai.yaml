@@ -1,0 +1,4 @@
+interface:
+  display_name: "Env Secrets Manager"
+  short_description: "Manage environment-variable hygiene and secrets safety..."
+  default_prompt: "Use $env-secrets-manager to help with env secrets manager work."

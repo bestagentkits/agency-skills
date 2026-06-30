@@ -1,0 +1,4 @@
+interface:
+  display_name: "Syllabus"
+  short_description: "Generates a curated supplementary reading list from any..."
+  default_prompt: "Use $syllabus to help with syllabus work."

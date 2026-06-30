@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pulse"
+  short_description: "Multi-source recency research skill that takes the pulse of..."
+  default_prompt: "Use $pulse to help with pulse work."

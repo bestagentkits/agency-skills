@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qms Audit Expert"
+  short_description: "ISO 13485 internal audit expertise for medical device QMS...."
+  default_prompt: "Use $qms-audit-expert to help with qms audit expert work."

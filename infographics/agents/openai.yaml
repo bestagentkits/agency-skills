@@ -1,0 +1,4 @@
+interface:
+  display_name: "Infographics"
+  short_description: "Create professional infographics using Nano Banana Pro AI..."
+  default_prompt: "Use $infographics to help with infographics work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Twitter Growth"
+  short_description: "X/Twitter growth engine for building audience, crafting..."
+  default_prompt: "Use $x-twitter-growth to help with x twitter growth work."

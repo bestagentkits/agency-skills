@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gcp Cloud Architect"
+  short_description: "Design GCP architectures for startups and enterprises. Use..."
+  default_prompt: "Use $gcp-cloud-architect to help with gcp cloud architect work."

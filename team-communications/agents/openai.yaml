@@ -1,0 +1,4 @@
+interface:
+  display_name: "Team Communications"
+  short_description: "Write internal company communications — 3P updates..."
+  default_prompt: "Use $team-communications to help with team communications work."

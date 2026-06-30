@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observability Designer"
+  short_description: "Design production-ready observability strategies combining..."
+  default_prompt: "Use $observability-designer to help with observability designer work."

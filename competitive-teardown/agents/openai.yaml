@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Teardown"
+  short_description: "Analyzes competitor products and companies by synthesizing..."
+  default_prompt: "Use $competitive-teardown to help with competitive teardown work."

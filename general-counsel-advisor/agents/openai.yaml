@@ -1,0 +1,4 @@
+interface:
+  display_name: "General Counsel Advisor"
+  short_description: "General Counsel advisory for startups: contract review (MSA,..."
+  default_prompt: "Use $general-counsel-advisor to help with general counsel advisor work."

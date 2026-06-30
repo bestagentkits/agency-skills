@@ -1,0 +1,4 @@
+interface:
+  display_name: "Init"
+  short_description: "Set up Playwright in a project. Use when user says \"set up..."
+  default_prompt: "Use $init to help with init work."

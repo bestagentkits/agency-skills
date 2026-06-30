@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ginkgo Cloud Lab"
+  short_description: "Submit and manage protocols on Ginkgo Bioworks Cloud Lab..."
+  default_prompt: "Use $ginkgo-cloud-lab to help with ginkgo cloud lab work."

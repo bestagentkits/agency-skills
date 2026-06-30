@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Research"
+  short_description: "Use when doing upstream market-research methodology — sizing..."
+  default_prompt: "Use $market-research to help with market research work."

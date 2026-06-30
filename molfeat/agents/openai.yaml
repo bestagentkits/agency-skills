@@ -1,0 +1,4 @@
+interface:
+  display_name: "Molfeat"
+  short_description: "Molecular featurization for ML (100+ featurizers). ECFP,..."
+  default_prompt: "Use $molfeat to help with molfeat work."

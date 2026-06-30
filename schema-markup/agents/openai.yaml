@@ -1,0 +1,4 @@
+interface:
+  display_name: "Schema Markup"
+  short_description: "When the user wants to implement, audit, or validate..."
+  default_prompt: "Use $schema-markup to help with schema markup work."

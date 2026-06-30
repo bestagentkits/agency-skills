@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cfo Advisor"
+  short_description: "Financial leadership for startups and scaling companies...."
+  default_prompt: "Use $cfo-advisor to help with cfo advisor work."

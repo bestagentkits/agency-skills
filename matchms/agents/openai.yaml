@@ -1,0 +1,4 @@
+interface:
+  display_name: "Matchms"
+  short_description: "Spectral similarity and compound identification for..."
+  default_prompt: "Use $matchms to help with matchms work."

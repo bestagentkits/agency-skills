@@ -1,0 +1,4 @@
+interface:
+  display_name: "Terraform Patterns"
+  short_description: "Terraform infrastructure-as-code agent skill and plugin for..."
+  default_prompt: "Use $terraform-patterns to help with terraform patterns work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Guidance"
+  short_description: "PreToolUse security-anti-pattern hook for Claude Code...."
+  default_prompt: "Use $security-guidance to help with security guidance work."

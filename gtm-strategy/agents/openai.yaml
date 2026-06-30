@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gtm Strategy"
+  short_description: "Create a go-to-market strategy covering marketing channels,..."
+  default_prompt: "Use $gtm-strategy to help with gtm strategy work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Omero Integration"
+  short_description: "Microscopy data management platform. Access images via..."
+  default_prompt: "Use $omero-integration to help with omero integration work."

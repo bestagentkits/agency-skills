@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Tester"
+  short_description: "Validate, test, and score the quality of skills within the..."
+  default_prompt: "Use $skill-tester to help with skill tester work."

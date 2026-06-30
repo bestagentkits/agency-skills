@@ -1,0 +1,4 @@
+interface:
+  display_name: "Behuman"
+  short_description: "Use when the user wants more human-like AI responses — less..."
+  default_prompt: "Use $behuman to help with behuman work."

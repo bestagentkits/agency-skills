@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategic Alignment"
+  short_description: "Cascades strategy from boardroom to individual contributor...."
+  default_prompt: "Use $strategic-alignment to help with strategic alignment work."

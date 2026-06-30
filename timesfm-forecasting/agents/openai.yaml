@@ -1,0 +1,4 @@
+interface:
+  display_name: "Timesfm Forecasting"
+  short_description: "Zero-shot time series forecasting with Google's TimesFM..."
+  default_prompt: "Use $timesfm-forecasting to help with timesfm forecasting work."

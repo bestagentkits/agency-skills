@@ -1,0 +1,20 @@
+{
+  "name": "pm-marketing-growth",
+  "version": "2.0.0",
+  "description": "Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning.",
+  "author": {
+    "name": "Paweł Huryn",
+    "email": "pawel@productcompass.pm",
+    "url": "https://www.productcompass.pm"
+  },
+  "keywords": [
+    "product-management",
+    "marketing",
+    "growth",
+    "north-star",
+    "positioning",
+    "branding"
+  ],
+  "homepage": "https://www.productcompass.pm",
+  "license": "MIT"
+}

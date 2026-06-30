@@ -1,0 +1,19 @@
+{
+  "name": "pm-product-discovery",
+  "version": "2.0.0",
+  "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+  "author": {
+    "name": "Paweł Huryn",
+    "email": "pawel@productcompass.pm",
+    "url": "https://www.productcompass.pm"
+  },
+  "keywords": [
+    "product-management",
+    "discovery",
+    "ideation",
+    "experiments",
+    "assumptions"
+  ],
+  "homepage": "https://www.productcompass.pm",
+  "license": "MIT"
+}

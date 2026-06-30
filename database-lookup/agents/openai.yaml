@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Lookup"
+  short_description: "Deterministically query 78 public scientific, biomedical,..."
+  default_prompt: "Use $database-lookup to help with database lookup work."

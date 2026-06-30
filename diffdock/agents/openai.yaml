@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diffdock"
+  short_description: "DiffDock and DiffDock-L molecular docking. Use for..."
+  default_prompt: "Use $diffdock to help with diffdock work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Engineer"
+  short_description: "Analyzes RFP/RFI responses for coverage gaps, builds..."
+  default_prompt: "Use $claude-skills-business-growth-sales-engineer-sales-engineer to help with sales engineer work."

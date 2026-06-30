@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finance Skills"
+  short_description: "Router/index for the 2 finance skills bundled in this..."
+  default_prompt: "Use $finance-skills to help with finance skills work."

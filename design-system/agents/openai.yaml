@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design System"
+  short_description: "Captures the user's brand identity once via a 10-question..."
+  default_prompt: "Use $design-system to help with design system work."

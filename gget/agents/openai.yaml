@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gget"
+  short_description: "Fast CLI/Python queries to 20+ bioinformatics databases. Use..."
+  default_prompt: "Use $gget to help with gget work."

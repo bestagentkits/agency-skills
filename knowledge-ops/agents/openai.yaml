@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Ops"
+  short_description: "Use when a Head of Ops, Knowledge Manager, or TPM-Internal..."
+  default_prompt: "Use $knowledge-ops to help with knowledge ops work."

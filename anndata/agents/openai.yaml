@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anndata"
+  short_description: "Data structure for annotated matrices in single-cell..."
+  default_prompt: "Use $anndata to help with anndata work."

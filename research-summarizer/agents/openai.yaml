@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Summarizer"
+  short_description: "Structured research summarization agent skill for non-dev..."
+  default_prompt: "Use $research-summarizer to help with research summarizer work."

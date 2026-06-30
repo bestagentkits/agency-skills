@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write A Skill"
+  short_description: "Create new agent skills with proper structure, progressive..."
+  default_prompt: "Use $write-a-skill to help with write a skill work."

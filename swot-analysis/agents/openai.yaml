@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swot Analysis"
+  short_description: "Perform a detailed SWOT analysis — strengths, weaknesses,..."
+  default_prompt: "Use $swot-analysis to help with swot analysis work."

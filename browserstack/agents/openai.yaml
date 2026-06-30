@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browserstack"
+  short_description: "Run tests on BrowserStack. Use when user mentions..."
+  default_prompt: "Use $browserstack to help with browserstack work."

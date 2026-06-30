@@ -1,0 +1,4 @@
+interface:
+  display_name: "Astropy"
+  short_description: "Core Python library for astronomy and astrophysics workflows..."
+  default_prompt: "Use $astropy to help with astropy work."

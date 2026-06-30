@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Success Manager"
+  short_description: "Monitors customer health, predicts churn risk, and..."
+  default_prompt: "Use $claude-skills-business-growth-customer-success-manager-customer-success-manager to help with customer success manager work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ai Security"
+  short_description: "Use when assessing AI/ML systems for prompt injection,..."
+  default_prompt: "Use $ai-security to help with ai security work."

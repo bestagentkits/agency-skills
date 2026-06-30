@@ -1,0 +1,4 @@
+interface:
+  display_name: "Risk Management Specialist"
+  short_description: "Medical device risk management specialist implementing ISO..."
+  default_prompt: "Use $risk-management-specialist to help with risk management specialist work."

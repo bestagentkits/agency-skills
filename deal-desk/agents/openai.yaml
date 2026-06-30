@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deal Desk"
+  short_description: "Use when reviewing a specific inbound deal before close —..."
+  default_prompt: "Use $deal-desk to help with deal desk work."

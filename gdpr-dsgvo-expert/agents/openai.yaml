@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gdpr Dsgvo Expert"
+  short_description: "GDPR and German DSGVO compliance automation. Scans codebases..."
+  default_prompt: "Use $gdpr-dsgvo-expert to help with gdpr dsgvo expert work."

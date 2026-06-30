@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neurokit2"
+  short_description: "Comprehensive biosignal processing toolkit for analyzing..."
+  default_prompt: "Use $neurokit2 to help with neurokit2 work."

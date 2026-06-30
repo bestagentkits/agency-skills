@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pm Skills"
+  short_description: "Router/index for the 8 project-management skills bundled in..."
+  default_prompt: "Use $pm-skills to help with pm skills work."

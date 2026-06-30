@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Skills"
+  short_description: "Use when reviewing, approving, or designing commercial..."
+  default_prompt: "Use $commercial-skills to help with commercial skills work."

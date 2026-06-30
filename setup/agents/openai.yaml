@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup"
+  short_description: "Set up a new autoresearch experiment interactively. Collects..."
+  default_prompt: "Use $setup to help with setup work."

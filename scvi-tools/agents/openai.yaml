@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scvi Tools"
+  short_description: "Deep generative models for single-cell omics. Use when you..."
+  default_prompt: "Use $scvi-tools to help with scvi tools work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pi Agent"
+  short_description: "Build with and use Pi, the minimal terminal coding harness...."
+  default_prompt: "Use $pi-agent to help with pi agent work."

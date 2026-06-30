@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extract"
+  short_description: "Turn a proven pattern or debugging solution into a..."
+  default_prompt: "Use $extract to help with extract work."

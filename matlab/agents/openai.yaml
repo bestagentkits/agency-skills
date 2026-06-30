@@ -1,0 +1,4 @@
+interface:
+  display_name: "Matlab"
+  short_description: "MATLAB and GNU Octave numerical computing for matrix..."
+  default_prompt: "Use $matlab to help with matlab work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Api Design Reviewer"
+  short_description: "Comprehensive REST API design review with automated linting,..."
+  default_prompt: "Use $api-design-reviewer to help with api design reviewer work."

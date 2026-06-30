@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self Eval"
+  short_description: "Honestly evaluate AI work quality using a two-axis scoring..."
+  default_prompt: "Use $self-eval to help with self eval work."

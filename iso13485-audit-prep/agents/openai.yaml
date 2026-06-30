@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iso13485 Audit Prep"
+  short_description: "/cs:iso13485-audit-prep <scope> — ISO 13485 QMS audit..."
+  default_prompt: "Use $iso13485-audit-prep to help with iso13485 audit prep work."

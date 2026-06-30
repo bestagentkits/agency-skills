@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Alternatives"
+  short_description: "When the user wants to create competitor comparison or..."
+  default_prompt: "Use $competitor-alternatives to help with competitor alternatives work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pyopenms"
+  short_description: "Complete mass spectrometry analysis platform. Use for..."
+  default_prompt: "Use $pyopenms to help with pyopenms work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Content"
+  short_description: "When the user wants help creating, scheduling, or optimizing..."
+  default_prompt: "Use $social-content to help with social content work."

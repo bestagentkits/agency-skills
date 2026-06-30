@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dummy Dataset"
+  short_description: "Generate realistic dummy datasets for testing with..."
+  default_prompt: "Use $dummy-dataset to help with dummy dataset work."

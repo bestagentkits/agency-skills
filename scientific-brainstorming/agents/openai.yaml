@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Brainstorming"
+  short_description: "Creative research ideation and exploration. Use for..."
+  default_prompt: "Use $scientific-brainstorming to help with scientific brainstorming work."

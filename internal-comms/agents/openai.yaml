@@ -1,0 +1,4 @@
+interface:
+  display_name: "Internal Comms"
+  short_description: "Use when a Head of People Ops, BizOps lead, or Internal..."
+  default_prompt: "Use $internal-comms to help with internal comms work."

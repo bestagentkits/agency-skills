@@ -1,0 +1,4 @@
+interface:
+  display_name: "Youtube Full"
+  short_description: "Use when the user needs YouTube transcripts, video search,..."
+  default_prompt: "Use $youtube-full to help with youtube full work."

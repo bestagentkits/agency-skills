@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iso42001 Specialist"
+  short_description: "ISO/IEC 42001:2023 AI Management System (AIMS) specialist..."
+  default_prompt: "Use $iso42001-specialist to help with iso42001 specialist work."

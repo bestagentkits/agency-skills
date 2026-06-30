@@ -1,0 +1,4 @@
+interface:
+  display_name: "Snowflake Development"
+  short_description: "Use when writing Snowflake SQL, building data pipelines with..."
+  default_prompt: "Use $snowflake-development to help with snowflake development work."

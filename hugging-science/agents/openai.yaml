@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugging Science"
+  short_description: "Use when the user is doing AI/ML work in a scientific domain..."
+  default_prompt: "Use $hugging-science to help with hugging science work."

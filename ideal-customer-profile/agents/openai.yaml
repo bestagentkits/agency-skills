@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ideal Customer Profile"
+  short_description: "Identify the Ideal Customer Profile (ICP) from research data..."
+  default_prompt: "Use $ideal-customer-profile to help with ideal customer profile work."

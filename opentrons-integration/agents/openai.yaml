@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opentrons Integration"
+  short_description: "Official Opentrons Protocol API for OT-2 and Flex robots...."
+  default_prompt: "Use $opentrons-integration to help with opentrons integration work."

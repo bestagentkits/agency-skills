@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paywall Upgrade Cro"
+  short_description: "When the user wants to create or optimize in-app paywalls,..."
+  default_prompt: "Use $paywall-upgrade-cro to help with paywall upgrade cro work."

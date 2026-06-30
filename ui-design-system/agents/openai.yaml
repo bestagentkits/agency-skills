@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ui Design System"
+  short_description: "UI design system toolkit for Senior UI Designer including..."
+  default_prompt: "Use $ui-design-system to help with ui design system work."

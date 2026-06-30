@@ -1,0 +1,4 @@
+interface:
+  display_name: "Internal Narrative"
+  short_description: "Build and maintain one coherent company story across all..."
+  default_prompt: "Use $internal-narrative to help with internal narrative work."

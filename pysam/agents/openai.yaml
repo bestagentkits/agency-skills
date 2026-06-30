@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pysam"
+  short_description: "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments,..."
+  default_prompt: "Use $pysam to help with pysam work."

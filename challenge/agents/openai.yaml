@@ -1,0 +1,4 @@
+interface:
+  display_name: "Challenge"
+  short_description: "Pre-mortem plan analysis. Imagine the plan failed 12 months..."
+  default_prompt: "Use $challenge to help with challenge work."

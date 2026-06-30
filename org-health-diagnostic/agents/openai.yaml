@@ -1,0 +1,4 @@
+interface:
+  display_name: "Org Health Diagnostic"
+  short_description: "Cross-functional organizational health check combining..."
+  default_prompt: "Use $org-health-diagnostic to help with org health diagnostic work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Helm Chart Builder"
+  short_description: "Helm chart development agent skill and plugin for Claude..."
+  default_prompt: "Use $helm-chart-builder to help with helm chart builder work."

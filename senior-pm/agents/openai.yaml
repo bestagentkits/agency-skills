@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Pm"
+  short_description: "Senior Project Manager for enterprise software, SaaS, and..."
+  default_prompt: "Use $senior-pm to help with senior pm work."

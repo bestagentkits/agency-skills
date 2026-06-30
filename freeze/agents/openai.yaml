@@ -1,0 +1,4 @@
+interface:
+  display_name: "Freeze"
+  short_description: "/cs:freeze <decision> <days> — Lock a strategic decision for..."
+  default_prompt: "Use $freeze to help with freeze work."

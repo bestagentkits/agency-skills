@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief Ai Officer Advisor"
+  short_description: "Chief AI Officer advisory for startups: model build-vs-buy..."
+  default_prompt: "Use $chief-ai-officer-advisor to help with chief ai officer advisor work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritize Features"
+  short_description: "Prioritize a backlog of feature ideas based on impact,..."
+  default_prompt: "Use $prioritize-features to help with prioritize features work."

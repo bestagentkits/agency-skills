@@ -1,0 +1,4 @@
+interface:
+  display_name: "Database Schema Designer"
+  short_description: "Use when the user asks to create ERD diagrams, normalize..."
+  default_prompt: "Use $database-schema-designer to help with database schema designer work."

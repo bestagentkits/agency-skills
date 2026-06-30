@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ceo Advisor"
+  short_description: "Executive leadership guidance for strategic decision-making,..."
+  default_prompt: "Use $ceo-advisor to help with ceo advisor work."

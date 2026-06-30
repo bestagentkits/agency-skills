@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exploratory Data Analysis"
+  short_description: "Perform comprehensive exploratory data analysis on..."
+  default_prompt: "Use $exploratory-data-analysis to help with exploratory data analysis work."

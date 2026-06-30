@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Ml Engineer"
+  short_description: "ML engineering skill for productionizing models, building..."
+  default_prompt: "Use $senior-ml-engineer to help with senior ml engineer work."

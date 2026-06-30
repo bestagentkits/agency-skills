@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summarize Meeting"
+  short_description: "Summarize a meeting transcript into structured notes with..."
+  default_prompt: "Use $summarize-meeting to help with summarize meeting work."

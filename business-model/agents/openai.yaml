@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Model"
+  short_description: "Generate a Business Model Canvas with all 9 building blocks...."
+  default_prompt: "Use $business-model to help with business model work."

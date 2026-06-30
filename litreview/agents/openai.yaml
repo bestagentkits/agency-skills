@@ -1,0 +1,4 @@
+interface:
+  display_name: "Litreview"
+  short_description: "Academic literature orientation skill that searches papers..."
+  default_prompt: "Use $litreview to help with litreview work."

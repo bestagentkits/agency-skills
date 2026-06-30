@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tiledbvcf"
+  short_description: "Efficient storage and retrieval of genomic variant data..."
+  default_prompt: "Use $tiledbvcf to help with tiledbvcf work."

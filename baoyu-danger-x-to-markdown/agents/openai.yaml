@@ -1,0 +1,4 @@
+interface:
+  display_name: "Baoyu Danger X To Markdown"
+  short_description: "Converts X (Twitter) tweets and articles to markdown with..."
+  default_prompt: "Use $baoyu-danger-x-to-markdown to help with baoyu danger x to markdown work."

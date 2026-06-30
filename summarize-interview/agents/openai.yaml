@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summarize Interview"
+  short_description: "Summarize a customer interview transcript into a structured..."
+  default_prompt: "Use $summarize-interview to help with summarize interview work."

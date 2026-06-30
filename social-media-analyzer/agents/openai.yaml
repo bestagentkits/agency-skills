@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Media Analyzer"
+  short_description: "Social media campaign analysis and performance tracking...."
+  default_prompt: "Use $social-media-analyzer to help with social media analyzer work."

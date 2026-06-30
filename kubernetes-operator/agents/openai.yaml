@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kubernetes Operator"
+  short_description: "Use when building a Kubernetes Operator — custom controllers..."
+  default_prompt: "Use $kubernetes-operator to help with kubernetes operator work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onboarding Cro"
+  short_description: "When the user wants to optimize post-signup onboarding, user..."
+  default_prompt: "Use $onboarding-cro to help with onboarding cro work."

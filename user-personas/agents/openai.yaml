@@ -1,0 +1,4 @@
+interface:
+  display_name: "User Personas"
+  short_description: "Create refined user personas from research data — 3 personas..."
+  default_prompt: "Use $user-personas to help with user personas work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notebooklm"
+  short_description: "Browser automation skill for controlling Google's..."
+  default_prompt: "Use $notebooklm to help with notebooklm work."

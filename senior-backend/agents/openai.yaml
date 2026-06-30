@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Backend"
+  short_description: "Designs and implements backend systems including REST APIs,..."
+  default_prompt: "Use $senior-backend to help with senior backend work."

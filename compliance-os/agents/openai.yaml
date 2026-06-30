@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compliance Os"
+  short_description: "Compliance OS — meta-orchestrator that lets compliance teams..."
+  default_prompt: "Use $compliance-os to help with compliance os work."
