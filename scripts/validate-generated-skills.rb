@@ -4,6 +4,7 @@
 require "json"
 require "yaml"
 require_relative "imported-collection-support"
+require_relative "readme-writer"
 require_relative "skill-paths"
 
 ROOT = File.expand_path(ARGV[0] || Dir.pwd)
@@ -156,8 +157,26 @@ end
 readme = File.read(File.join(ROOT, "README.md"))
 validation_fail("README contains forbidden upstream repo mention") if readme.match?(/msitarzewski|agency-agents/)
 validation_fail("README does not reference banner") unless readme.include?("assets/agency-skills-banner.png")
-EXPECTED_COUNTS.each_key { |collection| validation_fail("README missing #{collection} commit") unless readme.include?(git_head(source_for_collection(collection))) }
-readme_links = readme.scan(/- \[`\$([^`]+)`\]\(([^)]+)\) - (.+)$/)
+validation_fail("README should not include source commit section") if readme.include?("Source commits:")
+validation_fail("README missing total skill count") unless readme.include?("Total skills: **#{manifest.length}**.")
+entries_by_collection.keys.each { |collection| validation_fail("#{collection} source commit drifted") unless git_head(source_for_collection(collection)) == EXPECTED_SOURCE_COMMITS.fetch(collection) }
+manifest.group_by { |entry| entry.fetch("division") }.each_key do |division|
+  items = manifest.select { |entry| entry.fetch("division") == division }
+  category_heading = "### #{readme_label(division)} (#{items.length})"
+  banner_path = File.join(ROOT, "assets", "categories", "#{division}.png")
+  section_start = readme.index(category_heading)
+  validation_fail("README missing #{division} category heading") unless section_start
+  section_end = readme.index("\n### ", section_start + category_heading.length) || readme.length
+  section = readme[section_start...section_end]
+  validation_fail("README missing #{division} category banner") unless section.include?("assets/categories/#{division}.png")
+  validation_fail("README missing #{division} category table header") unless section.include?("| Skill | Name |\n| --- | --- |")
+  validation_fail("missing category banner #{banner_path}") unless File.exist?(banner_path)
+  identify, status = Open3.capture2e("magick", "identify", "-format", "%m %wx%h", banner_path)
+  validation_fail("#{banner_path} must be PNG 5:2 1600x640, got #{identify}") unless status.success? && identify == "PNG 1600x640"
+  row_count = section.scan(/^\| \[`\$[^`]+`\]\([^)]+\) \| .+ \|$/).length
+  validation_fail("README #{division} category table expected #{items.length} rows, got #{row_count}") unless row_count == items.length
+end
+readme_links = readme.scan(/^\| \[`\$([^`]+)`\]\(([^)]+)\) \| (.+) \|$/)
 validation_fail("README expected #{manifest.length} skill links, got #{readme_links.length}") unless readme_links.length == manifest.length
 readme_skills = readme_links.map { |skill, path, _name| [skill, path] }.sort
 expected_links = manifest.map { |entry| [entry.fetch("skill"), "#{skill_storage_path(entry)}/SKILL.md"] }.sort

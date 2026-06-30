@@ -18,6 +18,7 @@ end
 def markdown_cell(value)
   value.to_s.gsub(/[\r\n\t]/, " ")
        .gsub(/[\\\[\]\(\)]/) { |char| "\\#{char}" }
+       .gsub("|", "\\|")
        .gsub(/\s+/, " ")
        .strip
 end
@@ -29,12 +30,25 @@ def readme_source_commits(manifest)
   end.compact.sort.join("\n")
 end
 
+def category_image_path(division)
+  "assets/categories/#{division}.png"
+end
+
 def readme_index(manifest)
   manifest.group_by { |item| item.fetch("division") }.sort.map do |division, items|
+    image = category_image_path(division)
     rows = items.sort_by { |item| item.fetch("display_name").to_s }.map do |item|
-      "- [`$#{item.fetch("skill")}`](#{skill_storage_path(item)}/SKILL.md) - #{markdown_cell(item.fetch("display_name"))}"
+      "| [`$#{item.fetch("skill")}`](#{skill_storage_path(item)}/SKILL.md) | #{markdown_cell(item.fetch("display_name"))} |"
     end
-    ["### #{readme_label(division)}", "", rows.join("\n")].join("\n")
+    [
+      "### #{readme_label(division)} (#{items.length})",
+      "",
+      "<img src=\"#{image}\" alt=\"#{readme_label(division)} category banner\" width=\"100%\">",
+      "",
+      "| Skill | Name |",
+      "| --- | --- |",
+      rows.join("\n")
+    ].join("\n")
   end.join("\n\n")
 end
 
@@ -49,9 +63,6 @@ def write_agency_skills_readme(target_dir, manifest)
     This repository packages specialist agent, marketing, product, scientific, and engineering workflows as Codex-compatible skills. Skills live under `skills/<group>/<skill>/`. Each skill folder has:
     - `SKILL.md` containing Codex skill frontmatter and specialist instructions
     - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
-
-    Source commits:
-    #{readme_source_commits(manifest)}
 
     ## Install
 
@@ -103,13 +114,16 @@ def write_agency_skills_readme(target_dir, manifest)
     ruby scripts/convert-agents-to-skills.rb "$AGENCY_SOURCE" .
     ruby scripts/import-marketing-skills.rb "$MARKETING_SOURCE" .
     ruby scripts/import-external-skill-collections.rb . "$SCIENTIFIC_SOURCE" "$BAOYU_SOURCE" "$PM_SOURCE" "$CLAUDE_SKILLS_SOURCE"
+    ruby scripts/generate-category-banners.rb .
     ruby scripts/generate-plugin-marketplace.rb .
     ruby scripts/validate-generated-skills.rb . "$AGENCY_SOURCE" "$MARKETING_SOURCE" "$SCIENTIFIC_SOURCE" "$BAOYU_SOURCE" "$PM_SOURCE" "$CLAUDE_SKILLS_SOURCE"
     ```
 
     Importers preserve full skill folders under `skills/<group>/` and add `agents/openai.yaml`. Incoming slug collisions are namespaced so existing local skills are not overwritten. Imported scripts and CLIs are stored as non-executable assets.
 
-    ## Skill Index
+    ## Skills Catalog
+
+    Total skills: **#{manifest.length}**.
 
     #{readme_index(manifest)}
 
