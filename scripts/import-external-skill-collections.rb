@@ -4,6 +4,7 @@
 require "json"
 require_relative "imported-collection-support"
 require_relative "readme-writer"
+require_relative "skill-paths"
 
 TARGET_DIR = File.expand_path(ARGV.shift || Dir.pwd)
 MANIFEST_PATH = File.join(TARGET_DIR, "data", "skills-manifest.json")
@@ -39,8 +40,10 @@ def clean_old_external_imports(target_dir, manifest)
   old_entries.each do |entry|
     skill = entry.fetch("skill")
     validate_skill_slug!(skill, "manifest entry")
+    FileUtils.rm_rf(safe_target_path!(target_dir, skill_storage_path(entry)))
     FileUtils.rm_rf(safe_target_path!(target_dir, skill))
   end
+  external_ids.each { |id| FileUtils.rm_rf(safe_target_path!(target_dir, SKILLS_ROOT, id)) }
   kept_skills = kept_entries.map { |entry| entry.fetch("skill") }
   external_ids.each do |id|
     Dir.glob(File.join(target_dir, "#{id}-*")).each do |path|
@@ -52,11 +55,11 @@ def clean_old_external_imports(target_dir, manifest)
   kept_entries
 end
 
-def copy_skill(skill_path, target_dir, skill, metadata)
+def copy_skill(skill_path, target_dir, relative_skill_path, skill, metadata)
   skill_dir = File.dirname(skill_path)
   reject_symlinks!(skill_dir)
   validate_skill_slug!(skill, skill_path)
-  target_skill_dir = safe_target_path!(target_dir, skill)
+  target_skill_dir = safe_target_path!(target_dir, relative_skill_path)
   FileUtils.rm_rf(target_skill_dir)
   FileUtils.mkdir_p(target_skill_dir)
   FileUtils.cp_r("#{skill_dir}/.", target_skill_dir)
@@ -110,7 +113,8 @@ EXTERNAL_COLLECTIONS.each_with_index do |config, index|
     validate_skill_slug!(base_slug, skill_path)
     skill = unique_skill_slug(base_slug, config, relative, used)
     used[skill] = true
-    copy_skill(skill_path, TARGET_DIR, skill, metadata)
+    relative_skill_path = skill_path_for(config.fetch(:id), skill)
+    copy_skill(skill_path, TARGET_DIR, relative_skill_path, skill, metadata)
     imported_skill_dirs << File.dirname(relative)
     imported << {
       "skill" => skill,
@@ -120,7 +124,8 @@ EXTERNAL_COLLECTIONS.each_with_index do |config, index|
       "source_skill" => metadata.fetch("name"),
       "division" => config.fetch(:id),
       "collection" => config.fetch(:id),
-      "source_commit" => source_head
+      "source_commit" => source_head,
+      "path" => relative_skill_path
     }
   end
 

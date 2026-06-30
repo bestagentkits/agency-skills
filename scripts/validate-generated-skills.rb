@@ -4,6 +4,7 @@
 require "json"
 require "yaml"
 require_relative "imported-collection-support"
+require_relative "skill-paths"
 
 ROOT = File.expand_path(ARGV[0] || Dir.pwd)
 AGENCY_SOURCE = File.expand_path(ARGV[1] || "/tmp/agency-agents-source")
@@ -74,15 +75,20 @@ end
 validate_no_hidden_mirrors!(manifest)
 
 manifest_skills = manifest.map { |entry| entry.fetch("skill") }.sort
-root_skills = Dir.glob(File.join(ROOT, "*", "SKILL.md")).map { |path| File.basename(File.dirname(path)) }.sort
-validation_fail("root skill folders do not match manifest") unless root_skills == manifest_skills
+manifest_paths = manifest.map { |entry| skill_storage_path(entry) }.sort
+skill_paths = Dir.glob(File.join(ROOT, SKILLS_ROOT, "*", "*", "SKILL.md"))
+                 .map { |path| File.dirname(path).delete_prefix("#{ROOT}/") }
+                 .sort
+validation_fail("nested skill folders do not match manifest") unless skill_paths == manifest_paths
+root_skill_paths = Dir.glob(File.join(ROOT, "*", "SKILL.md"))
+validation_fail("root still contains skill folders: #{root_skill_paths.join(", ")}") unless root_skill_paths.empty?
 seen = {}
 
 manifest.each do |entry|
   skill = entry.fetch("skill")
   validation_fail("duplicate skill #{skill}") if seen[skill]
   seen[skill] = true
-  skill_dir = File.join(ROOT, skill)
+  skill_dir = File.join(ROOT, skill_storage_path(entry))
   skill_path = File.join(skill_dir, "SKILL.md")
   openai_path = File.join(skill_dir, "agents", "openai.yaml")
   validation_fail("missing #{skill_path}") unless File.exist?(skill_path)
@@ -154,7 +160,7 @@ EXPECTED_COUNTS.each_key { |collection| validation_fail("README missing #{collec
 readme_links = readme.scan(/- \[`\$([^`]+)`\]\(([^)]+)\) - (.+)$/)
 validation_fail("README expected #{manifest.length} skill links, got #{readme_links.length}") unless readme_links.length == manifest.length
 readme_skills = readme_links.map { |skill, path, _name| [skill, path] }.sort
-expected_links = manifest.map { |entry| [entry.fetch("skill"), "#{entry.fetch("skill")}/SKILL.md"] }.sort
+expected_links = manifest.map { |entry| [entry.fetch("skill"), "#{skill_storage_path(entry)}/SKILL.md"] }.sort
 validation_fail("README skill links do not match manifest") unless readme_skills == expected_links
 
 marketplace = JSON.parse(File.read(File.join(ROOT, ".claude-plugin", "marketplace.json")))
@@ -163,6 +169,6 @@ validation_fail("marketplace missing agency-skills plugin") unless plugin
 validation_fail("marketplace agency-skills plugin must use strict:false") unless plugin["strict"] == false
 validation_fail("marketplace version must be #{EXPECTED_PLUGIN_VERSION}") unless plugin["version"] == EXPECTED_PLUGIN_VERSION
 validation_fail("marketplace source repo mismatch") unless plugin.dig("source", "repo") == "bestagentkits/agency-skills"
-validation_fail("marketplace skills do not match manifest") unless plugin.fetch("skills").sort == manifest.map { |entry| "./#{entry.fetch("skill")}" }.sort
+validation_fail("marketplace skills do not match manifest") unless plugin.fetch("skills").sort == manifest.map { |entry| "./#{skill_storage_path(entry)}" }.sort
 
 puts "Validated #{manifest.length} generated and imported skills."

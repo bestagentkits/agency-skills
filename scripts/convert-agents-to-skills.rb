@@ -6,9 +6,11 @@ require "json"
 require "open3"
 require "yaml"
 require_relative "readme-writer"
+require_relative "skill-paths"
 
 SOURCE_DIR = File.expand_path(ARGV[0] || "/tmp/agency-agents-source")
 TARGET_DIR = File.expand_path(ARGV[1] || Dir.pwd)
+MANIFEST_PATH = File.join(TARGET_DIR, "data", "skills-manifest.json")
 
 def fail_with(message)
   warn "Conversion failed: #{message}"
@@ -41,6 +43,13 @@ end
 def validate_skill_slug!(slug, context)
   return if slug.match?(/\A[a-z0-9]+(?:-[a-z0-9]+)*\z/)
   fail_with("#{context} produced invalid skill slug #{slug.inspect}")
+end
+
+def safe_target_path!(root, *parts)
+  expanded_root = File.expand_path(root)
+  path = File.expand_path(File.join(expanded_root, *parts))
+  return path if path == expanded_root || path.start_with?("#{expanded_root}/")
+  fail_with("refusing to write outside #{expanded_root}: #{path}")
 end
 
 def yaml_quote(value)
@@ -100,6 +109,21 @@ agents = Dir.glob("#{SOURCE_DIR}/**/*.md")
 used_slugs = {}
 manifest = []
 
+if File.exist?(MANIFEST_PATH)
+  old_manifest = JSON.parse(File.read(MANIFEST_PATH))
+  old_manifest.each do |entry|
+    validate_skill_slug!(entry.fetch("skill"), "manifest entry")
+    FileUtils.rm_rf(safe_target_path!(TARGET_DIR, entry.fetch("skill")))
+  end
+  old_manifest.select { |entry| entry.fetch("collection", "agency") == "agency" }.each do |entry|
+    FileUtils.rm_rf(safe_target_path!(TARGET_DIR, entry["path"] || entry.fetch("skill")))
+  end
+end
+
+SOURCE_DIVISIONS.each do |division|
+  FileUtils.rm_rf(safe_target_path!(TARGET_DIR, skill_path_for(division, "")))
+end
+
 agents.each do |agent|
   base_slug = slugify(File.basename(agent[:relative_path], ".md"))
   validate_skill_slug!(base_slug, agent[:relative_path])
@@ -110,7 +134,9 @@ agents.each do |agent|
   end
   validate_skill_slug!(slug, agent[:relative_path])
   used_slugs[slug] = true
-  skill_dir = File.join(TARGET_DIR, slug)
+  division = agent[:relative_path].split("/").first
+  skill_path = skill_path_for(division, slug)
+  skill_dir = File.join(TARGET_DIR, skill_path)
   FileUtils.mkdir_p(File.join(skill_dir, "agents"))
   File.write(File.join(skill_dir, "SKILL.md"), <<~MD)
     ---
@@ -126,14 +152,15 @@ agents.each do |agent|
     "display_name" => agent[:metadata]["name"],
     "description" => agent[:metadata]["description"],
     "source_path" => agent[:relative_path],
-    "division" => agent[:relative_path].split("/").first,
+    "division" => division,
     "collection" => "agency",
-    "source_commit" => SOURCE_HEAD
+    "source_commit" => SOURCE_HEAD,
+    "path" => skill_path
   }
 end
 
 FileUtils.mkdir_p(File.join(TARGET_DIR, "data"))
-File.write(File.join(TARGET_DIR, "data", "skills-manifest.json"), JSON.pretty_generate(manifest))
+File.write(MANIFEST_PATH, JSON.pretty_generate(manifest))
 write_agency_skills_readme(TARGET_DIR, manifest)
 
 license_path = File.join(SOURCE_DIR, "LICENSE")

@@ -173,7 +173,7 @@ Typical GitHub prospecting pipeline:
 4. **Validate emails** via Truelist before adding to outreach list
 5. **Hand off** to cold-email skill for outreach
 
-See `../../prospecting/references/saas-prospecting.md` and `data-sources.md` for the full prospecting framework.
+See `../../skills/marketing-skills/prospecting/references/saas-prospecting.md` and `data-sources.md` for the full prospecting framework.
 
 ## Relevant Skills
 

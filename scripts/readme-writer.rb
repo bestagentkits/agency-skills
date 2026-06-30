@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative "skill-paths"
+
 COLLECTION_LABELS = {
   "agency" => "Agency Skills",
   "marketing-skills" => "Marketing Skills",
@@ -30,7 +32,7 @@ end
 def readme_index(manifest)
   manifest.group_by { |item| item.fetch("division") }.sort.map do |division, items|
     rows = items.sort_by { |item| item.fetch("display_name").to_s }.map do |item|
-      "- [`$#{item.fetch("skill")}`](#{item.fetch("skill")}/SKILL.md) - #{markdown_cell(item.fetch("display_name"))}"
+      "- [`$#{item.fetch("skill")}`](#{skill_storage_path(item)}/SKILL.md) - #{markdown_cell(item.fetch("display_name"))}"
     end
     ["### #{readme_label(division)}", "", rows.join("\n")].join("\n")
   end.join("\n\n")
@@ -44,7 +46,7 @@ def write_agency_skills_readme(target_dir, manifest)
 
     # Agency Skills
 
-    This repository packages specialist agent, marketing, product, scientific, and engineering workflows as Codex-compatible skills. Each skill folder has:
+    This repository packages specialist agent, marketing, product, scientific, and engineering workflows as Codex-compatible skills. Skills live under `skills/<group>/<skill>/`. Each skill folder has:
     - `SKILL.md` containing Codex skill frontmatter and specialist instructions
     - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
 
@@ -76,7 +78,7 @@ def write_agency_skills_readme(target_dir, manifest)
     /plugin install agency-skills@agency-skills
     ```
 
-    The marketplace entry uses `strict: false` with an explicit `skills` list, so the root skill folders are the single source of truth.
+    The marketplace entry uses `strict: false` with an explicit `skills` list, so the manifest paths are the single source of truth.
 
     ## Imported Tools
 
@@ -105,7 +107,7 @@ def write_agency_skills_readme(target_dir, manifest)
     ruby scripts/validate-generated-skills.rb . "$AGENCY_SOURCE" "$MARKETING_SOURCE" "$SCIENTIFIC_SOURCE" "$BAOYU_SOURCE" "$PM_SOURCE" "$CLAUDE_SKILLS_SOURCE"
     ```
 
-    Importers preserve full skill folders and add `agents/openai.yaml`. Incoming slug collisions are namespaced so existing local skills are not overwritten. Imported scripts and CLIs are stored as non-executable assets.
+    Importers preserve full skill folders under `skills/<group>/` and add `agents/openai.yaml`. Incoming slug collisions are namespaced so existing local skills are not overwritten. Imported scripts and CLIs are stored as non-executable assets.
 
     ## Skill Index
 

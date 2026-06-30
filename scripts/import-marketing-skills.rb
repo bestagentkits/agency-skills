@@ -7,6 +7,7 @@ require "open3"
 require "yaml"
 require_relative "imported-collection-support"
 require_relative "readme-writer"
+require_relative "skill-paths"
 
 SOURCE_DIR = File.expand_path(ARGV[0] || "/tmp/marketingskills-source")
 TARGET_DIR = File.expand_path(ARGV[1] || Dir.pwd)
@@ -65,8 +66,11 @@ def rewrite_moved_links(root)
     content = File.read(path)
     rewritten = content
                 .gsub("../../../tools/", "__TOOLS_UP3__/")
-                .gsub("../../tools/", "../tools/")
-                .gsub("__TOOLS_UP3__/", "../../tools/")
+                .gsub("../../tools/", "__TOOLS_UP2__/")
+                .gsub("../tools/", "__TOOLS_UP1__/")
+                .gsub("__TOOLS_UP3__/", "../../../../tools/")
+                .gsub("__TOOLS_UP2__/", "../../../tools/")
+                .gsub("__TOOLS_UP1__/", "../../tools/")
     File.write(path, rewritten) unless rewritten == content
   end
 end
@@ -85,9 +89,17 @@ end
 fail_with("missing #{MANIFEST_PATH}") unless File.exist?(MANIFEST_PATH)
 fail_with("missing #{File.join(SOURCE_DIR, "skills")}") unless Dir.exist?(File.join(SOURCE_DIR, "skills"))
 source_head = git_head(SOURCE_DIR)
-manifest = JSON.parse(File.read(MANIFEST_PATH)).reject { |entry| entry["collection"] == "marketing-skills" }
+old_manifest = JSON.parse(File.read(MANIFEST_PATH))
+old_manifest.select { |entry| entry["collection"] == "marketing-skills" }.each do |entry|
+  validate_skill_slug!(entry.fetch("skill"), "manifest entry")
+  FileUtils.rm_rf(safe_target_path!(TARGET_DIR, entry["path"] || entry.fetch("skill")))
+  FileUtils.rm_rf(safe_target_path!(TARGET_DIR, entry.fetch("skill")))
+end
+manifest = old_manifest.reject { |entry| entry["collection"] == "marketing-skills" }
 index = manifest_index(manifest)
 imported = []
+skill_root = safe_target_path!(TARGET_DIR, SKILLS_ROOT, "marketing-skills")
+FileUtils.rm_rf(skill_root)
 
 Dir.glob(File.join(SOURCE_DIR, "skills", "*", "SKILL.md")).sort.each do |skill_path|
   metadata, _content = parse_skill(skill_path)
@@ -97,7 +109,8 @@ Dir.glob(File.join(SOURCE_DIR, "skills", "*", "SKILL.md")).sort.each do |skill_p
   validate_skill_slug!(slug, skill_path)
   fail_with("#{skill_path} name does not match folder #{slug}") unless metadata.fetch("name") == slug
   fail_with("duplicate skill #{slug}") if index[slug]
-  target_dir = safe_target_path!(TARGET_DIR, slug)
+  relative_skill_path = skill_path_for("marketing-skills", slug)
+  target_dir = safe_target_path!(TARGET_DIR, relative_skill_path)
   FileUtils.rm_rf(target_dir)
   FileUtils.mkdir_p(target_dir)
   FileUtils.cp_r("#{source_skill_dir}/.", target_dir)
@@ -112,7 +125,8 @@ Dir.glob(File.join(SOURCE_DIR, "skills", "*", "SKILL.md")).sort.each do |skill_p
     "source_path" => "skills/#{slug}/SKILL.md",
     "division" => "marketing-skills",
     "collection" => "marketing-skills",
-    "source_commit" => source_head
+    "source_commit" => source_head,
+    "path" => relative_skill_path
   }
   imported << entry
   index[slug] = entry
@@ -125,7 +139,7 @@ FileUtils.rm_rf(target_tools)
 FileUtils.cp_r(source_tools, target_tools)
 chmod_asset_files(target_tools)
 registry_path = File.join(target_tools, "REGISTRY.md")
-registry = File.read(registry_path).gsub("../skills/", "../")
+registry = File.read(registry_path).gsub("../skills/", "../skills/marketing-skills/")
 File.write(registry_path, registry)
 
 patch_text(File.join(TARGET_DIR, "tools", "clis", "README.md"), {
@@ -133,20 +147,20 @@ patch_text(File.join(TARGET_DIR, "tools", "clis", "README.md"), {
   "Every CLI is a standalone Node.js script" => "Every CLI is imported here as a standalone Node.js script"
 })
 patch_text(File.join(TARGET_DIR, "tools", "integrations", "github.md"), {
-  "skills/prospecting/references/saas-prospecting.md" => "../../prospecting/references/saas-prospecting.md"
+  "skills/prospecting/references/saas-prospecting.md" => "../../skills/marketing-skills/prospecting/references/saas-prospecting.md"
 })
-patch_text(File.join(TARGET_DIR, "marketing-plan", "references", "idea-cross-reference.md"), {
+patch_text(File.join(skill_root, "marketing-plan", "references", "idea-cross-reference.md"), {
   "skills/marketing-ideas/SKILL.md" => "../../marketing-ideas/SKILL.md",
   "skills/marketing-ideas/references/ideas-by-category.md" => "../../marketing-ideas/references/ideas-by-category.md",
   "in the `marketingskills` repo" => "in this repository"
 })
-patch_text(File.join(TARGET_DIR, "marketing-plan", "references", "ops-stack-mapping.md"), {
+patch_text(File.join(skill_root, "marketing-plan", "references", "ops-stack-mapping.md"), {
   "live in this `marketingskills` repo" => "live in this repository"
 })
-patch_text(File.join(TARGET_DIR, "marketing-plan", "references", "methodology.md"), {
+patch_text(File.join(skill_root, "marketing-plan", "references", "methodology.md"), {
   "exists in the `marketingskills` repo" => "exists in this repository"
 })
-patch_text(File.join(TARGET_DIR, "social", "references", "listening.md"), {
+patch_text(File.join(skill_root, "social", "references", "listening.md"), {
   "# Working inside the marketingskills repo:\ncp skills/social/references/listening-sources-template.md" => "# Working inside this repository:\ncp social/references/listening-sources-template.md"
 })
 

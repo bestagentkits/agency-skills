@@ -3,6 +3,7 @@
 
 require "fileutils"
 require "json"
+require_relative "skill-paths"
 
 ROOT = File.expand_path(ARGV[0] || Dir.pwd)
 MANIFEST_PATH = File.join(ROOT, "data", "skills-manifest.json")
@@ -19,10 +20,10 @@ fail_with("missing #{MANIFEST_PATH}") unless File.exist?(MANIFEST_PATH)
 
 manifest = JSON.parse(File.read(MANIFEST_PATH))
 skills = manifest.map do |entry|
-  skill = entry.fetch("skill")
-  skill_path = File.join(ROOT, skill, "SKILL.md")
+  path = skill_storage_path(entry)
+  skill_path = File.join(ROOT, path, "SKILL.md")
   fail_with("missing #{skill_path}") unless File.exist?(skill_path)
-  "./#{skill}"
+  "./#{path}"
 end.sort
 
 marketplace = {

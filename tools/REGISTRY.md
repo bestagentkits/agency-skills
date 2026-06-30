@@ -508,7 +508,7 @@ E-commerce platforms and content management systems.
 | **contentful** | Enterprise headless CMS, multi-locale | ✓ |
 | **strapi** | Open-source headless CMS, self-hosted | ✓ |
 
-**Agent recommendation**: Shopify for e-commerce. Webflow for marketing sites. WordPress for blogs. For headless CMS: Sanity for developer-flexible content, Contentful for enterprise multi-locale, Strapi for self-hosted/budget-conscious. See [headless CMS guide](../content-strategy/references/headless-cms.md) for selection criteria.
+**Agent recommendation**: Shopify for e-commerce. Webflow for marketing sites. WordPress for blogs. For headless CMS: Sanity for developer-flexible content, Contentful for enterprise multi-locale, Strapi for self-hosted/budget-conscious. See [headless CMS guide](../skills/marketing-skills/content-strategy/references/headless-cms.md) for selection criteria.
 
 ---
 
