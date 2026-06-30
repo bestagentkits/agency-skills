@@ -159,6 +159,8 @@ validation_fail("README contains forbidden upstream repo mention") if readme.mat
 validation_fail("README does not reference banner") unless readme.include?("assets/agency-skills-banner.png")
 validation_fail("README should not include source commit section") if readme.include?("Source commits:")
 validation_fail("README missing total skill count") unless readme.include?("Total skills: **#{manifest.length}**.")
+category_svgs = Dir.glob(File.join(ROOT, "assets", "categories", "*.svg"))
+validation_fail("category banners must be raster PNG files, found SVG assets") unless category_svgs.empty?
 entries_by_collection.keys.each { |collection| validation_fail("#{collection} source commit drifted") unless git_head(source_for_collection(collection)) == EXPECTED_SOURCE_COMMITS.fetch(collection) }
 manifest.group_by { |entry| entry.fetch("division") }.each_key do |division|
   items = manifest.select { |entry| entry.fetch("division") == division }

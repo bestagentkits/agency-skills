@@ -58,7 +58,6 @@ CLAUDE_SKILLS_SOURCE=/tmp/claude-skills-source
 ruby scripts/convert-agents-to-skills.rb "$AGENCY_SOURCE" .
 ruby scripts/import-marketing-skills.rb "$MARKETING_SOURCE" .
 ruby scripts/import-external-skill-collections.rb . "$SCIENTIFIC_SOURCE" "$BAOYU_SOURCE" "$PM_SOURCE" "$CLAUDE_SKILLS_SOURCE"
-ruby scripts/generate-category-banners.rb .
 ruby scripts/generate-plugin-marketplace.rb .
 ruby scripts/validate-generated-skills.rb . "$AGENCY_SOURCE" "$MARKETING_SOURCE" "$SCIENTIFIC_SOURCE" "$BAOYU_SOURCE" "$PM_SOURCE" "$CLAUDE_SKILLS_SOURCE"
 ```
