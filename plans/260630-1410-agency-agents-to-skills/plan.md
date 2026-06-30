@@ -36,7 +36,7 @@
    - Check README references and final file counts.
 
 6. Publish
-   - Status: in progress
+   - Status: complete
    - Initialize git repository.
    - Create public GitHub repo `bestagentkits/agency-skills`.
    - Commit and push.
