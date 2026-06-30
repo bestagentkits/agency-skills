@@ -118,7 +118,8 @@ agents.each do |agent|
     "display_name" => agent[:metadata]["name"],
     "description" => agent[:metadata]["description"],
     "source_path" => agent[:relative_path],
-    "division" => agent[:relative_path].split("/").first
+    "division" => agent[:relative_path].split("/").first,
+    "collection" => "agency"
   }
 end
 
@@ -195,5 +196,4 @@ MD
 
 license_path = File.join(SOURCE_DIR, "LICENSE")
 FileUtils.cp(license_path, File.join(TARGET_DIR, "LICENSE")) if File.exist?(license_path)
-
 puts "Converted #{manifest.length} agents into skills."

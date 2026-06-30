@@ -1,0 +1,4 @@
+interface:
+  display_name: "Signup"
+  short_description: "When the user wants to optimize signup, registration,..."
+  default_prompt: "Use $signup to help with signup work."

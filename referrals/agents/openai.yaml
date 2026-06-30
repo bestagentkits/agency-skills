@@ -1,0 +1,4 @@
+interface:
+  display_name: "Referrals"
+  short_description: "When the user wants to create, optimize, or analyze a..."
+  default_prompt: "Use $referrals to help with referrals work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image"
+  short_description: "When the user wants to create, generate, edit, or optimize..."
+  default_prompt: "Use $image to help with image work."

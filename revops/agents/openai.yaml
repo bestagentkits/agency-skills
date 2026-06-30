@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revops"
+  short_description: "When the user wants help with revenue operations, lead..."
+  default_prompt: "Use $revops to help with revops work."

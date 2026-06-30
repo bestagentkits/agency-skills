@@ -1,0 +1,4 @@
+interface:
+  display_name: "Popups"
+  short_description: "When the user wants to create or optimize popups, modals,..."
+  default_prompt: "Use $popups to help with popups work."

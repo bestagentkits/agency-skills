@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Architecture"
+  short_description: "When the user wants to plan, map, or restructure their..."
+  default_prompt: "Use $site-architecture to help with site architecture work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ab Testing"
+  short_description: "When the user wants to plan, design, or implement an A/B..."
+  default_prompt: "Use $ab-testing to help with ab testing work."

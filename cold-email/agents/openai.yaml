@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cold Email"
+  short_description: "Write B2B cold emails and follow-up sequences that get..."
+  default_prompt: "Use $cold-email to help with cold email work."

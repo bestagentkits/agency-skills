@@ -1,0 +1,4 @@
+interface:
+  display_name: "Offers"
+  short_description: "When the user wants to design, construct, or improve an..."
+  default_prompt: "Use $offers to help with offers work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Launch"
+  short_description: "When the user wants to plan a product launch, feature..."
+  default_prompt: "Use $launch to help with launch work."

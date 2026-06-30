@@ -1,0 +1,4 @@
+interface:
+  display_name: "Emails"
+  short_description: "When the user wants to create or optimize an email sequence,..."
+  default_prompt: "Use $emails to help with emails work."

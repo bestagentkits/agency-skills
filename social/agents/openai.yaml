@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social"
+  short_description: "When the user wants help creating, scheduling, or optimizing..."
+  default_prompt: "Use $social to help with social work."

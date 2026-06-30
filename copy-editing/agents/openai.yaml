@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copy Editing"
+  short_description: "When the user wants to edit, review, or improve existing..."
+  default_prompt: "Use $copy-editing to help with copy editing work."

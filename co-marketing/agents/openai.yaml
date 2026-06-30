@@ -1,0 +1,4 @@
+interface:
+  display_name: "Co Marketing"
+  short_description: "When the user wants to find co-marketing partners, plan..."
+  default_prompt: "Use $co-marketing to help with co marketing work."

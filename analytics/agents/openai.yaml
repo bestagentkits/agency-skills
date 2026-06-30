@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analytics"
+  short_description: "When the user wants to set up, improve, or audit analytics..."
+  default_prompt: "Use $analytics to help with analytics work."

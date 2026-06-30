@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onboarding"
+  short_description: "When the user wants to optimize post-signup onboarding, user..."
+  default_prompt: "Use $onboarding to help with onboarding work."

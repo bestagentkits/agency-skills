@@ -1,0 +1,4 @@
+interface:
+  display_name: "Free Tools"
+  short_description: "When the user wants to plan, evaluate, or build a free tool..."
+  default_prompt: "Use $free-tools to help with free tools work."

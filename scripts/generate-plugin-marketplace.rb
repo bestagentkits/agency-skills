@@ -8,6 +8,7 @@ ROOT = File.expand_path(ARGV[0] || Dir.pwd)
 MANIFEST_PATH = File.join(ROOT, "data", "skills-manifest.json")
 MARKETPLACE_DIR = File.join(ROOT, ".claude-plugin")
 MARKETPLACE_PATH = File.join(MARKETPLACE_DIR, "marketplace.json")
+PLUGIN_VERSION = "0.2.0"
 
 def fail_with(message)
   warn "Marketplace generation failed: #{message}"
@@ -27,15 +28,15 @@ end.sort
 marketplace = {
   "$schema" => "https://anthropic.com/claude-code/marketplace.schema.json",
   "name" => "agency-skills",
-  "description" => "Agency Agents converted into installable Claude Code skills.",
+  "description" => "Agency and marketing specialist skills for Claude Code.",
   "owner" => {
     "name" => "bestagentkits"
   },
   "plugins" => [
     {
       "name" => "agency-skills",
-      "description" => "Install the full Agency Skills roster: 232 specialist skills converted from msitarzewski/agency-agents.",
-      "version" => "0.1.0",
+      "description" => "Install the full Agency Skills roster: #{skills.length} specialist skills.",
+      "version" => PLUGIN_VERSION,
       "author" => {
         "name" => "bestagentkits"
       },
@@ -43,7 +44,7 @@ marketplace = {
       "repository" => "https://github.com/bestagentkits/agency-skills",
       "license" => "MIT",
       "category" => "productivity",
-      "keywords" => ["skills", "agents", "agency", "specialists"],
+      "keywords" => ["skills", "agents", "agency", "marketing", "specialists"],
       "source" => {
         "source" => "github",
         "repo" => "bestagentkits/agency-skills",

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Community Marketing"
+  short_description: "Build and leverage online communities to drive product..."
+  default_prompt: "Use $community-marketing to help with community marketing work."

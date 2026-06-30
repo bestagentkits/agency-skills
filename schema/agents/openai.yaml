@@ -1,0 +1,4 @@
+interface:
+  display_name: "Schema"
+  short_description: "When the user wants to add, fix, or optimize schema markup..."
+  default_prompt: "Use $schema to help with schema work."

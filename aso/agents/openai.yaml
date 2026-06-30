@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aso"
+  short_description: "When the user wants to audit or optimize an App Store or..."
+  default_prompt: "Use $aso to help with aso work."

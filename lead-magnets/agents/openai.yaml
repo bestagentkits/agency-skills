@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Magnets"
+  short_description: "When the user wants to create, plan, or optimize a lead..."
+  default_prompt: "Use $lead-magnets to help with lead magnets work."

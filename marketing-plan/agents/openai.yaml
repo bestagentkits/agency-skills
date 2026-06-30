@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Plan"
+  short_description: "When the user needs a comprehensive marketing plan for a..."
+  default_prompt: "Use $marketing-plan to help with marketing plan work."

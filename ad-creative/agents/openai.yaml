@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative"
+  short_description: "When the user wants to generate, iterate, or scale ad..."
+  default_prompt: "Use $ad-creative to help with ad creative work."

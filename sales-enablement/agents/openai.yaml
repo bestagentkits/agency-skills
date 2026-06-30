@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Enablement"
+  short_description: "When the user wants to create sales collateral, pitch decks,..."
+  default_prompt: "Use $sales-enablement to help with sales enablement work."

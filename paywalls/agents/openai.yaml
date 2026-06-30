@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paywalls"
+  short_description: "When the user wants to create or optimize in-app paywalls,..."
+  default_prompt: "Use $paywalls to help with paywalls work."

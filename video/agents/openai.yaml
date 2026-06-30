@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video"
+  short_description: "When the user wants to create, generate, or produce video..."
+  default_prompt: "Use $video to help with video work."

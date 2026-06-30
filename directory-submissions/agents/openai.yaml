@@ -1,0 +1,4 @@
+interface:
+  display_name: "Directory Submissions"
+  short_description: "When the user wants to submit their product to startup,..."
+  default_prompt: "Use $directory-submissions to help with directory submissions work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pricing"
+  short_description: "When the user wants help with pricing decisions, packaging,..."
+  default_prompt: "Use $pricing to help with pricing work."

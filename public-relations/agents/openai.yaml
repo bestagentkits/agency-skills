@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Relations"
+  short_description: "When the user wants help with public relations, earned..."
+  default_prompt: "Use $public-relations to help with public relations work."

@@ -4,9 +4,9 @@
 
 # Agency Skills
 
-Codex skills converted at source commit `24485830cd4b3c63a4a357b0664d9dedbab9653a`.
-This repository packages the Agency Agents roster as Codex-compatible skills. Each source agent becomes a standalone skill folder with:
-- `SKILL.md` containing Codex skill frontmatter and the original specialist instructions
+Codex skills converted at source commit `24485830cd4b3c63a4a357b0664d9dedbab9653a` and marketing source commit `8bfcdffb655f16e713940cd04fb08891899c47db`.
+This repository packages specialist agent and marketing workflows as Codex-compatible skills. Each skill folder has:
+- `SKILL.md` containing Codex skill frontmatter and specialist instructions
 - `agents/openai.yaml` containing UI metadata for skill lists and default prompts
 
 ## Install
@@ -21,11 +21,12 @@ To use a skill, invoke it by name in Codex, for example:
 
 ```text
 Use $engineering-backend-architect to review this API design.
+Use $copywriting to improve this landing page headline.
 ```
 
 ## Claude Code Plugin Marketplace
 
-This repo also ships an Anthropic Claude Code plugin marketplace catalog at `.claude-plugin/marketplace.json`.
+This repo ships an Anthropic Claude Code plugin marketplace catalog at `.claude-plugin/marketplace.json`.
 
 ```text
 /plugin marketplace add https://github.com/bestagentkits/agency-skills.git
@@ -34,17 +35,28 @@ This repo also ships an Anthropic Claude Code plugin marketplace catalog at `.cl
 
 The marketplace entry uses `strict: false` with an explicit `skills` list, so the root skill folders are the single source of truth.
 
+## Marketing Tools
+
+Marketing integration guides and zero-dependency Node.js CLIs are available under `tools/`.
+
+- `tools/REGISTRY.md` indexes tool capabilities by category.
+- `tools/integrations/` contains API and workflow guides.
+- `tools/clis/` contains standalone Node.js CLI adapters imported as non-executable assets. Run selected tools with `node tools/clis/<tool>.js ...` after reviewing their operation and credentials.
+
 ## Source Conversion
 
-The conversion is reproducible from a local checkout of the source agent corpus:
+The conversion is reproducible from local checkouts of the source corpora:
 
 ```bash
-SOURCE_DIR=/tmp/agency-source
-ruby scripts/convert-agents-to-skills.rb "$SOURCE_DIR" .
+AGENCY_SOURCE=/tmp/agency-source
+MARKETING_SOURCE=/tmp/marketingskills-source
+ruby scripts/convert-agents-to-skills.rb "$AGENCY_SOURCE" .
+ruby scripts/import-marketing-skills.rb "$MARKETING_SOURCE" .
 ruby scripts/generate-plugin-marketplace.rb .
+ruby scripts/validate-generated-skills.rb . "$AGENCY_SOURCE" "$MARKETING_SOURCE"
 ```
 
-The converter selects Markdown files with source frontmatter containing both `name` and `description` from canonical source divisions in `divisions.json`. Documentation, examples, `integrations/` generated outputs, and strategy files are not converted.
+The agency converter selects Markdown files with source frontmatter containing both `name` and `description` from canonical source divisions in `divisions.json`. The marketing importer preserves full skill folders, references, eval files, and the `tools/` catalog.
 
 ## Skill Index
 
@@ -135,7 +147,7 @@ The converter selects Markdown files with source frontmatter containing both `na
 - [`$unreal-technical-artist`](unreal-technical-artist/SKILL.md) - Unreal Technical Artist
 - [`$unreal-world-builder`](unreal-world-builder/SKILL.md) - Unreal World Builder
 
-### GIS
+### Gis
 
 - [`$gis-3d-scene-developer`](gis-3d-scene-developer/SKILL.md) - 3D & Scene Developer
 - [`$gis-bim-specialist`](gis-bim-specialist/SKILL.md) - BIM/GIS Specialist
@@ -189,6 +201,54 @@ The converter selects Markdown files with source frontmatter containing both `na
 - [`$marketing-x-twitter-intelligence-analyst`](marketing-x-twitter-intelligence-analyst/SKILL.md) - X/Twitter Intelligence Analyst
 - [`$marketing-xiaohongshu-specialist`](marketing-xiaohongshu-specialist/SKILL.md) - Xiaohongshu Specialist
 - [`$marketing-zhihu-strategist`](marketing-zhihu-strategist/SKILL.md) - Zhihu Strategist
+
+### Marketing Skills
+
+- [`$ab-testing`](ab-testing/SKILL.md) - Ab Testing
+- [`$ad-creative`](ad-creative/SKILL.md) - Ad Creative
+- [`$ads`](ads/SKILL.md) - Ads
+- [`$ai-seo`](ai-seo/SKILL.md) - Ai Seo
+- [`$analytics`](analytics/SKILL.md) - Analytics
+- [`$aso`](aso/SKILL.md) - Aso
+- [`$churn-prevention`](churn-prevention/SKILL.md) - Churn Prevention
+- [`$co-marketing`](co-marketing/SKILL.md) - Co Marketing
+- [`$cold-email`](cold-email/SKILL.md) - Cold Email
+- [`$community-marketing`](community-marketing/SKILL.md) - Community Marketing
+- [`$competitor-profiling`](competitor-profiling/SKILL.md) - Competitor Profiling
+- [`$competitors`](competitors/SKILL.md) - Competitors
+- [`$content-strategy`](content-strategy/SKILL.md) - Content Strategy
+- [`$copy-editing`](copy-editing/SKILL.md) - Copy Editing
+- [`$copywriting`](copywriting/SKILL.md) - Copywriting
+- [`$cro`](cro/SKILL.md) - Cro
+- [`$customer-research`](customer-research/SKILL.md) - Customer Research
+- [`$directory-submissions`](directory-submissions/SKILL.md) - Directory Submissions
+- [`$emails`](emails/SKILL.md) - Emails
+- [`$free-tools`](free-tools/SKILL.md) - Free Tools
+- [`$image`](image/SKILL.md) - Image
+- [`$launch`](launch/SKILL.md) - Launch
+- [`$lead-magnets`](lead-magnets/SKILL.md) - Lead Magnets
+- [`$marketing-ideas`](marketing-ideas/SKILL.md) - Marketing Ideas
+- [`$marketing-plan`](marketing-plan/SKILL.md) - Marketing Plan
+- [`$marketing-psychology`](marketing-psychology/SKILL.md) - Marketing Psychology
+- [`$offers`](offers/SKILL.md) - Offers
+- [`$onboarding`](onboarding/SKILL.md) - Onboarding
+- [`$paywalls`](paywalls/SKILL.md) - Paywalls
+- [`$popups`](popups/SKILL.md) - Popups
+- [`$pricing`](pricing/SKILL.md) - Pricing
+- [`$product-marketing`](product-marketing/SKILL.md) - Product Marketing
+- [`$programmatic-seo`](programmatic-seo/SKILL.md) - Programmatic Seo
+- [`$prospecting`](prospecting/SKILL.md) - Prospecting
+- [`$public-relations`](public-relations/SKILL.md) - Public Relations
+- [`$referrals`](referrals/SKILL.md) - Referrals
+- [`$revops`](revops/SKILL.md) - Revops
+- [`$sales-enablement`](sales-enablement/SKILL.md) - Sales Enablement
+- [`$schema`](schema/SKILL.md) - Schema
+- [`$seo-audit`](seo-audit/SKILL.md) - Seo Audit
+- [`$signup`](signup/SKILL.md) - Signup
+- [`$site-architecture`](site-architecture/SKILL.md) - Site Architecture
+- [`$sms`](sms/SKILL.md) - Sms
+- [`$social`](social/SKILL.md) - Social
+- [`$video`](video/SKILL.md) - Video
 
 ### Paid Media
 
@@ -330,6 +390,6 @@ The converter selects Markdown files with source frontmatter containing both `na
 
 ## License
 
-Original agent content is licensed under MIT. See [LICENSE](LICENSE).
+Original skill and tool content is licensed under MIT. See [LICENSE](LICENSE).
 
-Converted agent content retains its original attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.
+Converted content retains its original attribution. Packaging scripts and the generated banner in this repository are provided under the same MIT license unless otherwise noted.

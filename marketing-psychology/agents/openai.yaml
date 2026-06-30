@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Psychology"
+  short_description: "When the user wants to apply psychological principles,..."
+  default_prompt: "Use $marketing-psychology to help with marketing psychology work."

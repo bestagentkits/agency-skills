@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sms"
+  short_description: "When the user wants to plan, build, or optimize SMS or MMS..."
+  default_prompt: "Use $sms to help with sms work."
